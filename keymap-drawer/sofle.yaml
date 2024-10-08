@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - ed
+  - .
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
