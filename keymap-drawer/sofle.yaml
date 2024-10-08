@@ -60,7 +60,7 @@ layers:
   - $$mdi:keyboard-space$$
   - LGUI
   - $$mdi:mouse-left-click-outline$$
-  - BT_RGB
+  - BTRGB
   - {t: '$$mdi:backspace$$', type: backspace}
   - NAVSYM
   - $$mdi:apple-keyboard-control$$
@@ -130,8 +130,8 @@ layers:
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  BT_RGB:
-  - $$mdi:bluetooth-off$$
+  BTRGB:
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -188,10 +188,33 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - BT CLR ALL
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-right-click-outline$$
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [38, 39]
+  k: <
+- p: [39, 40]
+  k: '>'
+- p: [1, 2, 3]
+  k: '&macro_addr'
+- p: [2, 3, 4]
+  k: Ctl+Sft+ N
+- p: [3, 4, 5]
+  k: '&macro_gmail'
+- p: [37, 38, 39]
+  k: '&macro_wpin'
+- p: [38, 39, 40]
+  k: Ctl+ N
+- p: [39, 40, 41]
+  k: '&macro_wpwd'
+- p: [6, 42]
+  k: $$mdi:bluetooth-off$$
+  a: top
+  o: 0.03
+- p: [11, 47]
+  k: BT CLR ALL
