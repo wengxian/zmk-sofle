@@ -183,17 +183,17 @@
             >;
 
 
-            display-name = "NAVSYM";
+            display-name = "NVSMFK";
             sensor-bindings = <&inc_dec_kp C_PREV C_NEXT>;
         };
 
         layer_2 {
             bindings = <
-&sys_reset  &trans    &trans  &trans  &trans  &trans  &msc SCRL_UP     &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4     &out OUT_USB
-&trans      &trans    &trans  &trans  &trans  &trans  &msc SCRL_DOWN   &trans           &trans           &trans           &trans           &trans           &out OUT_BLE
-&trans      &trans    &trans  &trans  &trans  &trans  &msc SCRL_LEFT   &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_ON
-&trans      &trans    &trans  &trans  &trans  &trans  &msc SCRL_RIGHT  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_OFF
-&trans      &trans    &trans  &trans  &trans  &trans  &mkp RCLK        &trans           &trans           &trans           &trans           &trans
+&&trans           &trans  &trans  &trans  &trans  &trans  &msc SCRL_UP     &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4     &out OUT_USB
+&trans            &trans  &trans  &trans  &trans  &trans  &msc SCRL_DOWN   &trans           &trans           &trans           &trans           &trans           &out OUT_BLE
+&trans            &trans  &trans  &trans  &trans  &trans  &msc SCRL_LEFT   &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_ON
+&trans            &trans  &trans  &trans  &trans  &trans  &msc SCRL_RIGHT  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_OFF
+&kp C_PLAY_PAUSE  &trans  &trans  &trans  &trans  &trans  &mkp RCLK        &trans           &trans           &trans           &trans           &trans
             >;
 
             display-name = "BTRGB";
