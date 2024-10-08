@@ -493,7 +493,7 @@ rect.held, rect.combo.held {
 <g transform="translate(896, 168)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">.</text>
+<text x="0" y="-4" class="key tap">ed</text>
 </g>
 <g transform="translate(28, 224)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -657,26 +657,24 @@ rect.held, rect.combo.held {
 <text x="252" y="89" class="combo tap"><tspan style="font-size: 60%">&amp;macro_gm…</tspan></text>
 </g>
 <g class="combo combopos-5">
+<path d="M140,208 l-38,11" class="combo"/>
+<path d="M140,208 l38,-8" class="combo"/>
+<rect rx="6" ry="6" x="126" y="195" width="28" height="26" class="combo"/>
+<text x="140" y="208" class="combo tap"><tspan style="font-size: 60%">&amp;macro_wp…</tspan></text>
+</g>
+<g class="combo combopos-6">
+<path d="M196,201 l-37,2" class="combo"/>
+<path d="M196,201 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="182" y="188" width="28" height="26" class="combo"/>
+<text x="196" y="201" class="combo tap">
+<tspan x="196" dy="-0.6em">Ctl+</tspan><tspan x="196" dy="1.2em">N</tspan>
+</text>
+</g>
+<g class="combo combopos-7">
 <path d="M252,201 l-37,-3" class="combo"/>
 <path d="M252,201 l37,2" class="combo"/>
 <rect rx="6" ry="6" x="238" y="188" width="28" height="26" class="combo"/>
 <text x="252" y="201" class="combo tap"><tspan style="font-size: 60%">&amp;macro_wp…</tspan></text>
-</g>
-<g class="combo combopos-6">
-<path d="M359,166 l-90,31" class="combo"/>
-<path d="M359,166 l-36,26" class="combo"/>
-<path d="M359,166 l142,-67" class="combo"/>
-<rect rx="6" ry="6" x="345" y="153" width="28" height="26" class="combo"/>
-<text x="359" y="166" class="combo tap">
-<tspan x="359" dy="-0.6em">Ctl+</tspan><tspan x="359" dy="1.2em">N</tspan>
-</text>
-</g>
-<g class="combo combopos-7">
-<path d="M481,166 l-154,33" class="combo"/>
-<path d="M481,166 l29,-58" class="combo"/>
-<path d="M481,166 l117,32" class="combo"/>
-<rect rx="6" ry="6" x="467" y="153" width="28" height="26" class="combo"/>
-<text x="481" y="166" class="combo tap"><tspan style="font-size: 60%">&amp;macro_wp…</tspan></text>
 </g>
 <g class="combo combopos-8">
 <path d="M595,4 h-127 a6.0,6.0 0 0 0 -6.0,6.0 v6" class="combo"/>
@@ -1064,26 +1062,24 @@ rect.held, rect.combo.held {
 <text x="252" y="89" class="combo tap"><tspan style="font-size: 60%">&amp;macro_gm…</tspan></text>
 </g>
 <g class="combo combopos-5">
+<path d="M140,208 l-38,11" class="combo"/>
+<path d="M140,208 l38,-8" class="combo"/>
+<rect rx="6" ry="6" x="126" y="195" width="28" height="26" class="combo"/>
+<text x="140" y="208" class="combo tap"><tspan style="font-size: 60%">&amp;macro_wp…</tspan></text>
+</g>
+<g class="combo combopos-6">
+<path d="M196,201 l-37,2" class="combo"/>
+<path d="M196,201 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="182" y="188" width="28" height="26" class="combo"/>
+<text x="196" y="201" class="combo tap">
+<tspan x="196" dy="-0.6em">Ctl+</tspan><tspan x="196" dy="1.2em">N</tspan>
+</text>
+</g>
+<g class="combo combopos-7">
 <path d="M252,201 l-37,-3" class="combo"/>
 <path d="M252,201 l37,2" class="combo"/>
 <rect rx="6" ry="6" x="238" y="188" width="28" height="26" class="combo"/>
 <text x="252" y="201" class="combo tap"><tspan style="font-size: 60%">&amp;macro_wp…</tspan></text>
-</g>
-<g class="combo combopos-6">
-<path d="M359,166 l-90,31" class="combo"/>
-<path d="M359,166 l-36,26" class="combo"/>
-<path d="M359,166 l142,-67" class="combo"/>
-<rect rx="6" ry="6" x="345" y="153" width="28" height="26" class="combo"/>
-<text x="359" y="166" class="combo tap">
-<tspan x="359" dy="-0.6em">Ctl+</tspan><tspan x="359" dy="1.2em">N</tspan>
-</text>
-</g>
-<g class="combo combopos-7">
-<path d="M481,166 l-154,33" class="combo"/>
-<path d="M481,166 l29,-58" class="combo"/>
-<path d="M481,166 l117,32" class="combo"/>
-<rect rx="6" ry="6" x="467" y="153" width="28" height="26" class="combo"/>
-<text x="481" y="166" class="combo tap"><tspan style="font-size: 60%">&amp;macro_wp…</tspan></text>
 </g>
 <g class="combo combopos-8">
 <path d="M595,4 h-127 a6.0,6.0 0 0 0 -6.0,6.0 v6" class="combo"/>
@@ -1487,26 +1483,24 @@ rect.held, rect.combo.held {
 <text x="252" y="89" class="combo tap"><tspan style="font-size: 60%">&amp;macro_gm…</tspan></text>
 </g>
 <g class="combo combopos-5">
+<path d="M140,208 l-38,11" class="combo"/>
+<path d="M140,208 l38,-8" class="combo"/>
+<rect rx="6" ry="6" x="126" y="195" width="28" height="26" class="combo"/>
+<text x="140" y="208" class="combo tap"><tspan style="font-size: 60%">&amp;macro_wp…</tspan></text>
+</g>
+<g class="combo combopos-6">
+<path d="M196,201 l-37,2" class="combo"/>
+<path d="M196,201 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="182" y="188" width="28" height="26" class="combo"/>
+<text x="196" y="201" class="combo tap">
+<tspan x="196" dy="-0.6em">Ctl+</tspan><tspan x="196" dy="1.2em">N</tspan>
+</text>
+</g>
+<g class="combo combopos-7">
 <path d="M252,201 l-37,-3" class="combo"/>
 <path d="M252,201 l37,2" class="combo"/>
 <rect rx="6" ry="6" x="238" y="188" width="28" height="26" class="combo"/>
 <text x="252" y="201" class="combo tap"><tspan style="font-size: 60%">&amp;macro_wp…</tspan></text>
-</g>
-<g class="combo combopos-6">
-<path d="M359,166 l-90,31" class="combo"/>
-<path d="M359,166 l-36,26" class="combo"/>
-<path d="M359,166 l142,-67" class="combo"/>
-<rect rx="6" ry="6" x="345" y="153" width="28" height="26" class="combo"/>
-<text x="359" y="166" class="combo tap">
-<tspan x="359" dy="-0.6em">Ctl+</tspan><tspan x="359" dy="1.2em">N</tspan>
-</text>
-</g>
-<g class="combo combopos-7">
-<path d="M481,166 l-154,33" class="combo"/>
-<path d="M481,166 l29,-58" class="combo"/>
-<path d="M481,166 l117,32" class="combo"/>
-<rect rx="6" ry="6" x="467" y="153" width="28" height="26" class="combo"/>
-<text x="481" y="166" class="combo tap"><tspan style="font-size: 60%">&amp;macro_wp…</tspan></text>
 </g>
 <g class="combo combopos-8">
 <path d="M595,4 h-127 a6.0,6.0 0 0 0 -6.0,6.0 v6" class="combo"/>

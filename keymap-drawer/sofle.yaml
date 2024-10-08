@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - .
+  - ed
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -206,11 +206,11 @@ combos:
   k: Ctl+Sft+ N
 - p: [16, 17, 18]
   k: '&macro_gmail'
-- p: [42, 43, 44]
+- p: [40, 41, 42]
   k: '&macro_wpin'
-- p: [43, 44, 45]
+- p: [41, 42, 43]
   k: Ctl+ N
-- p: [44, 45, 46]
+- p: [42, 43, 44]
   k: '&macro_wpwd'
 - p: [6, 48]
   k: $$mdi:bluetooth-off$$
