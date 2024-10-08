@@ -196,25 +196,25 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [38, 39]
+- p: [43, 44]
   k: <
-- p: [39, 40]
+- p: [44, 45]
   k: '>'
-- p: [1, 2, 3]
+- p: [14, 15, 16]
   k: '&macro_addr'
-- p: [2, 3, 4]
+- p: [15, 16, 17]
   k: Ctl+Sft+ N
-- p: [3, 4, 5]
+- p: [16, 17, 18]
   k: '&macro_gmail'
-- p: [37, 38, 39]
+- p: [42, 43, 44]
   k: '&macro_wpin'
-- p: [38, 39, 40]
+- p: [43, 44, 45]
   k: Ctl+ N
-- p: [39, 40, 41]
+- p: [44, 45, 46]
   k: '&macro_wpwd'
-- p: [6, 42]
+- p: [6, 48]
   k: $$mdi:bluetooth-off$$
   a: top
   o: 0.03
-- p: [11, 47]
+- p: [12, 53]
   k: BT CLR ALL
