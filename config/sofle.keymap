@@ -13,6 +13,13 @@
 
 / {
     behaviors {
+        shift_caps: shift_caps {
+            compatible = "zmk,behavior-tap-dance";
+            label = "SHIFT_CAPS";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
+        };
+
         mmv {
             acceleration-exponent = <1>;  // 1
             time-to-max-speed-ms = <900>; // 40
@@ -23,6 +30,100 @@
             acceleration-exponent = <1>;  // 0
             time-to-max-speed-ms = <400>; // 500
             delay-ms = <0>;               // 10
+        };
+    };
+
+    combos {
+        compatible = "zmk,combos";
+
+        combo_less_than {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <38 39>;
+            timeout-ms = <20>;
+        };
+
+        combo_greater_than {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <39 40>;
+            timeout-ms = <20>;
+        };
+
+        combo_m_addr {
+            bindings = <&macro_addr>;
+            key-positions = <1 2 3>;
+            timeout-ms = <20>;
+        };
+
+        combo_lsft_lctrl_n {
+            bindings = <&kp LC(LS(N))>;
+            key-positions = <2 3 4>;
+            timeout-ms = <20>;
+        };
+
+        combo_m_gmail {
+            bindings = <&macro_gmail>;
+            key-positions = <3 4 5>;
+            timeout-ms = <20>;
+        };
+
+        combo_m_wpin {
+            bindings = <&macro_wpin>;
+            key-positions = <37 38 39>;
+            timeout-ms = <20>;
+        };
+
+        combo_lctrl_n {
+            bindings = <&kp LC(N)>;
+            key-positions = <38 39 40>;
+            timeout-ms = <20>;
+        };
+
+        combo_m_wpwd {
+            bindings = <&macro_wpwd>;
+            key-positions = <39 40 41>;
+            timeout-ms = <20>;
+        };
+
+        combo_bt_clear {
+            bindings = <&bt BT_CLR>;
+            key-positions = <6 42>;
+            timeout-ms = <20>;
+        };
+
+        combo_bt_clear_all {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <11 47>;
+            timeout-ms = <20>;
+        };
+    };
+
+    macros {
+        macro_addr: macro_addr {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N9 &kp N1 &kp SPACE &kp LS(T) &kp A &kp N &kp G &kp L &kp I &kp N &kp SPACE &kp LS(H) &kp A &kp L &kp T &kp SPACE &kp LS(R) &kp O &kp A &kp D>;
+            label = "MACRO_ADDR";
+        };
+
+        macro_gmail: macro_gmail {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp W &kp E &kp N &kp G &kp X &kp I &kp A &kp N &kp N6 &kp N4 &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
+            label = "MACRO_GMAIL";
+        };
+
+        macro_wpin: macro_wpin {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N2 &kp N0 &kp N2 &kp N1 &kp N0 &kp N7 &kp N1 &kp N3>;
+            label = "MACRO_WPIN";
+        };
+
+        macro_wpwd: macro_wpwd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp N2 &kp N3 &kp N1 &kp N1 &kp N6 &kp N5 &kp N6 &kp H &kp AT &kp D &kp N &kp LS(B)>;
+            label = "MACRO_WPWD";
         };
     };
 
@@ -58,14 +159,14 @@
 
         layer_2 {
             bindings = <
-&bt BT_CLR &trans    &trans  &trans  &trans  &trans          &msc SCRL_UP     &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4     &out OUT_USB
-&trans     &trans    &trans  &trans  &trans  &trans          &msc SCRL_DOWN   &trans           &trans           &trans           &trans           &trans           &out OUT_BLE
-&trans     &trans    &trans  &trans  &trans  &trans          &msc SCRL_LEFT   &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_ON
-&trans     &trans    &trans  &trans  &trans  &trans          &msc SCRL_RIGHT  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_OFF
-&trans     &trans    &trans  &trans  &trans  &bt BT_CLR_ALL  &mkp RCLK        &trans           &trans           &trans           &trans           &trans
+&sys_reset  &trans    &trans  &trans  &trans  &trans  &msc SCRL_UP     &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4     &out OUT_USB
+&trans      &trans    &trans  &trans  &trans  &trans  &msc SCRL_DOWN   &trans           &trans           &trans           &trans           &trans           &out OUT_BLE
+&trans      &trans    &trans  &trans  &trans  &trans  &msc SCRL_LEFT   &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_ON
+&trans      &trans    &trans  &trans  &trans  &trans  &msc SCRL_RIGHT  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_OFF
+&trans      &trans    &trans  &trans  &trans  &trans  &mkp RCLK        &trans           &trans           &trans           &trans           &trans
             >;
 
-            display-name = "BT_RGB";
+            display-name = "BTRGB";
             sensor-bindings = <&inc_dec_kp C_PREV C_NEXT>;
         };
     };
