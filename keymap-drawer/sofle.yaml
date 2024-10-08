@@ -206,6 +206,12 @@ combos:
   k: Ctl+Sft+ N
 - p: [16, 17, 18]
   k: '&macro_gmail'
+- p: [29, 30, 31]
+  k: Ctl+Sft+ T
+- p: [30, 31, 32]
+  k: Ctl+Sft+ F
+- p: [31, 32, 33]
+  k: Ctl+ T
 - p: [40, 41, 42]
   k: '&macro_wpin'
 - p: [41, 42, 43]
