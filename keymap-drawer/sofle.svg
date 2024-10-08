@@ -627,14 +627,12 @@ rect.held, rect.combo.held {
 <use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-option"/>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
-<text x="280" y="203" class="combo tap">&lt;</text>
+<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
+<text x="168" y="200" class="combo tap">&lt;</text>
 </g>
 <g class="combo combopos-1">
-<path d="M413,147 l-89,47" class="combo"/>
-<path d="M413,147 l89,-47" class="combo"/>
-<rect rx="6" ry="6" x="399" y="134" width="28" height="26" class="combo"/>
-<text x="413" y="147" class="combo tap">&gt;</text>
+<rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
+<text x="224" y="200" class="combo tap">&gt;</text>
 </g>
 <g class="combo combopos-2">
 <path d="M140,96 l-38,11" class="combo"/>
@@ -677,17 +675,17 @@ rect.held, rect.combo.held {
 <text x="252" y="201" class="combo tap"><tspan style="font-size: 60%">&amp;macro_wp…</tspan></text>
 </g>
 <g class="combo combopos-8">
-<path d="M595,4 h-127 a6.0,6.0 0 0 0 -6.0,6.0 v6" class="combo"/>
-<path d="M595,4 h127 a6.0,6.0 0 0 1 6.0,6.0 v167" class="combo"/>
-<rect rx="6" ry="6" x="581" y="-9" width="28" height="26" class="combo"/>
-<use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="586" y="-5" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
+<path d="M616,4 l0,19" class="combo"/>
+<path d="M616,4 l0,180" class="combo"/>
+<rect rx="6" ry="6" x="602" y="-9" width="28" height="26" class="combo"/>
+<use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="607" y="-5" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
 </g>
 <g class="combo combopos-9">
-<path d="M518,158 l360,-97" class="combo"/>
-<path d="M518,158 l-360,97" class="combo"/>
-<rect rx="6" ry="6" x="504" y="145" width="28" height="26" class="combo"/>
-<text x="518" y="158" class="combo tap">
-<tspan x="518" dy="-0.6em">BT</tspan><tspan x="518" dy="1.2em">…</tspan>
+<path d="M896,140 l0,-65" class="combo"/>
+<path d="M896,140 l0,65" class="combo"/>
+<rect rx="6" ry="6" x="882" y="127" width="28" height="26" class="combo"/>
+<text x="896" y="140" class="combo tap">
+<tspan x="896" dy="-0.6em">BT</tspan><tspan x="896" dy="1.2em">…</tspan>
 </text>
 </g>
 </g>
@@ -1032,14 +1030,12 @@ rect.held, rect.combo.held {
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
-<text x="280" y="203" class="combo tap">&lt;</text>
+<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
+<text x="168" y="200" class="combo tap">&lt;</text>
 </g>
 <g class="combo combopos-1">
-<path d="M413,147 l-89,47" class="combo"/>
-<path d="M413,147 l89,-47" class="combo"/>
-<rect rx="6" ry="6" x="399" y="134" width="28" height="26" class="combo"/>
-<text x="413" y="147" class="combo tap">&gt;</text>
+<rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
+<text x="224" y="200" class="combo tap">&gt;</text>
 </g>
 <g class="combo combopos-2">
 <path d="M140,96 l-38,11" class="combo"/>
@@ -1082,17 +1078,17 @@ rect.held, rect.combo.held {
 <text x="252" y="201" class="combo tap"><tspan style="font-size: 60%">&amp;macro_wp…</tspan></text>
 </g>
 <g class="combo combopos-8">
-<path d="M595,4 h-127 a6.0,6.0 0 0 0 -6.0,6.0 v6" class="combo"/>
-<path d="M595,4 h127 a6.0,6.0 0 0 1 6.0,6.0 v167" class="combo"/>
-<rect rx="6" ry="6" x="581" y="-9" width="28" height="26" class="combo"/>
-<use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="586" y="-5" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
+<path d="M616,4 l0,19" class="combo"/>
+<path d="M616,4 l0,180" class="combo"/>
+<rect rx="6" ry="6" x="602" y="-9" width="28" height="26" class="combo"/>
+<use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="607" y="-5" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
 </g>
 <g class="combo combopos-9">
-<path d="M518,158 l360,-97" class="combo"/>
-<path d="M518,158 l-360,97" class="combo"/>
-<rect rx="6" ry="6" x="504" y="145" width="28" height="26" class="combo"/>
-<text x="518" y="158" class="combo tap">
-<tspan x="518" dy="-0.6em">BT</tspan><tspan x="518" dy="1.2em">…</tspan>
+<path d="M896,140 l0,-65" class="combo"/>
+<path d="M896,140 l0,65" class="combo"/>
+<rect rx="6" ry="6" x="882" y="127" width="28" height="26" class="combo"/>
+<text x="896" y="140" class="combo tap">
+<tspan x="896" dy="-0.6em">BT</tspan><tspan x="896" dy="1.2em">…</tspan>
 </text>
 </g>
 </g>
@@ -1453,14 +1449,12 @@ rect.held, rect.combo.held {
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
-<text x="280" y="203" class="combo tap">&lt;</text>
+<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
+<text x="168" y="200" class="combo tap">&lt;</text>
 </g>
 <g class="combo combopos-1">
-<path d="M413,147 l-89,47" class="combo"/>
-<path d="M413,147 l89,-47" class="combo"/>
-<rect rx="6" ry="6" x="399" y="134" width="28" height="26" class="combo"/>
-<text x="413" y="147" class="combo tap">&gt;</text>
+<rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
+<text x="224" y="200" class="combo tap">&gt;</text>
 </g>
 <g class="combo combopos-2">
 <path d="M140,96 l-38,11" class="combo"/>
@@ -1503,17 +1497,17 @@ rect.held, rect.combo.held {
 <text x="252" y="201" class="combo tap"><tspan style="font-size: 60%">&amp;macro_wp…</tspan></text>
 </g>
 <g class="combo combopos-8">
-<path d="M595,4 h-127 a6.0,6.0 0 0 0 -6.0,6.0 v6" class="combo"/>
-<path d="M595,4 h127 a6.0,6.0 0 0 1 6.0,6.0 v167" class="combo"/>
-<rect rx="6" ry="6" x="581" y="-9" width="28" height="26" class="combo"/>
-<use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="586" y="-5" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
+<path d="M616,4 l0,19" class="combo"/>
+<path d="M616,4 l0,180" class="combo"/>
+<rect rx="6" ry="6" x="602" y="-9" width="28" height="26" class="combo"/>
+<use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="607" y="-5" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
 </g>
 <g class="combo combopos-9">
-<path d="M518,158 l360,-97" class="combo"/>
-<path d="M518,158 l-360,97" class="combo"/>
-<rect rx="6" ry="6" x="504" y="145" width="28" height="26" class="combo"/>
-<text x="518" y="158" class="combo tap">
-<tspan x="518" dy="-0.6em">BT</tspan><tspan x="518" dy="1.2em">…</tspan>
+<path d="M896,140 l0,-65" class="combo"/>
+<path d="M896,140 l0,65" class="combo"/>
+<rect rx="6" ry="6" x="882" y="127" width="28" height="26" class="combo"/>
+<text x="896" y="140" class="combo tap">
+<tspan x="896" dy="-0.6em">BT</tspan><tspan x="896" dy="1.2em">…</tspan>
 </text>
 </g>
 </g>

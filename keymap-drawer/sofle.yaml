@@ -196,9 +196,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [43, 44]
+- p: [41, 42]
   k: <
-- p: [44, 45]
+- p: [42, 43]
   k: '>'
 - p: [14, 15, 16]
   k: '&macro_addr'
@@ -212,9 +212,9 @@ combos:
   k: Ctl+ N
 - p: [42, 43, 44]
   k: '&macro_wpwd'
-- p: [6, 48]
+- p: [7, 46]
   k: $$mdi:bluetooth-off$$
   a: top
   o: 0.03
-- p: [12, 53]
+- p: [12, 51]
   k: BT CLR ALL
