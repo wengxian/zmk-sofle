@@ -212,6 +212,10 @@ combos:
   k: Ctl+ N
 - p: [42, 43, 44]
   k: '&macro_wpwd'
+- p: [0, 39]
+  k: Gui+Sft+ S
+- p: [5, 44]
+  k: $$mdi:printer-outline$$
 - p: [7, 46]
   k: $$mdi:bluetooth-off$$
   a: top

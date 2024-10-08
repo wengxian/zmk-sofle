@@ -81,6 +81,9 @@
 <svg id="mdi:pan-up">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-pan-up" viewBox="0 0 24 24"><path d="M12,2.5L8,7H16L12,2.5M12,10A2,2 0 0,0 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12A2,2 0 0,0 12,10Z" /></svg>
 </svg>
+<svg id="mdi:printer-outline">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-printer-outline" viewBox="0 0 24 24"><path d="M19 8C20.66 8 22 9.34 22 11V17H18V21H6V17H2V11C2 9.34 3.34 8 5 8H6V3H18V8H19M8 5V8H16V5H8M16 19V15H8V19H16M18 15H20V11C20 10.45 19.55 10 19 10H5C4.45 10 4 10.45 4 11V15H6V13H18V15M19 11.5C19 12.05 18.55 12.5 18 12.5C17.45 12.5 17 12.05 17 11.5C17 10.95 17.45 10.5 18 10.5C18.55 10.5 19 10.95 19 11.5Z" /></svg>
+</svg>
 <svg id="mdi:transfer">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-transfer" viewBox="0 0 24 24"><path d="M8 4A2 2 0 0 0 6 6V10H8V6H16V9H13.5L17 12.5L20.5 9H18V6A2 2 0 0 0 16 4H8M3 12V14H11V12H3M3 15V17H11V15H3M13 15V17H21V15H13M3 18V20H11V18H3M13 18V20H21V18H13Z" /></svg>
 </svg>
@@ -675,12 +678,26 @@ rect.held, rect.combo.held {
 <text x="252" y="201" class="combo tap"><tspan style="font-size: 60%">&amp;macro_wp…</tspan></text>
 </g>
 <g class="combo combopos-8">
+<path d="M28,140 l0,-65" class="combo"/>
+<path d="M28,140 l0,65" class="combo"/>
+<rect rx="6" ry="6" x="14" y="127" width="28" height="26" class="combo"/>
+<text x="28" y="140" class="combo tap">
+<tspan x="28" dy="-0.6em" style="font-size: 75%">Gui+Sft+</tspan><tspan x="28" dy="1.2em" style="font-size: 75%">S</tspan>
+</text>
+</g>
+<g class="combo combopos-9">
+<path d="M308,119 l0,-65" class="combo"/>
+<path d="M308,119 l0,65" class="combo"/>
+<rect rx="6" ry="6" x="294" y="106" width="28" height="26" class="combo"/>
+<use href="#mdi:printer-outline" xlink:href="#mdi:printer-outline" x="299" y="110" height="18" width="18.0" class="combo tap glyph mdi:printer-outline"/>
+</g>
+<g class="combo combopos-10">
 <path d="M616,4 l0,19" class="combo"/>
 <path d="M616,4 l0,180" class="combo"/>
 <rect rx="6" ry="6" x="602" y="-9" width="28" height="26" class="combo"/>
 <use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="607" y="-5" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
 </g>
-<g class="combo combopos-9">
+<g class="combo combopos-11">
 <path d="M896,140 l0,-65" class="combo"/>
 <path d="M896,140 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="882" y="127" width="28" height="26" class="combo"/>
@@ -1078,12 +1095,26 @@ rect.held, rect.combo.held {
 <text x="252" y="201" class="combo tap"><tspan style="font-size: 60%">&amp;macro_wp…</tspan></text>
 </g>
 <g class="combo combopos-8">
+<path d="M28,140 l0,-65" class="combo"/>
+<path d="M28,140 l0,65" class="combo"/>
+<rect rx="6" ry="6" x="14" y="127" width="28" height="26" class="combo"/>
+<text x="28" y="140" class="combo tap">
+<tspan x="28" dy="-0.6em" style="font-size: 75%">Gui+Sft+</tspan><tspan x="28" dy="1.2em" style="font-size: 75%">S</tspan>
+</text>
+</g>
+<g class="combo combopos-9">
+<path d="M308,119 l0,-65" class="combo"/>
+<path d="M308,119 l0,65" class="combo"/>
+<rect rx="6" ry="6" x="294" y="106" width="28" height="26" class="combo"/>
+<use href="#mdi:printer-outline" xlink:href="#mdi:printer-outline" x="299" y="110" height="18" width="18.0" class="combo tap glyph mdi:printer-outline"/>
+</g>
+<g class="combo combopos-10">
 <path d="M616,4 l0,19" class="combo"/>
 <path d="M616,4 l0,180" class="combo"/>
 <rect rx="6" ry="6" x="602" y="-9" width="28" height="26" class="combo"/>
 <use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="607" y="-5" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
 </g>
-<g class="combo combopos-9">
+<g class="combo combopos-11">
 <path d="M896,140 l0,-65" class="combo"/>
 <path d="M896,140 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="882" y="127" width="28" height="26" class="combo"/>
@@ -1497,12 +1528,26 @@ rect.held, rect.combo.held {
 <text x="252" y="201" class="combo tap"><tspan style="font-size: 60%">&amp;macro_wp…</tspan></text>
 </g>
 <g class="combo combopos-8">
+<path d="M28,140 l0,-65" class="combo"/>
+<path d="M28,140 l0,65" class="combo"/>
+<rect rx="6" ry="6" x="14" y="127" width="28" height="26" class="combo"/>
+<text x="28" y="140" class="combo tap">
+<tspan x="28" dy="-0.6em" style="font-size: 75%">Gui+Sft+</tspan><tspan x="28" dy="1.2em" style="font-size: 75%">S</tspan>
+</text>
+</g>
+<g class="combo combopos-9">
+<path d="M308,119 l0,-65" class="combo"/>
+<path d="M308,119 l0,65" class="combo"/>
+<rect rx="6" ry="6" x="294" y="106" width="28" height="26" class="combo"/>
+<use href="#mdi:printer-outline" xlink:href="#mdi:printer-outline" x="299" y="110" height="18" width="18.0" class="combo tap glyph mdi:printer-outline"/>
+</g>
+<g class="combo combopos-10">
 <path d="M616,4 l0,19" class="combo"/>
 <path d="M616,4 l0,180" class="combo"/>
 <rect rx="6" ry="6" x="602" y="-9" width="28" height="26" class="combo"/>
 <use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="607" y="-5" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
 </g>
-<g class="combo combopos-9">
+<g class="combo combopos-11">
 <path d="M896,140 l0,-65" class="combo"/>
 <path d="M896,140 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="882" y="127" width="28" height="26" class="combo"/>
