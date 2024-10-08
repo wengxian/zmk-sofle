@@ -38,61 +38,61 @@
 
         combo_less_than {
             bindings = <&kp LESS_THAN>;
-            key-positions = <38 39>;
+            key-positions = <43 44>;
             timeout-ms = <20>;
         };
 
         combo_greater_than {
             bindings = <&kp GREATER_THAN>;
-            key-positions = <39 40>;
+            key-positions = <44 45>;
             timeout-ms = <20>;
         };
 
         combo_m_addr {
             bindings = <&macro_addr>;
-            key-positions = <1 2 3>;
+            key-positions = <14 15 16>;
             timeout-ms = <20>;
         };
 
         combo_lsft_lctrl_n {
             bindings = <&kp LC(LS(N))>;
-            key-positions = <2 3 4>;
+            key-positions = <15 16 17>;
             timeout-ms = <20>;
         };
 
         combo_m_gmail {
             bindings = <&macro_gmail>;
-            key-positions = <3 4 5>;
+            key-positions = <16 17 18>;
             timeout-ms = <20>;
         };
 
         combo_m_wpin {
             bindings = <&macro_wpin>;
-            key-positions = <37 38 39>;
+            key-positions = <42 43 44>;
             timeout-ms = <20>;
         };
 
         combo_lctrl_n {
             bindings = <&kp LC(N)>;
-            key-positions = <38 39 40>;
+            key-positions = <43 44 45>;
             timeout-ms = <20>;
         };
 
         combo_m_wpwd {
             bindings = <&macro_wpwd>;
-            key-positions = <39 40 41>;
+            key-positions = <44 45 46>;
             timeout-ms = <20>;
         };
 
         combo_bt_clear {
             bindings = <&bt BT_CLR>;
-            key-positions = <6 42>;
+            key-positions = <6 48>;
             timeout-ms = <20>;
         };
 
         combo_bt_clear_all {
             bindings = <&bt BT_CLR_ALL>;
-            key-positions = <11 47>;
+            key-positions = <12 53>;
             timeout-ms = <20>;
         };
     };
