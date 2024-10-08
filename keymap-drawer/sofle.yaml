@@ -56,16 +56,16 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
-  - NAVSYM
+  - NVSMFK
   - $$mdi:keyboard-space$$
   - LGUI
   - $$mdi:mouse-left-click-outline$$
   - BTRGB
   - {t: '$$mdi:backspace$$', type: backspace}
-  - NAVSYM
+  - NVSMFK
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  NAVSYM:
+  NVSMFK:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
   - '@'
@@ -131,7 +131,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   BTRGB:
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -183,7 +183,7 @@ layers:
   - RGB EFR
   - RGB BRD
   - RGB OFF
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PLAY PAUSE
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
