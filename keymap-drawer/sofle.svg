@@ -658,27 +658,27 @@ rect.held, rect.combo.held {
 <text x="252" y="89" class="combo tap"><tspan style="font-size: 60%">&amp;macro_gm…</tspan></text>
 </g>
 <g class="combo combopos-5">
+<path d="M140,152 l-38,11" class="combo"/>
+<path d="M140,152 l38,-8" class="combo"/>
+<rect rx="6" ry="6" x="126" y="139" width="28" height="26" class="combo"/>
+<text x="140" y="152" class="combo tap">
+<tspan x="140" dy="-0.6em" style="font-size: 75%">Ctl+Sft+</tspan><tspan x="140" dy="1.2em" style="font-size: 75%">T</tspan>
+</text>
+</g>
+<g class="combo combopos-6">
+<path d="M196,145 l-37,2" class="combo"/>
+<path d="M196,145 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="182" y="132" width="28" height="26" class="combo"/>
+<text x="196" y="145" class="combo tap">
+<tspan x="196" dy="-0.6em" style="font-size: 75%">Ctl+Sft+</tspan><tspan x="196" dy="1.2em" style="font-size: 75%">F</tspan>
+</text>
+</g>
+<g class="combo combopos-7">
 <path d="M252,145 l-37,-3" class="combo"/>
 <path d="M252,145 l37,2" class="combo"/>
 <rect rx="6" ry="6" x="238" y="132" width="28" height="26" class="combo"/>
 <text x="252" y="145" class="combo tap">
-<tspan x="252" dy="-0.6em" style="font-size: 75%">Ctl+Sft+</tspan><tspan x="252" dy="1.2em" style="font-size: 75%">T</tspan>
-</text>
-</g>
-<g class="combo combopos-6">
-<path d="M322,128 l-52,14" class="combo"/>
-<path d="M322,128 l67,-30" class="combo"/>
-<rect rx="6" ry="6" x="308" y="115" width="28" height="26" class="combo"/>
-<text x="322" y="128" class="combo tap">
-<tspan x="322" dy="-0.6em" style="font-size: 75%">Ctl+Sft+</tspan><tspan x="322" dy="1.2em" style="font-size: 75%">F</tspan>
-</text>
-</g>
-<g class="combo combopos-7">
-<path d="M443,128 l-117,16" class="combo"/>
-<path d="M443,128 l154,17" class="combo"/>
-<rect rx="6" ry="6" x="429" y="115" width="28" height="26" class="combo"/>
-<text x="443" y="128" class="combo tap">
-<tspan x="443" dy="-0.6em">Ctl+</tspan><tspan x="443" dy="1.2em">T</tspan>
+<tspan x="252" dy="-0.6em">Ctl+</tspan><tspan x="252" dy="1.2em">T</tspan>
 </text>
 </g>
 <g class="combo combopos-8">
@@ -1099,27 +1099,27 @@ rect.held, rect.combo.held {
 <text x="252" y="89" class="combo tap"><tspan style="font-size: 60%">&amp;macro_gm…</tspan></text>
 </g>
 <g class="combo combopos-5">
+<path d="M140,152 l-38,11" class="combo"/>
+<path d="M140,152 l38,-8" class="combo"/>
+<rect rx="6" ry="6" x="126" y="139" width="28" height="26" class="combo"/>
+<text x="140" y="152" class="combo tap">
+<tspan x="140" dy="-0.6em" style="font-size: 75%">Ctl+Sft+</tspan><tspan x="140" dy="1.2em" style="font-size: 75%">T</tspan>
+</text>
+</g>
+<g class="combo combopos-6">
+<path d="M196,145 l-37,2" class="combo"/>
+<path d="M196,145 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="182" y="132" width="28" height="26" class="combo"/>
+<text x="196" y="145" class="combo tap">
+<tspan x="196" dy="-0.6em" style="font-size: 75%">Ctl+Sft+</tspan><tspan x="196" dy="1.2em" style="font-size: 75%">F</tspan>
+</text>
+</g>
+<g class="combo combopos-7">
 <path d="M252,145 l-37,-3" class="combo"/>
 <path d="M252,145 l37,2" class="combo"/>
 <rect rx="6" ry="6" x="238" y="132" width="28" height="26" class="combo"/>
 <text x="252" y="145" class="combo tap">
-<tspan x="252" dy="-0.6em" style="font-size: 75%">Ctl+Sft+</tspan><tspan x="252" dy="1.2em" style="font-size: 75%">T</tspan>
-</text>
-</g>
-<g class="combo combopos-6">
-<path d="M322,128 l-52,14" class="combo"/>
-<path d="M322,128 l67,-30" class="combo"/>
-<rect rx="6" ry="6" x="308" y="115" width="28" height="26" class="combo"/>
-<text x="322" y="128" class="combo tap">
-<tspan x="322" dy="-0.6em" style="font-size: 75%">Ctl+Sft+</tspan><tspan x="322" dy="1.2em" style="font-size: 75%">F</tspan>
-</text>
-</g>
-<g class="combo combopos-7">
-<path d="M443,128 l-117,16" class="combo"/>
-<path d="M443,128 l154,17" class="combo"/>
-<rect rx="6" ry="6" x="429" y="115" width="28" height="26" class="combo"/>
-<text x="443" y="128" class="combo tap">
-<tspan x="443" dy="-0.6em">Ctl+</tspan><tspan x="443" dy="1.2em">T</tspan>
+<tspan x="252" dy="-0.6em">Ctl+</tspan><tspan x="252" dy="1.2em">T</tspan>
 </text>
 </g>
 <g class="combo combopos-8">
@@ -1556,27 +1556,27 @@ rect.held, rect.combo.held {
 <text x="252" y="89" class="combo tap"><tspan style="font-size: 60%">&amp;macro_gm…</tspan></text>
 </g>
 <g class="combo combopos-5">
+<path d="M140,152 l-38,11" class="combo"/>
+<path d="M140,152 l38,-8" class="combo"/>
+<rect rx="6" ry="6" x="126" y="139" width="28" height="26" class="combo"/>
+<text x="140" y="152" class="combo tap">
+<tspan x="140" dy="-0.6em" style="font-size: 75%">Ctl+Sft+</tspan><tspan x="140" dy="1.2em" style="font-size: 75%">T</tspan>
+</text>
+</g>
+<g class="combo combopos-6">
+<path d="M196,145 l-37,2" class="combo"/>
+<path d="M196,145 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="182" y="132" width="28" height="26" class="combo"/>
+<text x="196" y="145" class="combo tap">
+<tspan x="196" dy="-0.6em" style="font-size: 75%">Ctl+Sft+</tspan><tspan x="196" dy="1.2em" style="font-size: 75%">F</tspan>
+</text>
+</g>
+<g class="combo combopos-7">
 <path d="M252,145 l-37,-3" class="combo"/>
 <path d="M252,145 l37,2" class="combo"/>
 <rect rx="6" ry="6" x="238" y="132" width="28" height="26" class="combo"/>
 <text x="252" y="145" class="combo tap">
-<tspan x="252" dy="-0.6em" style="font-size: 75%">Ctl+Sft+</tspan><tspan x="252" dy="1.2em" style="font-size: 75%">T</tspan>
-</text>
-</g>
-<g class="combo combopos-6">
-<path d="M322,128 l-52,14" class="combo"/>
-<path d="M322,128 l67,-30" class="combo"/>
-<rect rx="6" ry="6" x="308" y="115" width="28" height="26" class="combo"/>
-<text x="322" y="128" class="combo tap">
-<tspan x="322" dy="-0.6em" style="font-size: 75%">Ctl+Sft+</tspan><tspan x="322" dy="1.2em" style="font-size: 75%">F</tspan>
-</text>
-</g>
-<g class="combo combopos-7">
-<path d="M443,128 l-117,16" class="combo"/>
-<path d="M443,128 l154,17" class="combo"/>
-<rect rx="6" ry="6" x="429" y="115" width="28" height="26" class="combo"/>
-<text x="443" y="128" class="combo tap">
-<tspan x="443" dy="-0.6em">Ctl+</tspan><tspan x="443" dy="1.2em">T</tspan>
+<tspan x="252" dy="-0.6em">Ctl+</tspan><tspan x="252" dy="1.2em">T</tspan>
 </text>
 </g>
 <g class="combo combopos-8">
