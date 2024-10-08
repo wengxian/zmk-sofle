@@ -38,13 +38,13 @@
 
         combo_less_than {
             bindings = <&kp LESS_THAN>;
-            key-positions = <43 44>;
+            key-positions = <41 42>;
             timeout-ms = <20>;
         };
 
         combo_greater_than {
             bindings = <&kp GREATER_THAN>;
-            key-positions = <44 45>;
+            key-positions = <42 43>;
             timeout-ms = <20>;
         };
 
@@ -86,13 +86,13 @@
 
         combo_bt_clear {
             bindings = <&bt BT_CLR>;
-            key-positions = <6 48>;
+            key-positions = <7 46>;
             timeout-ms = <20>;
         };
 
         combo_bt_clear_all {
             bindings = <&bt BT_CLR_ALL>;
-            key-positions = <12 53>;
+            key-positions = <12 51>;
             timeout-ms = <20>;
         };
     };
