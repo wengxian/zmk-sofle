@@ -84,6 +84,18 @@
             timeout-ms = <20>;
         };
 
+        combo_snip {
+            bindings = <&kp LG(LS(S))>;
+            key-positions = <0 39>;
+            timeout-ms = <20>;
+        };
+
+        combo_ss {
+            bindings = <&kp PSCRN>;
+            key-positions = <5 44>;
+            timeout-ms = <20>;
+        };
+
         combo_bt_clear {
             bindings = <&bt BT_CLR>;
             key-positions = <7 46>;
