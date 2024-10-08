@@ -68,19 +68,19 @@
 
         combo_lsft_lctrl_t {
             bindings = <&kp LC(LS(T))>;
-            key-positions = <29 30 31>;
+            key-positions = <27 28 29>;
             timeout-ms = <20>;
         };
 
         combo_lsft_lctrl_f {
             bindings = <&kp LC(LS(F))>;
-            key-positions = <30 31 32>;
+            key-positions = <28 29 30>;
             timeout-ms = <20>;
         };
 
         combo_lctrl_t {
             bindings = <&kp LC(T)>;
-            key-positions = <31 32 33>;
+            key-positions = <29 30 31>;
             timeout-ms = <20>;
         };
 
