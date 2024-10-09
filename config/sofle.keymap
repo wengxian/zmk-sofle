@@ -38,7 +38,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "DEL_SETTINGS";
             #binding-cells = <0>;
-            bindings = <&tog 4>;
+            bindings = <&kp DEL>, <&to 4>;
         };
 
         mmv {
@@ -124,7 +124,7 @@
         };
 
         combo_snip {
-            bindings = <&del_settings)>;
+            bindings = <&tog 4)>;
             key-positions = <0 39>;
             timeout-ms = <20>;
         };
