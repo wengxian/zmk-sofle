@@ -38,7 +38,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "DEL_SETTINGS";
             #binding-cells = <0>;
-            bindings = <&kp DEL>, <&to 4>;
+            bindings = <&tog 4>;
         };
 
         mmv {
@@ -124,7 +124,7 @@
         };
 
         combo_snip {
-            bindings = <&kp LG(LS(S))>;
+            bindings = <&del_settings)>;
             key-positions = <0 39>;
             timeout-ms = <20>;
         };
@@ -239,7 +239,7 @@
 &trans            &trans  &trans  &trans  &trans  &trans  &msc SCRL_DOWN   &trans           &trans           &trans           &trans           &trans           &out OUT_BLE
 &trans            &trans  &trans  &trans  &trans  &trans  &msc SCRL_LEFT   &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_ON
 &trans            &trans  &trans  &trans  &trans  &trans  &msc SCRL_RIGHT  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_OFF
-&kp C_PLAY_PAUSE  &trans  &trans  &trans  &trans  &trans  &mkp RCLK        &to 0            &trans           &trans           &trans           &trans
+&kp C_PLAY_PAUSE  &trans  &trans  &trans  &trans  &trans  &mkp RCLK        &trans           &trans           &trans           &trans           &trans
             >;
 
             display-name = "BTRGB";
