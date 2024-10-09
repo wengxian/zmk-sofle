@@ -124,7 +124,7 @@
         };
 
         combo_snip {
-            bindings = <&tog 4)>;
+            bindings = <&tog 4>;
             key-positions = <0 39>;
             timeout-ms = <20>;
         };
