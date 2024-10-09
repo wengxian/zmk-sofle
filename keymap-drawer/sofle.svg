@@ -697,7 +697,9 @@ rect.held, rect.combo.held {
 <path d="M28,140 l0,-65" class="combo"/>
 <path d="M28,140 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="14" y="127" width="28" height="26" class="combo"/>
-<text x="28" y="140" class="combo tap"><tspan style="font-size: 60%">&amp;del_sett…</tspan></text>
+<a href="#BTRGB">
+<text x="28" y="140" class="combo tap layer-activator">BTRGB</text>
+</a><text x="28" y="151" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-12">
 <path d="M308,119 l0,-65" class="combo"/>
@@ -1137,7 +1139,9 @@ rect.held, rect.combo.held {
 <path d="M28,140 l0,-65" class="combo"/>
 <path d="M28,140 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="14" y="127" width="28" height="26" class="combo"/>
-<text x="28" y="140" class="combo tap"><tspan style="font-size: 60%">&amp;del_sett…</tspan></text>
+<a href="#BTRGB">
+<text x="28" y="140" class="combo tap layer-activator">BTRGB</text>
+</a><text x="28" y="151" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-12">
 <path d="M308,119 l0,-65" class="combo"/>
@@ -1578,7 +1582,9 @@ rect.held, rect.combo.held {
 <path d="M28,140 l0,-65" class="combo"/>
 <path d="M28,140 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="14" y="127" width="28" height="26" class="combo"/>
-<text x="28" y="140" class="combo tap"><tspan style="font-size: 60%">&amp;del_sett…</tspan></text>
+<a href="#BTRGB">
+<text x="28" y="140" class="combo tap layer-activator">BTRGB</text>
+</a><text x="28" y="151" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-12">
 <path d="M308,119 l0,-65" class="combo"/>
@@ -2009,7 +2015,9 @@ rect.held, rect.combo.held {
 <path d="M28,140 l0,-65" class="combo"/>
 <path d="M28,140 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="14" y="127" width="28" height="26" class="combo"/>
-<text x="28" y="140" class="combo tap"><tspan style="font-size: 60%">&amp;del_sett…</tspan></text>
+<a href="#BTRGB">
+<text x="28" y="140" class="combo tap layer-activator">BTRGB</text>
+</a><text x="28" y="151" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-12">
 <path d="M308,119 l0,-65" class="combo"/>
@@ -2467,7 +2475,9 @@ rect.held, rect.combo.held {
 <path d="M28,140 l0,-65" class="combo"/>
 <path d="M28,140 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="14" y="127" width="28" height="26" class="combo"/>
-<text x="28" y="140" class="combo tap"><tspan style="font-size: 60%">&amp;del_sett…</tspan></text>
+<a href="#BTRGB">
+<text x="28" y="140" class="combo tap layer-activator">BTRGB</text>
+</a><text x="28" y="151" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-12">
 <path d="M308,119 l0,-65" class="combo"/>
