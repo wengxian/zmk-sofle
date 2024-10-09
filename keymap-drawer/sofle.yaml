@@ -320,7 +320,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-right-click-outline$$
-  - {t: QWERTY, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -349,7 +349,7 @@ combos:
 - p: [42, 43, 44]
   k: '&macro_wpwd'
 - p: [0, 39]
-  k: Gui+Sft+ S
+  k: '&del_settings)'
 - p: [5, 44]
   k: $$mdi:printer-outline$$
 - p: [7, 46]
