@@ -58,7 +58,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - NVSMFK
   - $$mdi:keyboard-space$$
-  - LGUI
+  - '&cmd_fkeys'
   - $$mdi:mouse-left-click-outline$$
   - BTRGB
   - {t: '$$mdi:backspace$$', type: backspace}
