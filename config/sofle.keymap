@@ -38,7 +38,6 @@
             compatible = "zmk,behavior-tap-dance";
             label = "DEL_BTRGB";
             #binding-cells = <0>;
-            quick-tap-ms = <200>;
             bindings = <&kp DEL>, <&to 4>;
         };
 
