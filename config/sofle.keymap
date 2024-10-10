@@ -79,7 +79,7 @@
         };
 
         combo_number {
-            bindings = <&tog 3>;
+            bindings = <&tog 2>;
             key-positions = <28 29 30>;
             timeout-ms = <20>;
         };
