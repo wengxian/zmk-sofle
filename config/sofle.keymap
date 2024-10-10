@@ -20,13 +20,6 @@
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
 
-        del_btrgb: del_btrgb {
-            compatible = "zmk,behavior-tap-dance";
-            label = "DEL_BTRGB";
-            #binding-cells = <0>;
-            bindings = <&kp DEL>, <&to 4>;
-        };
-
         mmv {
             acceleration-exponent = <1>;  // 1
             time-to-max-speed-ms = <900>; // 40
@@ -181,11 +174,11 @@
 
         layer_0 {
             bindings = <
-&kp ESC      &kp N1    &kp N2     &kp N3  &kp N4     &kp N5      &mmv MOVE_UP     &kp N6      &kp N7    &kp N8     &kp N9     &kp N0      &kp GRAVE
-&kp TAB      &kp Q     &kp W      &kp E   &kp R      &kp T       &mmv MOVE_DOWN   &kp Y       &kp U     &kp I      &kp O      &kp P       &kp BSLH
-&kp BSPC     &kp A     &kp S      &kp D   &kp F      &kp G       &mmv MOVE_LEFT   &kp H       &kp J     &kp K      &kp L      &kp SEMI    &kp APOS
-&shift_caps  &kp Z     &kp X      &kp C   &kp V      &kp B       &mmv MOVE_RIGHT  &kp N       &kp M     &kp COMMA  &kp DOT    &kp FSLH    &kp ENTER
-&kp C_MUTE   &kp LALT  &kp LCTRL  &mo 1   &kp SPACE  &kp LGUI    &mkp LCLK        &del_btrgb  &kp BSPC  &mo 1      &kp RCTRL  &kp RALT
+&kp ESC      &kp N1    &kp N2     &kp N3  &kp N4     &kp N5    &mmv MOVE_UP     &kp N6   &kp N7    &kp N8     &kp N9     &kp N0    &kp GRAVE
+&kp TAB      &kp Q     &kp W      &kp E   &kp R      &kp T     &mmv MOVE_DOWN   &kp Y    &kp U     &kp I      &kp O      &kp P     &kp BSLH
+&kp BSPC     &kp A     &kp S      &kp D   &kp F      &kp G     &mmv MOVE_LEFT   &kp H    &kp J     &kp K      &kp L      &kp SEMI  &kp APOS
+&shift_caps  &kp Z     &kp X      &kp C   &kp V      &kp B     &mmv MOVE_RIGHT  &kp N    &kp M     &kp COMMA  &kp DOT    &kp FSLH  &kp ENTER
+&kp C_MUTE   &kp LALT  &kp LCTRL  &mo 1   &kp SPACE  &kp LGUI  &mkp LCLK        &KP DEL  &kp BSPC  &mo 1      &kp RCTRL  &kp RALT
             >;
 
             display-name = "QWERTY";
@@ -196,7 +189,7 @@
             bindings = <
 &trans            &trans        &trans     &trans         &trans     &trans     &mmv MOVE_UP     &trans  &trans     &trans     &trans    &trans    &trans
 &trans            &kp LC(LEFT)  &kp UP     &kp LC(RIGHT)  &kp HOME   &kp PG_UP  &mmv MOVE_DOWN   &trans  &trans     &trans     &kp LBKT  &kp RBKT  &trans
-&kp DEL           &kp LEFT      &kp DOWN   &kp RIGHT      &kp END    &kp PG_DN  &mmv MOVE_LEFT   &trans  &kp MINUS  &kp EQUAL  &trans    &trans    &trans
+&kp BSPC          &kp LEFT      &kp DOWN   &kp RIGHT      &kp END    &kp PG_DN  &mmv MOVE_LEFT   &trans  &kp MINUS  &kp EQUAL  &trans    &trans    &trans
 &trans            &kp LC(Z)     &kp LC(X)  &kp LC(C)      &kp LC(V)  &kp LC(Y)  &mmv MOVE_RIGHT  &trans  &trans     &trans     &trans    &trans    &trans
 &kp C_PLAY_PAUSE  &trans        &trans     &trans         &trans     &trans     &mkp LCLK        &trans  &trans     &trans     &trans    &trans
             >;
@@ -228,19 +221,6 @@
             >;
             
             display-name = "FUNCTN";
-            sensor-bindings = <&inc_dec_kp C_PREV C_NEXT>;
-        };
-
-        layer_4 {
-            bindings = <
-&trans            &trans  &trans  &trans  &trans  &trans  &msc SCRL_UP     &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4     &out OUT_USB
-&trans            &trans  &trans  &trans  &trans  &trans  &msc SCRL_DOWN   &trans           &trans           &trans           &trans           &trans           &out OUT_BLE
-&trans            &trans  &trans  &trans  &trans  &trans  &msc SCRL_LEFT   &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_ON
-&trans            &trans  &trans  &trans  &trans  &trans  &msc SCRL_RIGHT  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_OFF
-&kp C_PLAY_PAUSE  &trans  &trans  &trans  &trans  &trans  &mkp RCLK        &to 0            &trans           &trans           &trans           &trans
-            >;
-
-            display-name = "BTRGB";
             sensor-bindings = <&inc_dec_kp C_PREV C_NEXT>;
         };
     };
