@@ -271,7 +271,7 @@ combos:
 - p: [27, 28]
   k: $$mdi:backspace-reverse-outline$$
 - p: [28, 29, 30]
-  k: {t: FUNCTN, h: toggle}
+  k: {t: NUMBER, h: toggle}
 - p: [29, 30, 31]
   k: Ctl+ T
 - p: [30, 31]
