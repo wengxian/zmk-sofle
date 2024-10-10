@@ -60,7 +60,7 @@ layers:
   - $$mdi:keyboard-space$$
   - LGUI
   - $$mdi:mouse-left-click-outline$$
-  - '&KP DEL'
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - NAVSYM
   - $$mdi:apple-keyboard-control$$
