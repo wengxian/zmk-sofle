@@ -206,5 +206,18 @@
             display-name = "NUMBER";
             sensor-bindings = <&inc_dec_kp C_PREV C_NEXT>;
         };
+
+        layer_3 {
+            bindings = <
+&trans            &trans  &kp F10  &kp F11  &kp F12  &trans  &mmv MOVE_UP     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4     &out OUT_USB
+&trans            &trans  &kp F7   &kp F8   &kp F9   &trans  &mmv MOVE_DOWN   &trans           &trans           &trans           &trans           &out OUT_BLE
+&trans            &trans  &kp F4   &kp F5   &kp F6   &trans  &mmv MOVE_LEFT   &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_ON
+&trans            &trans  &kp F1   &kp F2   &kp F3   &trans  &mmv MOVE_RIGHT  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_OFF
+&kp C_PLAY_PAUSE  &trans  &trans   &trans   &trans   &trans  &mkp LCLK        &trans           &trans           &trans           &trans
+            >;
+            
+            display-name = "FUNCTN";
+            sensor-bindings = <&inc_dec_kp C_PREV C_NEXT>;
+        };
     };
 };
