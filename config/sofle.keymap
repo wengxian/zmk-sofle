@@ -54,7 +54,7 @@
 
         combo_capslock {
             bindings = <&kp CLCK>;
-            key-positions = <15 16>;
+            key-positions = <16 17>;
             timeout-ms = <20>;
         };
 
@@ -70,7 +70,7 @@
             timeout-ms = <20>;
         };
 
-        combo_nvaisym {
+        combo_navisym {
             bindings = <&tog 1>;
             key-positions = <27 29>;
             timeout-ms = <20>;
