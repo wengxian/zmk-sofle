@@ -13,13 +13,6 @@
 
 / {
     behaviors {
-        shift_caps: shift_caps {
-            compatible = "zmk,behavior-tap-dance";
-            label = "SHIFT_CAPS";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
-        };
-
         mmv {
             acceleration-exponent = <1>;  // 1
             time-to-max-speed-ms = <900>; // 40
@@ -42,6 +35,18 @@
             timeout-ms = <20>;
         };
 
+        combo_insert {
+            bindings = <&kp INS>;
+            key-positions = <15 16>;
+            timeout-ms = <20>;
+        };
+
+        combo_caps_lock {
+            bindings = <&kp CLCK>;
+            key-positions = <16 17>;
+            timeout-ms = <20>;
+        };
+
         combo_lsft_lctrl_n {
             bindings = <&kp LC(LS(N))>;
             key-positions = <15 16 17>;
@@ -60,15 +65,21 @@
             timeout-ms = <20>;
         };
 
-        combo_delete {
-            bindings = <&kp DEL>;
-            key-positions = <27 28>;
-            timeout-ms = <20>;
-        };
-
         combo_navi {
             bindings = <&tog 1>;
             key-positions = <27 29>;
+            timeout-ms = <20>;
+        };
+
+        combo_delete {
+            bindings = <&kp DEL>;
+            key-positions = <28 29>;
+            timeout-ms = <20>;
+        };
+
+        combo_enter {
+            bindings = <&kp ENTER>;
+            key-positions = <29 30>;
             timeout-ms = <20>;
         };
 
@@ -87,12 +98,6 @@
         combo_lctrl_t {
             bindings = <&kp LC(T)>;
             key-positions = <29 30 31>;
-            timeout-ms = <20>;
-        };
-
-        combo_enter {
-            bindings = <&kp ENTER>;
-            key-positions = <30 31>;
             timeout-ms = <20>;
         };
 
@@ -186,11 +191,11 @@
 
         layer_0 {
             bindings = <
-&kp ESC      &kp N1    &kp N2     &kp N3  &kp N4     &kp N5    &mmv MOVE_UP     &kp N6   &kp N7    &kp N8     &kp N9     &kp N0    &kp GRAVE
-&kp TAB      &kp Q     &kp W      &kp E   &kp R      &kp T     &mmv MOVE_DOWN   &kp Y    &kp U     &kp I      &kp O      &kp P     &kp BSLH
-&kp BSPC     &kp A     &kp S      &kp D   &kp F      &kp G     &mmv MOVE_LEFT   &kp H    &kp J     &kp K      &kp L      &kp SEMI  &kp APOS
-&shift_caps  &kp Z     &kp X      &kp C   &kp V      &kp B     &mmv MOVE_RIGHT  &kp N    &kp M     &kp COMMA  &kp DOT    &kp FSLH  &kp ENTER
-&kp C_MUTE   &kp LALT  &kp LCTRL  &mo 1   &kp SPACE  &kp LGUI  &mkp LCLK        &kp DEL  &kp BSPC  &mo 1      &kp RCTRL  &kp RALT
+&kp ESC     &kp N1    &kp N2     &kp N3  &kp N4     &kp N5    &mmv MOVE_UP     &kp N6   &kp N7    &kp N8     &kp N9     &kp N0    &kp GRAVE
+&kp TAB     &kp Q     &kp W      &kp E   &kp R      &kp T     &mmv MOVE_DOWN   &kp Y    &kp U     &kp I      &kp O      &kp P     &kp BSLH
+&kp BSPC    &kp A     &kp S      &kp D   &kp F      &kp G     &mmv MOVE_LEFT   &kp H    &kp J     &kp K      &kp L      &kp SEMI  &kp APOS
+&kp LSHFT   &kp Z     &kp X      &kp C   &kp V      &kp B     &mmv MOVE_RIGHT  &kp N    &kp M     &kp COMMA  &kp DOT    &kp FSLH  &kp ENTER
+&kp C_MUTE  &kp LALT  &kp LCTRL  &mo 1   &kp SPACE  &kp LGUI  &mkp LCLK        &kp DEL  &kp BSPC  &mo 1      &kp RCTRL  &kp RALT
             >;
 
             display-name = "QWERTY";
@@ -199,11 +204,11 @@
 
         layer_1 {
             bindings = <
-&trans            &trans        &trans     &trans         &trans     &trans     &mmv MOVE_UP     &trans  &trans     &trans     &trans    &trans    &trans
-&trans            &kp LC(LEFT)  &kp UP     &kp LC(RIGHT)  &kp HOME   &kp PG_UP  &mmv MOVE_DOWN   &trans  &trans     &trans     &kp LBKT  &kp RBKT  &trans
-&trans            &kp LEFT      &kp DOWN   &kp RIGHT      &kp END    &kp PG_DN  &mmv MOVE_LEFT   &trans  &kp MINUS  &kp EQUAL  &trans    &trans    &trans
-&trans            &kp LC(Z)     &kp LC(X)  &kp LC(C)      &kp LC(V)  &kp LC(Y)  &mmv MOVE_RIGHT  &trans  &trans     &trans     &trans    &trans    &trans
-&kp C_PLAY_PAUSE  &trans        &trans     &trans         &trans     &trans     &mkp LCLK        &trans  &trans     &trans     &trans    &trans
+&trans            &trans        &trans     &trans         &trans     &trans     &msc SCRL_UP     &trans     &trans     &trans  &trans    &trans    &trans
+&trans            &kp LC(LEFT)  &kp UP     &kp LC(RIGHT)  &kp HOME   &kp PG_UP  &msc SCRL_DOWN   &kp PLUS   &kp MINUS  &trans  &kp LBKT  &kp RBKT  &trans
+&trans            &kp LEFT      &kp DOWN   &kp RIGHT      &kp END    &kp PG_DN  &msc SCRL_LEFT   &kp EQUAL  &kp UNDER  &trans  &trans    &trans    &trans
+&trans            &kp LC(Z)     &kp LC(X)  &kp LC(C)      &kp LC(V)  &kp LC(Y)  &msc SCRL_RIGHT  &kp EXCL   &kp QMARK  &trans  &trans    &trans    &trans
+&kp C_PLAY_PAUSE  &trans        &trans     &trans         &trans     &trans     &mkp LCLK        &trans     &trans     &trans  &trans    &trans
             >;
 
             display-name = "NAVSYM";
