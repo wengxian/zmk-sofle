@@ -256,10 +256,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [41, 42]
-  k: <
-- p: [42, 43]
-  k: '>'
 - p: [14, 15, 16]
   k: '&macro_addr'
 - p: [15, 16, 17]
@@ -270,6 +266,8 @@ combos:
   k: Ctl+Sft+ T
 - p: [27, 28]
   k: $$mdi:backspace-reverse-outline$$
+- p: [28, 30]
+  k: {t: NAVSYM, h: toggle}
 - p: [28, 29, 30]
   k: {t: NUMBER, h: toggle}
 - p: [29, 30, 31]
@@ -278,8 +276,12 @@ combos:
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [40, 41, 42]
   k: '&macro_wpin'
+- p: [41, 42]
+  k: <
 - p: [41, 42, 43]
   k: Ctl+ N
+- p: [42, 43]
+  k: '>'
 - p: [42, 43, 44]
   k: '&macro_wpwd'
 - p: [0, 39]
