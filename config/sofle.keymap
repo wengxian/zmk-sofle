@@ -36,18 +36,6 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_less_than {
-            bindings = <&kp LESS_THAN>;
-            key-positions = <41 42>;
-            timeout-ms = <20>;
-        };
-
-        combo_greater_than {
-            bindings = <&kp GREATER_THAN>;
-            key-positions = <42 43>;
-            timeout-ms = <20>;
-        };
-
         combo_m_addr {
             bindings = <&macro_addr>;
             key-positions = <14 15 16>;
@@ -78,6 +66,12 @@
             timeout-ms = <20>;
         };
 
+        combo_navi {
+            bindings = <&tog 1>;
+            key-positions = <28 30>;
+            timeout-ms = <20>;
+        };
+
         combo_number {
             bindings = <&tog 2>;
             key-positions = <28 29 30>;
@@ -102,9 +96,21 @@
             timeout-ms = <20>;
         };
 
+        combo_less_than {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <41 42>;
+            timeout-ms = <20>;
+        };
+
         combo_lctrl_n {
             bindings = <&kp LC(N)>;
             key-positions = <41 42 43>;
+            timeout-ms = <20>;
+        };
+
+        combo_greater_than {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <42 43>;
             timeout-ms = <20>;
         };
 
