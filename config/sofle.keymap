@@ -79,7 +79,7 @@
             timeout-ms = <20>;
         };
         combo_function {
-            bindings = <&tog 3>;
+            bindings = <&tog 2>;
             key-positions = <29 31>;
             timeout-ms = <20>;
         };
