@@ -68,13 +68,19 @@
 
         combo_navi {
             bindings = <&tog 1>;
-            key-positions = <28 30>;
+            key-positions = <27 29>;
             timeout-ms = <20>;
         };
 
         combo_number {
             bindings = <&tog 2>;
             key-positions = <28 29 30>;
+            timeout-ms = <20>;
+        };
+
+        combo_function {
+            bindings = <&tog 3>;
+            key-positions = <29 31>;
             timeout-ms = <20>;
         };
 
