@@ -650,8 +650,8 @@ rect.held, rect.combo.held {
 </text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
-<text x="168" y="88" class="combo tap">CLCK</text>
+<rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
+<text x="224" y="88" class="combo tap">CLCK</text>
 </g>
 <g class="combo combopos-4">
 <path d="M252,89 l-37,-3" class="combo"/>
@@ -1129,8 +1129,8 @@ rect.held, rect.combo.held {
 </text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
-<text x="168" y="88" class="combo tap">CLCK</text>
+<rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
+<text x="224" y="88" class="combo tap">CLCK</text>
 </g>
 <g class="combo combopos-4">
 <path d="M252,89 l-37,-3" class="combo"/>
@@ -1598,8 +1598,8 @@ rect.held, rect.combo.held {
 </text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
-<text x="168" y="88" class="combo tap">CLCK</text>
+<rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
+<text x="224" y="88" class="combo tap">CLCK</text>
 </g>
 <g class="combo combopos-4">
 <path d="M252,89 l-37,-3" class="combo"/>
@@ -2061,8 +2061,8 @@ rect.held, rect.combo.held {
 </text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
-<text x="168" y="88" class="combo tap">CLCK</text>
+<rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
+<text x="224" y="88" class="combo tap">CLCK</text>
 </g>
 <g class="combo combopos-4">
 <path d="M252,89 l-37,-3" class="combo"/>
@@ -2556,8 +2556,8 @@ rect.held, rect.combo.held {
 </text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
-<text x="168" y="88" class="combo tap">CLCK</text>
+<rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
+<text x="224" y="88" class="combo tap">CLCK</text>
 </g>
 <g class="combo combopos-4">
 <path d="M252,89 l-37,-3" class="combo"/>

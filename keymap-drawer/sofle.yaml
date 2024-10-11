@@ -332,7 +332,7 @@ combos:
   k: INS
 - p: [15, 16, 17]
   k: Ctl+Sft+ N
-- p: [15, 16]
+- p: [16, 17]
   k: CLCK
 - p: [16, 17, 18]
   k: '&macro_gmail'
