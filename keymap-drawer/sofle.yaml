@@ -287,7 +287,7 @@ combos:
 - p: [42, 43, 44]
   k: '&macro_wpwd'
 - p: [0, 39]
-  k: {t: FUNCTN, h: toggle}
+  k: Gui+Sft+ T
 - p: [5, 44]
   k: $$mdi:printer-outline$$
 - p: [7, 46]
