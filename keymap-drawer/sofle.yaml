@@ -346,7 +346,7 @@ combos:
   k: {t: NUMBER, h: toggle}
 - p: [29, 30]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-- p: [28, 30]
+- p: [29, 31]
   k: {t: FKEYS, h: toggle}
 - p: [29, 30, 31]
   k: Ctl+ T
