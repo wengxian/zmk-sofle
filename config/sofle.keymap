@@ -126,8 +126,8 @@
             timeout-ms = <20>;
         };
 
-        combo_function {
-            bindings = <&tog 3>;
+        combo_snip {
+            bindings = <&kp LG(LS(T))>;
             key-positions = <0 39>;
             timeout-ms = <20>;
         };
