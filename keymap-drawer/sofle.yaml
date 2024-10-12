@@ -60,7 +60,7 @@ layers:
   - $$mdi:keyboard-space$$
   - LGUI
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:backspace-reverse-outline$$', h: SET}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: SETTIN}
   - {t: '$$mdi:backspace$$', type: backspace}
   - NAVISYM
   - $$mdi:apple-keyboard-control$$
@@ -260,7 +260,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  SET:
+  SETTIN:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -268,11 +268,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-up$$
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '5'}
   - OUT USB
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
