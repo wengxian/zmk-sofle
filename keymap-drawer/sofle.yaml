@@ -337,8 +337,6 @@ combos:
 - p: [16, 17, 18]
   k: '&macro_gmail'
 - p: [27, 28, 29]
-  k: Ctl+Sft+ T
-- p: [27, 29]
   k: {t: NAVISYM, h: toggle}
 - p: [28, 29]
   k: $$mdi:backspace-reverse-outline$$
@@ -346,10 +344,8 @@ combos:
   k: {t: NUMBER, h: toggle}
 - p: [29, 30]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-- p: [29, 31]
-  k: {t: FKEYS, h: toggle}
 - p: [29, 30, 31]
-  k: Ctl+ T
+  k: {t: FKEYS, h: toggle}
 - p: [40, 41, 42]
   k: '&macro_wpin'
 - p: [41, 42]
