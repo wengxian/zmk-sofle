@@ -8,16 +8,9 @@
 
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  // 600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
-#define U_MS_U &mmv MOVE_UP
-#define U_MS_D &mmv MOVE_DOWN
-#define U_MS_L &mmv MOVE_LEFT
-#define U_MS_R &mmv MOVE_RIGHT
-#define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  //  600
-#define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
 
 / {
     behaviors {
-
         mmv {
             acceleration-exponent = <1>;  // 1
             time-to-max-speed-ms = <900>; // 40
@@ -64,15 +57,9 @@
             timeout-ms = <20>;
         };
 
-        combo_lsft_lctrl_t {
-            bindings = <&kp LC(LS(T))>;
-            key-positions = <27 28 29>;
-            timeout-ms = <20>;
-        };
-
         combo_navisym {
             bindings = <&tog 1>;
-            key-positions = <27 29>;
+            key-positions = <27 28 29>;
             timeout-ms = <20>;
         };
 
@@ -96,12 +83,6 @@
 
         combo_fkeys {
             bindings = <&tog 3>;
-            key-positions = <29 31>;
-            timeout-ms = <20>;
-        };
-
-        combo_lctrl_t {
-            bindings = <&kp LC(T)>;
             key-positions = <29 30 31>;
             timeout-ms = <20>;
         };
