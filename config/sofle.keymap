@@ -22,6 +22,18 @@
         delay-ms = <0>;               // 10
     };
 
+    volume_encoder: volume_encoder {
+        compatible = "zmk,behavior-sensor-rotate";
+        #sensor-binding-cells = <0>;
+        bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+    };
+
+    prev_next_encoder: prev_next_encoder {
+        compatible = "zmk,behavior-sensor-rotate";
+        #sensor-binding-cells = <0>;
+        bindings = <&inc_dec_kp C_PREV C_NEXT>;
+    };
+
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
         #sensor-binding-cells = <0>;
@@ -30,217 +42,205 @@
         tap-ms = <30>;
     };
 
-    behaviors {
-        ltq: ltq {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LTQ";
-            bindings = <&mo>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <180>;
-        };
-    };
-
     combos {
         compatible = "zmk,combos";
 
         combo_bootloader_1 {
             bindings = <&bootloader>;
             key-positions = <1 2 3 4>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_bootloader_2 {
             bindings = <&bootloader>;
             key-positions = <8 9 10 11>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_m_addr {
             bindings = <&macro_addr>;
             key-positions = <14 15 16>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_insert {
             bindings = <&kp INS>;
             key-positions = <15 16>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_lsft_lctrl_n {
             bindings = <&kp LC(LS(N))>;
             key-positions = <15 16 17>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_capslock {
             bindings = <&kp CLCK>;
             key-positions = <16 17>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_m_gmail {
             bindings = <&macro_gmail>;
             key-positions = <16 17 18>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_navi {
             bindings = <&tog 1>;
             key-positions = <27 28 29>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_delete {
             bindings = <&kp DEL>;
             key-positions = <28 29>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_number {
             bindings = <&tog 2>;
             key-positions = <28 29 30>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_enter {
             bindings = <&kp ENTER>;
             key-positions = <29 30>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_fkeys {
             bindings = <&tog 3>;
             key-positions = <29 30 31>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_plus {
             bindings = <&kp PLUS>;
             key-positions = <20 21>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_minus {
             bindings = <&kp MINUS>;
             key-positions = <21 22>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_left_parenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <22 23>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_right_parenthesis {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <23 24>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_equal {
             bindings = <&kp EQUAL>;
             key-positions = <33 34>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_underscore {
             bindings = <&kp UNDERSCORE>;
             key-positions = <34 35>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_left_brace {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <35 36>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_right_brace {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <36 37>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_exclamation {
             bindings = <&kp EXCLAMATION>;
             key-positions = <46 47>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_question {
             bindings = <&kp QUESTION>;
             key-positions = <47 48>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_left_bracket {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <48 49>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_right_bracket {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <49 50>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_m_wpin {
             bindings = <&macro_wpin>;
             key-positions = <40 41 42>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_less_than {
             bindings = <&kp LESS_THAN>;
             key-positions = <41 42>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_lctrl_n {
             bindings = <&kp LC(N)>;
             key-positions = <41 42 43>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_greater_than {
             bindings = <&kp GREATER_THAN>;
             key-positions = <42 43>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_m_wpwd {
             bindings = <&macro_wpwd>;
             key-positions = <42 43 44>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_snip {
             bindings = <&kp LG(LS(S))>;
             key-positions = <0 39>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_ss {
             bindings = <&kp PSCRN>;
             key-positions = <5 44>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_bt_clear {
             bindings = <&bt BT_CLR>;
             key-positions = <7 46>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
 
         combo_bt_clear_all {
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <12 51>;
-            timeout-ms = <15>;
+            timeout-ms = <10>;
         };
     };
 
@@ -287,7 +287,7 @@
             >;
 
             display-name = "QWERTY";
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings = <&>;
         };
 
         layer_1 {
@@ -300,7 +300,7 @@
             >;
 
             display-name = "NAVI";
-            sensor-bindings = <&inc_dec_kp C_PREV C_NEXT>;
+            sensor-bindings = <&prev_next_encoder>;
         };
 
         layer_2 {
@@ -313,7 +313,7 @@
             >;
             
             display-name = "NUMBER";
-            sensor-bindings = <&inc_dec_kp C_PREV C_NEXT>;
+            sensor-bindings = <&prev_next_encoder>;
         };
 
         layer_3 {
