@@ -328,6 +328,8 @@ layers:
 combos:
 - p: [1, 2, 3, 4]
   k: $$mdi:progress-download$$
+- p: [8, 9, 10, 11]
+  k: $$mdi:progress-download$$
 - p: [14, 15, 16]
   k: '&macro_addr'
 - p: [15, 16]
@@ -348,9 +350,9 @@ combos:
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [29, 30, 31]
   k: {t: FKEYS, h: toggle}
-- p: [19, 20]
-  k: +
 - p: [20, 21]
+  k: +
+- p: [21, 22]
   k: {h: '-', s: _}
 - p: [33, 34]
   k: {h: '=', s: +}
