@@ -93,9 +93,39 @@
             timeout-ms = <20>;
         };
 
+        combo_plus {
+            bindings = <&kp PLUS>;
+            key-positions = <19 20>;
+            timeout-ms = <20>;
+        };
+
+        combo_minus {
+            bindings = <&kp MINUS>;
+            key-positions = <20 21>;
+            timeout-ms = <20>;
+        };
+
         combo_equal {
             bindings = <&kp EQUAL>;
             key-positions = <33 34>;
+            timeout-ms = <20>;
+        };
+
+        combo_underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <34 35>;
+            timeout-ms = <20>;
+        };
+
+        combo_exclamation {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <46 47>;
+            timeout-ms = <20>;
+        };
+
+        combo_question {
+            bindings = <&kp QUESTION>;
+            key-positions = <47 48>;
             timeout-ms = <20>;
         };
 
