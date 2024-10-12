@@ -25,13 +25,13 @@
     volume_encoder: volume_encoder {
         compatible = "zmk,behavior-sensor-rotate";
         #sensor-binding-cells = <0>;
-        bindings = <&kp C_VOLUME_UP, &kp C_VOL_DN>;
+        bindings = <&kp C_VOLUME_UP>, <&kp C_VOL_DN>;
     };
 
     prev_next_encoder: prev_next_encoder {
         compatible = "zmk,behavior-sensor-rotate";
         #sensor-binding-cells = <0>;
-        bindings = <&kp C_PREV, &kp C_NEXT>;
+        bindings = <&kp C_PREV>, <&kp C_NEXT>;
     };
 
     scroll_encoder: scroll_encoder {
