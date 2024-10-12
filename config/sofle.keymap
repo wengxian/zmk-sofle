@@ -87,6 +87,12 @@
             timeout-ms = <20>;
         };
 
+        combo_equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <32 33>;
+            timeout-ms = <20>;
+        };
+
         combo_m_wpin {
             bindings = <&macro_wpin>;
             key-positions = <40 41 42>;
