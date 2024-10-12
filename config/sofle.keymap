@@ -22,6 +22,16 @@
             time-to-max-speed-ms = <400>; // 500
             delay-ms = <0>;               // 10
         };
+
+        ltq: ltq {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LTQ";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <180>;
+        };
     };
 
     combos {
@@ -69,7 +79,7 @@
             timeout-ms = <20>;
         };
 
-        combo_navisym {
+        combo_navi {
             bindings = <&tog 1>;
             key-positions = <27 28 29>;
             timeout-ms = <20>;
@@ -111,6 +121,18 @@
             timeout-ms = <20>;
         };
 
+        combo_left_parenthesis {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <22 23>;
+            timeout-ms = <20>;
+        };
+
+        combo_right_parenthesis {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <23 24>;
+            timeout-ms = <20>;
+        };
+
         combo_equal {
             bindings = <&kp EQUAL>;
             key-positions = <33 34>;
@@ -123,6 +145,18 @@
             timeout-ms = <20>;
         };
 
+        combo_left_brace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <35 36>;
+            timeout-ms = <20>;
+        };
+
+        combo_right_brace {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <36 37>;
+            timeout-ms = <20>;
+        };
+
         combo_exclamation {
             bindings = <&kp EXCLAMATION>;
             key-positions = <46 47>;
@@ -132,6 +166,18 @@
         combo_question {
             bindings = <&kp QUESTION>;
             key-positions = <47 48>;
+            timeout-ms = <20>;
+        };
+
+        combo_left_bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <48 49>;
+            timeout-ms = <20>;
+        };
+
+        combo_right_bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <49 50>;
             timeout-ms = <20>;
         };
 
@@ -229,7 +275,7 @@
 &kp TAB      &kp Q     &kp W      &kp E   &kp R      &kp T     &mmv MOVE_DOWN   &kp Y      &kp U     &kp I      &kp O      &kp P     &kp BSLH
 &kp BSPC     &kp A     &kp S      &kp D   &kp F      &kp G     &mmv MOVE_LEFT   &kp H      &kp J     &kp K      &kp L      &kp SEMI  &kp APOS
 &kp LSHFT    &kp Z     &kp X      &kp C   &kp V      &kp B     &mmv MOVE_RIGHT  &kp N      &kp M     &kp COMMA  &kp DOT    &kp FSLH  &kp ENTER
-&kp C_MUTE   &kp LALT  &kp LCTRL  &mo 1   &kp SPACE  &kp LGUI  &mkp LCLK        &lt 4 DEL  &kp BSPC  &mo 1      &kp RCTRL  &kp RALT
+&kp C_MUTE   &kp LALT  &kp LCTRL  &mo 1   &kp SPACE  &kp LGUI  &mkp LCLK        &ltq 4 DEL  &kp BSPC  &mo 1      &kp RCTRL  &kp RALT
             >;
 
             display-name = "QWERTY";
@@ -238,14 +284,14 @@
 
         layer_1 {
             bindings = <
-&trans            &trans        &trans     &trans         &trans     &trans     &msc SCRL_UP     &trans  &trans     &trans     &trans    &trans    &trans
-&trans            &kp LC(LEFT)  &kp UP     &kp LC(RIGHT)  &kp HOME   &kp PG_UP  &msc SCRL_DOWN   &trans  &trans     &trans     &kp LBKT  &kp RBKT  &trans
-&trans            &kp LEFT      &kp DOWN   &kp RIGHT      &kp END    &kp PG_DN  &msc SCRL_LEFT   &trans  &kp MINUS  &kp EQUAL  &trans    &trans    &trans
-&trans            &kp LC(Z)     &kp LC(X)  &kp LC(C)      &kp LC(V)  &kp LC(Y)  &msc SCRL_RIGHT  &trans  &trans     &trans     &trans    &trans    &trans
-&kp C_PLAY_PAUSE  &trans        &trans     &trans         &trans     &trans     &mkp LCLK        &trans  &trans     &trans     &trans    &trans
+&trans            &trans        &trans     &trans         &trans     &trans     &msc SCRL_UP     &trans  &trans  &trans  &trans  &trans  &trans
+&trans            &kp LC(LEFT)  &kp UP     &kp LC(RIGHT)  &kp HOME   &kp PG_UP  &msc SCRL_DOWN   &trans  &trans  &trans  &trans  &trans  &trans
+&trans            &kp LEFT      &kp DOWN   &kp RIGHT      &kp END    &kp PG_DN  &msc SCRL_LEFT   &trans  &trans  &trans  &trans  &trans  &trans
+&trans            &kp LC(Z)     &kp LC(X)  &kp LC(C)      &kp LC(V)  &kp LC(Y)  &msc SCRL_RIGHT  &trans  &trans  &trans  &trans  &trans  &trans
+&kp C_PLAY_PAUSE  &trans        &trans     &trans         &trans     &trans     &mkp LCLK        &trans  &trans  &trans  &trans  &trans
             >;
 
-            display-name = "NAVISYM";
+            display-name = "NAVI";
             sensor-bindings = <&inc_dec_kp C_PREV C_NEXT>;
         };
 
@@ -258,7 +304,7 @@
 &kp C_PLAY_PAUSE  &trans  &trans  &trans  &trans  &trans  &mkp RCLK        &trans  &trans  &trans  &trans  &trans
             >;
             
-            display-name = "NUMBER";
+            display-name = "NUMBERS";
             sensor-bindings = <&inc_dec_kp C_PREV C_NEXT>;
         };
 
@@ -284,7 +330,7 @@
 &kp C_PLAY_PAUSE  &trans  &trans  &trans  &trans  &trans  &mkp RCLK        &trans           &trans           &trans           &trans           &trans
             >;
             
-            display-name = "SETTIN";
+            display-name = "SETTING";
             sensor-bindings = <&inc_dec_kp C_PREV C_NEXT>;
         };
     };
