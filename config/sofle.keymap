@@ -10,19 +10,27 @@
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
 
 / {
+    mmv {
+        acceleration-exponent = <1>;  // 1
+        time-to-max-speed-ms = <900>; // 40
+        delay-ms = <0>;               // 0
+    };
+
+    msc {
+        acceleration-exponent = <1>;  // 0
+        time-to-max-speed-ms = <400>; // 500
+        delay-ms = <0>;               // 10
+    };
+
+    scroll_encoder: scroll_encoder {
+        compatible = "zmk,behavior-sensor-rotate";
+        #sensor-binding-cells = <0>;
+        bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
+        tap-ms = <30>;
+    };
+
     behaviors {
-        mmv {
-            acceleration-exponent = <1>;  // 1
-            time-to-max-speed-ms = <900>; // 40
-            delay-ms = <0>;               // 0
-        };
-
-        msc {
-            acceleration-exponent = <1>;  // 0
-            time-to-max-speed-ms = <400>; // 500
-            delay-ms = <0>;               // 10
-        };
-
         ltq: ltq {
             compatible = "zmk,behavior-hold-tap";
             label = "LTQ";
@@ -152,7 +160,7 @@
         };
 
         combo_right_brace {
-            bindings = <&kp RIGHT_BRACKET>;
+            bindings = <&kp RIGHT_BRACE>;
             key-positions = <36 37>;
             timeout-ms = <20>;
         };
@@ -324,14 +332,14 @@
         layer_4 {
             bindings = <
 &trans            &trans  &trans  &trans  &trans  &trans  &msc SCRL_UP     &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4     &out OUT_USB
-&trans            &trans  &kp N7  &kp N8  &kp N9  &kp N0  &msc SCRL_DOWN   &trans           &trans           &trans           &trans           &trans           &out OUT_BLE
-&trans            &trans  &kp N4  &kp N5  &kp N6  &trans  &msc SCRL_LEFT   &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF  &rgb_ug RGB_ON
-&trans            &trans  &kp N1  &kp N2  &kp N3  &trans  &msc SCRL_RIGHT  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_EFR  &rgb_ug RGB_OFF
+&trans            &trans  &trans  &trans  &trans  &trans  &msc SCRL_DOWN   &trans           &trans           &trans           &trans           &trans           &out OUT_BLE
+&trans            &trans  &trans  &trans  &trans  &trans  &msc SCRL_LEFT   &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF  &rgb_ug RGB_ON
+&trans            &trans  &trans  &trans  &trans  &trans  &msc SCRL_RIGHT  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_EFR  &rgb_ug RGB_OFF
 &kp C_PLAY_PAUSE  &trans  &trans  &trans  &trans  &trans  &mkp RCLK        &trans           &trans           &trans           &trans           &trans
             >;
             
             display-name = "SETTING";
-            sensor-bindings = <&inc_dec_kp C_PREV C_NEXT>;
+            sensor-bindings = <&scroll_encoder>;
         };
     };
 };
