@@ -348,8 +348,18 @@ combos:
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [29, 30, 31]
   k: {t: FKEYS, h: toggle}
+- p: [19, 20]
+  k: +
+- p: [20, 21]
+  k: {h: '-', s: _}
 - p: [33, 34]
   k: {h: '=', s: +}
+- p: [34, 35]
+  k: _
+- p: [46, 47]
+  k: '!'
+- p: [47, 48]
+  k: '?'
 - p: [40, 41, 42]
   k: '&macro_wpin'
 - p: [41, 42]
