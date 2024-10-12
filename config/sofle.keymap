@@ -25,13 +25,13 @@
     volume_encoder: volume_encoder {
         compatible = "zmk,behavior-sensor-rotate";
         #sensor-binding-cells = <0>;
-        bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+        bindings = <&kp C_VOLUME_UP, &kp C_VOL_DN>;
     };
 
     prev_next_encoder: prev_next_encoder {
         compatible = "zmk,behavior-sensor-rotate";
         #sensor-binding-cells = <0>;
-        bindings = <&inc_dec_kp C_PREV C_NEXT>;
+        bindings = <&kp C_PREV, &kp C_NEXT>;
     };
 
     scroll_encoder: scroll_encoder {
@@ -277,7 +277,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        layer0 {
+        layer_0 {
             bindings = <
 &kp ESC      &kp N1    &kp N2     &kp N3  &kp N4     &kp N5    &mmv MOVE_UP     &kp N6   &kp N7    &kp N8     &kp N9     &kp N0    &kp GRAVE
 &kp TAB      &kp Q     &kp W      &kp E   &kp R      &kp T     &mmv MOVE_DOWN   &kp Y    &kp U     &kp I      &kp O      &kp P     &kp BSLH
