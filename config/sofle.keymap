@@ -287,7 +287,7 @@
             >;
 
             display-name = "QWERTY";
-            sensor-bindings = <&>;
+            sensor-bindings = <&volume_encoder>;
         };
 
         layer_1 {
