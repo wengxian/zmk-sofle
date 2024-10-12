@@ -56,16 +56,16 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
-  - NAVISYM
+  - NAVI
   - $$mdi:keyboard-space$$
   - LGUI
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:backspace-reverse-outline$$', h: SETTIN}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: SETTING}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - NAVISYM
+  - NAVI
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  NAVISYM:
+  NAVI:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -89,8 +89,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
@@ -100,8 +100,8 @@ layers:
   - PG DN
   - $$mdi:pan-left$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -130,7 +130,7 @@ layers:
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  NUMBER:
+  NUMBERS:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -260,7 +260,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  SETTIN:
+  SETTING:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -341,11 +341,11 @@ combos:
 - p: [16, 17, 18]
   k: '&macro_gmail'
 - p: [27, 28, 29]
-  k: {t: NAVISYM, h: toggle}
+  k: {t: NAVI, h: toggle}
 - p: [28, 29]
   k: $$mdi:backspace-reverse-outline$$
 - p: [28, 29, 30]
-  k: {t: NUMBER, h: toggle}
+  k: {t: NUMBERS, h: toggle}
 - p: [29, 30]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [29, 30, 31]
@@ -354,14 +354,26 @@ combos:
   k: +
 - p: [21, 22]
   k: {h: '-', s: _}
+- p: [22, 23]
+  k: (
+- p: [23, 24]
+  k: )
 - p: [33, 34]
   k: {h: '=', s: +}
 - p: [34, 35]
   k: _
+- p: [35, 36]
+  k: '{'
+- p: [36, 37]
+  k: {t: ']', s: '}'}
 - p: [46, 47]
   k: '!'
 - p: [47, 48]
   k: '?'
+- p: [48, 49]
+  k: {t: '[', s: '{'}
+- p: [49, 50]
+  k: {t: ']', s: '}'}
 - p: [40, 41, 42]
   k: '&macro_wpin'
 - p: [41, 42]
