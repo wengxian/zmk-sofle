@@ -326,6 +326,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
+- p: [1, 2, 3, 4]
+  k: $$mdi:progress-download$$
 - p: [14, 15, 16]
   k: '&macro_addr'
 - p: [15, 16]
@@ -346,7 +348,7 @@ combos:
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [29, 30, 31]
   k: {t: FKEYS, h: toggle}
-- p: [32, 33]
+- p: [33, 34]
   k: {h: '=', s: +}
 - p: [40, 41, 42]
   k: '&macro_wpin'
