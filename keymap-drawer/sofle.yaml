@@ -461,5 +461,3 @@ combos:
   o: 0.03
 - p: [12, 51]
   k: BT CLR ALL
-- p: [53, 54, 55]
-  k: {t: MOUSE, h: toggle}
