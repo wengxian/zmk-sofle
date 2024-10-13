@@ -10,7 +10,7 @@
             timeout-ms = <COMBO_TIMEOUT_MS>;
         };
 
-        combo_bootloader_1 {
+        combo_number_2 {
             bindings = <&tog 2>;
             key-positions = <2 3 4>;
             timeout-ms = <COMBO_TIMEOUT_MS>;
