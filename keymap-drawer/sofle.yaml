@@ -393,6 +393,8 @@ layers:
 combos:
 - p: [1, 2, 3, 4]
   k: $$mdi:progress-download$$
+- p: [2, 3, 4]
+  k: {t: NUMBER, h: toggle}
 - p: [8, 9, 10, 11]
   k: $$mdi:progress-download$$
 - p: [14, 15, 16]
