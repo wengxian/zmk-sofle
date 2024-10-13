@@ -201,5 +201,11 @@
             key-positions = <12 51>;
             timeout-ms = <15>;
         };
+
+        combo_mouse {
+            bindings = <&tog 4>;
+            key-positions = <52 53 54>;
+            timeout-ms = <15>;
+        };
     };
 };
