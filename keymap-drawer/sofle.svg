@@ -815,6 +815,14 @@ rect.held, rect.combo.held {
 <tspan x="896" dy="-0.6em">BT</tspan><tspan x="896" dy="1.2em">…</tspan>
 </text>
 </g>
+<g class="combo combopos-33">
+<path d="M243,243 l131,-23" class="combo"/>
+<path d="M243,243 l-84,13" class="combo"/>
+<rect rx="6" ry="6" x="229" y="230" width="28" height="26" class="combo"/>
+<a href="#MOUSE">
+<text x="243" y="243" class="combo tap layer-activator">MOUSE</text>
+</a><text x="243" y="254" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 397)" class="layer-NAVI">
@@ -1341,6 +1349,14 @@ rect.held, rect.combo.held {
 <tspan x="896" dy="-0.6em">BT</tspan><tspan x="896" dy="1.2em">…</tspan>
 </text>
 </g>
+<g class="combo combopos-33">
+<path d="M243,243 l131,-23" class="combo"/>
+<path d="M243,243 l-84,13" class="combo"/>
+<rect rx="6" ry="6" x="229" y="230" width="28" height="26" class="combo"/>
+<a href="#MOUSE">
+<text x="243" y="243" class="combo tap layer-activator">MOUSE</text>
+</a><text x="243" y="254" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 794)" class="layer-NUMBER">
@@ -1860,6 +1876,14 @@ rect.held, rect.combo.held {
 <tspan x="896" dy="-0.6em">BT</tspan><tspan x="896" dy="1.2em">…</tspan>
 </text>
 </g>
+<g class="combo combopos-33">
+<path d="M243,243 l131,-23" class="combo"/>
+<path d="M243,243 l-84,13" class="combo"/>
+<rect rx="6" ry="6" x="229" y="230" width="28" height="26" class="combo"/>
+<a href="#MOUSE">
+<text x="243" y="243" class="combo tap layer-activator">MOUSE</text>
+</a><text x="243" y="254" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1191)" class="layer-FKEYS">
@@ -2368,6 +2392,14 @@ rect.held, rect.combo.held {
 <text x="896" y="140" class="combo tap">
 <tspan x="896" dy="-0.6em">BT</tspan><tspan x="896" dy="1.2em">…</tspan>
 </text>
+</g>
+<g class="combo combopos-33">
+<path d="M243,243 l131,-23" class="combo"/>
+<path d="M243,243 l-84,13" class="combo"/>
+<rect rx="6" ry="6" x="229" y="230" width="28" height="26" class="combo"/>
+<a href="#MOUSE">
+<text x="243" y="243" class="combo tap layer-activator">MOUSE</text>
+</a><text x="243" y="254" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -2881,6 +2913,14 @@ rect.held, rect.combo.held {
 <text x="896" y="140" class="combo tap">
 <tspan x="896" dy="-0.6em">BT</tspan><tspan x="896" dy="1.2em">…</tspan>
 </text>
+</g>
+<g class="combo combopos-33">
+<path d="M243,243 l131,-23" class="combo"/>
+<path d="M243,243 l-84,13" class="combo"/>
+<rect rx="6" ry="6" x="229" y="230" width="28" height="26" class="combo"/>
+<a href="#MOUSE">
+<text x="243" y="243" class="combo tap layer-activator">MOUSE</text>
+</a><text x="243" y="254" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -3400,6 +3440,14 @@ rect.held, rect.combo.held {
 <text x="896" y="140" class="combo tap">
 <tspan x="896" dy="-0.6em">BT</tspan><tspan x="896" dy="1.2em">…</tspan>
 </text>
+</g>
+<g class="combo combopos-33">
+<path d="M243,243 l131,-23" class="combo"/>
+<path d="M243,243 l-84,13" class="combo"/>
+<rect rx="6" ry="6" x="229" y="230" width="28" height="26" class="combo"/>
+<a href="#MOUSE">
+<text x="243" y="243" class="combo tap layer-activator">MOUSE</text>
+</a><text x="243" y="254" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
