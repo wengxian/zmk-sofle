@@ -74,11 +74,11 @@ U_KP_R  &trans  &trans   &trans   &trans   &trans  U_KP_L  &trans  &trans  &tran
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  U_MS_U  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  U_KP_R  U_MS_U  U_KP_M  &trans  &trans  U_MS_D  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  U_MS_L  U_MS_D  U_MS_R  &trans  &trans  U_MS_L  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  U_MS_R  &trans  &trans  &trans  &trans  &trans  &trans
-U_KP_R  &trans  &trans  U_KP_L  &trans  &trans  U_KP_L  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans    &trans     U_MS_U  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  U_KP_R     U_MS_U     U_KP_M     &trans    &trans     U_MS_D  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  U_MS_L     U_MS_D     U_MS_R     &trans    &trans     U_MS_L  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  kp LC(V)  &kp LC(Y)  U_MS_R  &trans  &trans  &trans  &trans  &trans  &trans
+U_KP_R  &trans     &trans     U_KP_L     &trans    &trans     U_KP_L  &trans  &trans  &trans  &trans  &trans
             >;
             
             display-name = "MOUSE";
