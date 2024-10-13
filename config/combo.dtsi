@@ -10,7 +10,7 @@
             timeout-ms = <COMBO_TIMEOUT_MS>;
         };
 
-        combo_number_2 {
+        combo_number {
             bindings = <&tog 2>;
             key-positions = <2 3 4>;
             timeout-ms = <COMBO_TIMEOUT_MS>;
@@ -64,7 +64,7 @@
             timeout-ms = <COMBO_TIMEOUT_MS>;
         };
 
-        combo_number {
+        combo_mouse {
             bindings = <&tog 2>;
             key-positions = <28 29 30>;
             timeout-ms = <COMBO_TIMEOUT_MS>;
@@ -205,12 +205,6 @@
         combo_bt_clear_all {
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <12 51>;
-            timeout-ms = <COMBO_TIMEOUT_MS>;
-        };
-
-        combo_mouse {
-            bindings = <&tog 4>;
-            key-positions = <53 54 55>;
             timeout-ms = <COMBO_TIMEOUT_MS>;
         };
     };
