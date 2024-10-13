@@ -62,7 +62,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: SETTING}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - SETTING
+  - NAVI
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   NAVI:
@@ -127,7 +127,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   NUMBER:
@@ -387,7 +387,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
