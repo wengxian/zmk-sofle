@@ -1,7 +1,5 @@
 #define COMBO_TIMEOUT_MS 15
 
-compatible = "zmk,combos";
-
 combo_bootloader_1 {
     bindings = <&bootloader>;
     key-positions = <1 2 3 4>;
