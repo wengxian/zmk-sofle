@@ -65,7 +65,7 @@
         };
 
         combo_mouse {
-            bindings = <&tog 2>;
+            bindings = <&tog 4>;
             key-positions = <28 29 30>;
             timeout-ms = <COMBO_TIMEOUT_MS>;
         };
