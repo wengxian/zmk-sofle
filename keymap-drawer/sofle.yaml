@@ -294,7 +294,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - RGB SAI
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-high$$
   - $$mdi:volume-off$$
   - VOLUME DN
