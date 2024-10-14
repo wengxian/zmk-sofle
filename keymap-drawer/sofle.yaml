@@ -395,12 +395,10 @@ combos:
   k: $$mdi:progress-download$$
 - p: [8, 47]
   k: $$mdi:progress-download$$
-- p: [2, 3, 4]
+- p: [2, 41]
   k: {t: NUMBER, h: toggle}
-- p: [28, 29, 30]
+- p: [3, 42]
   k: {t: MOUSE, h: toggle}
-- p: [27, 28, 29]
-  k: {t: NAVI, h: toggle}
 - p: [1, 40]
   k: {t: FKEYS, h: toggle}
 - p: [14, 15]
