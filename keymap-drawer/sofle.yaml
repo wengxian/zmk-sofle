@@ -403,16 +403,12 @@ combos:
   k: {t: NAVI, h: toggle}
 - p: [1, 40]
   k: {t: FKEYS, h: toggle}
-- p: [14, 15, 16]
-  k: '&macro_addr'
 - p: [14, 15]
   k: INS
 - p: [15, 16, 17]
   k: Ctl+Sft+ N
 - p: [17, 18]
   k: CLCK
-- p: [16, 17, 18]
-  k: '&macro_gmail'
 - p: [27, 28]
   k: $$mdi:backspace-reverse-outline$$
 - p: [30, 31]
@@ -441,16 +437,12 @@ combos:
   k: {t: '[', s: '{'}
 - p: [50, 51]
   k: {t: ']', s: '}'}
-- p: [40, 41, 42]
-  k: '&macro_wpin'
 - p: [40, 41]
   k: <
 - p: [41, 42, 43]
   k: Ctl+ N
 - p: [43, 44]
   k: '>'
-- p: [42, 43, 44]
-  k: '&macro_wpwd'
 - p: [0, 39]
   k: Gui+Sft+ S
 - p: [5, 44]
