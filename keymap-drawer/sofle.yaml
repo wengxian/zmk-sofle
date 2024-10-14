@@ -391,9 +391,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [4, 44]
+- p: [4, 43]
   k: $$mdi:progress-download$$
-- p: [8, 46]
+- p: [11, 50]
   k: $$mdi:progress-download$$
 - p: [2, 3, 4]
   k: {t: NUMBER, h: toggle}
