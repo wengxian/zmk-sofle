@@ -6,13 +6,13 @@
 
         combo_bootloader_left {
             bindings = <&bootloader>;
-            key-positions = <4 44>;
+            key-positions = <4 43>;
             timeout-ms = <COMBO_TIMEOUT_MS>;
         };
 
         combo_bootloader_right {
             bindings = <&bootloader>;
-            key-positions = <8 46>;
+            key-positions = <11 50>;
             timeout-ms = <COMBO_TIMEOUT_MS>;
         };
 
