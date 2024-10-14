@@ -393,10 +393,16 @@ layers:
 combos:
 - p: [4, 43]
   k: $$mdi:progress-download$$
-- p: [11, 50]
+- p: [8, 47]
   k: $$mdi:progress-download$$
 - p: [2, 3, 4]
   k: {t: NUMBER, h: toggle}
+- p: [28, 29, 30]
+  k: {t: MOUSE, h: toggle}
+- p: [27, 28, 29]
+  k: {t: NAVI, h: toggle}
+- p: [1, 40]
+  k: {t: FKEYS, h: toggle}
 - p: [14, 15, 16]
   k: '&macro_addr'
 - p: [14, 15]
@@ -407,16 +413,10 @@ combos:
   k: CLCK
 - p: [16, 17, 18]
   k: '&macro_gmail'
-- p: [27, 28, 29]
-  k: {t: NAVI, h: toggle}
 - p: [27, 28]
   k: $$mdi:backspace-reverse-outline$$
-- p: [28, 29, 30]
-  k: {t: MOUSE, h: toggle}
 - p: [30, 31]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-- p: [29, 30, 31]
-  k: {t: FKEYS, h: toggle}
 - p: [20, 21]
   k: +
 - p: [21, 22]
@@ -429,17 +429,17 @@ combos:
   k: {h: '=', s: +}
 - p: [34, 35]
   k: _
-- p: [35, 36]
-  k: '{'
 - p: [36, 37]
+  k: '{'
+- p: [37, 38]
   k: '}'
-- p: [46, 47]
-  k: '!'
 - p: [47, 48]
-  k: '?'
+  k: '!'
 - p: [48, 49]
-  k: {t: '[', s: '{'}
+  k: '?'
 - p: [49, 50]
+  k: {t: '[', s: '{'}
+- p: [50, 51]
   k: {t: ']', s: '}'}
 - p: [40, 41, 42]
   k: '&macro_wpin'
