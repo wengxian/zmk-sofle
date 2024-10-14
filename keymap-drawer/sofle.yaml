@@ -395,18 +395,18 @@ combos:
   k: $$mdi:progress-download$$
 - p: [8, 47]
   k: $$mdi:progress-download$$
+- p: [1, 40]
+  k: {t: NAVI, h: toggle}
 - p: [2, 41]
   k: {t: NUMBER, h: toggle}
 - p: [3, 42]
-  k: {t: MOUSE, h: toggle}
-- p: [1, 40]
   k: {t: FKEYS, h: toggle}
 - p: [14, 15]
   k: PAUSE BREAK
 - p: [15, 16]
   k: INS
-- p: [15, 16, 17]
-  k: Ctl+Sft+ N
+- p: [16, 17]
+  k: '@'
 - p: [28, 29]
   k: $$mdi:backspace-reverse-outline$$
 - p: [29, 30]
@@ -443,8 +443,6 @@ combos:
   k: {t: ']', s: '}'}
 - p: [41, 42]
   k: <
-- p: [41, 42, 43]
-  k: Ctl+ N
 - p: [42, 43]
   k: '>'
 - p: [0, 39]
