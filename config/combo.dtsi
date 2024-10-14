@@ -156,7 +156,7 @@
 
         combo_less_than {
             bindings = <&kp LESS_THAN>;
-            key-positions = <40 41>;
+            key-positions = <41 42>;
             timeout-ms = <COMBO_TIMEOUT_MS>;
         };
 
@@ -168,7 +168,7 @@
 
         combo_greater_than {
             bindings = <&kp GREATER_THAN>;
-            key-positions = <41 42>;
+            key-positions = <42 43>;
             timeout-ms = <COMBO_TIMEOUT_MS>;
         };
 
@@ -199,6 +199,12 @@
         combo_scrolllock {
             bindings = <&kp SCROLLLOCK>;
             key-positions = <17 18>;
+            timeout-ms = <COMBO_TIMEOUT_MS>;
+        };
+
+        combo_numlock {
+            bindings = <&kp KP_NUMLOCK>;
+            key-positions = <40 41>;
             timeout-ms = <COMBO_TIMEOUT_MS>;
         };
 
