@@ -4,21 +4,21 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_bootloader_1 {
+        combo_bootloader_left {
             bindings = <&bootloader>;
-            key-positions = <1 2 3 4>;
+            key-positions = <4 44>;
+            timeout-ms = <COMBO_TIMEOUT_MS>;
+        };
+
+        combo_bootloader_right {
+            bindings = <&bootloader>;
+            key-positions = <8 46>;
             timeout-ms = <COMBO_TIMEOUT_MS>;
         };
 
         combo_number {
             bindings = <&tog 2>;
             key-positions = <2 3 4>;
-            timeout-ms = <COMBO_TIMEOUT_MS>;
-        };
-
-        combo_bootloader_2 {
-            bindings = <&bootloader>;
-            key-positions = <8 9 10 11>;
             timeout-ms = <COMBO_TIMEOUT_MS>;
         };
 
@@ -30,7 +30,7 @@
 
         combo_insert {
             bindings = <&kp INS>;
-            key-positions = <15 16>;
+            key-positions = <14 15>;
             timeout-ms = <COMBO_TIMEOUT_MS>;
         };
 
@@ -42,7 +42,7 @@
 
         combo_capslock {
             bindings = <&kp CLCK>;
-            key-positions = <16 17>;
+            key-positions = <17 18>;
             timeout-ms = <COMBO_TIMEOUT_MS>;
         };
 
@@ -60,7 +60,7 @@
 
         combo_delete {
             bindings = <&kp DEL>;
-            key-positions = <28 29>;
+            key-positions = <27 28>;
             timeout-ms = <COMBO_TIMEOUT_MS>;
         };
 
@@ -72,7 +72,7 @@
 
         combo_enter {
             bindings = <&kp ENTER>;
-            key-positions = <29 30>;
+            key-positions = <30 31>;
             timeout-ms = <COMBO_TIMEOUT_MS>;
         };
 
@@ -162,7 +162,7 @@
 
         combo_less_than {
             bindings = <&kp LESS_THAN>;
-            key-positions = <41 42>;
+            key-positions = <40 41>;
             timeout-ms = <COMBO_TIMEOUT_MS>;
         };
 
@@ -174,7 +174,7 @@
 
         combo_greater_than {
             bindings = <&kp GREATER_THAN>;
-            key-positions = <42 43>;
+            key-positions = <43 44>;
             timeout-ms = <COMBO_TIMEOUT_MS>;
         };
 
