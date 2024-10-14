@@ -767,8 +767,8 @@ rect.held, rect.combo.held {
 <text x="868" y="213" class="combo shifted">}</text>
 </g>
 <g class="combo combopos-25">
-<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
-<text x="112" y="214" class="combo tap">&lt;</text>
+<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
+<text x="168" y="200" class="combo tap">&lt;</text>
 </g>
 <g class="combo combopos-26">
 <path d="M196,201 l-37,2" class="combo"/>
@@ -779,8 +779,8 @@ rect.held, rect.combo.held {
 </text>
 </g>
 <g class="combo combopos-27">
-<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
-<text x="168" y="200" class="combo tap">&gt;</text>
+<rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
+<text x="224" y="200" class="combo tap">&gt;</text>
 </g>
 <g class="combo combopos-28">
 <path d="M28,140 l0,-65" class="combo"/>
@@ -815,6 +815,12 @@ rect.held, rect.combo.held {
 <text x="280" y="91" class="combo tap"><tspan style="font-size: 60%">SCROLLLOCK</tspan></text>
 </g>
 <g class="combo combopos-33">
+<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
+<text x="112" y="214" class="combo tap">
+<tspan x="112" dy="-0.6em" style="font-size: 86%">KP</tspan><tspan x="112" dy="1.2em" style="font-size: 86%">NUMLOCK</tspan>
+</text>
+</g>
+<g class="combo combopos-34">
 <rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="271" y="194" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 </g>
@@ -1290,8 +1296,8 @@ rect.held, rect.combo.held {
 <text x="868" y="213" class="combo shifted">}</text>
 </g>
 <g class="combo combopos-25">
-<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
-<text x="112" y="214" class="combo tap">&lt;</text>
+<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
+<text x="168" y="200" class="combo tap">&lt;</text>
 </g>
 <g class="combo combopos-26">
 <path d="M196,201 l-37,2" class="combo"/>
@@ -1302,8 +1308,8 @@ rect.held, rect.combo.held {
 </text>
 </g>
 <g class="combo combopos-27">
-<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
-<text x="168" y="200" class="combo tap">&gt;</text>
+<rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
+<text x="224" y="200" class="combo tap">&gt;</text>
 </g>
 <g class="combo combopos-28">
 <path d="M28,140 l0,-65" class="combo"/>
@@ -1338,6 +1344,12 @@ rect.held, rect.combo.held {
 <text x="280" y="91" class="combo tap"><tspan style="font-size: 60%">SCROLLLOCK</tspan></text>
 </g>
 <g class="combo combopos-33">
+<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
+<text x="112" y="214" class="combo tap">
+<tspan x="112" dy="-0.6em" style="font-size: 86%">KP</tspan><tspan x="112" dy="1.2em" style="font-size: 86%">NUMLOCK</tspan>
+</text>
+</g>
+<g class="combo combopos-34">
 <rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="271" y="194" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 </g>
@@ -1807,8 +1819,8 @@ rect.held, rect.combo.held {
 <text x="868" y="213" class="combo shifted">}</text>
 </g>
 <g class="combo combopos-25">
-<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
-<text x="112" y="214" class="combo tap">&lt;</text>
+<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
+<text x="168" y="200" class="combo tap">&lt;</text>
 </g>
 <g class="combo combopos-26">
 <path d="M196,201 l-37,2" class="combo"/>
@@ -1819,8 +1831,8 @@ rect.held, rect.combo.held {
 </text>
 </g>
 <g class="combo combopos-27">
-<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
-<text x="168" y="200" class="combo tap">&gt;</text>
+<rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
+<text x="224" y="200" class="combo tap">&gt;</text>
 </g>
 <g class="combo combopos-28">
 <path d="M28,140 l0,-65" class="combo"/>
@@ -1855,6 +1867,12 @@ rect.held, rect.combo.held {
 <text x="280" y="91" class="combo tap"><tspan style="font-size: 60%">SCROLLLOCK</tspan></text>
 </g>
 <g class="combo combopos-33">
+<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
+<text x="112" y="214" class="combo tap">
+<tspan x="112" dy="-0.6em" style="font-size: 86%">KP</tspan><tspan x="112" dy="1.2em" style="font-size: 86%">NUMLOCK</tspan>
+</text>
+</g>
+<g class="combo combopos-34">
 <rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="271" y="194" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 </g>
@@ -2314,8 +2332,8 @@ rect.held, rect.combo.held {
 <text x="868" y="213" class="combo shifted">}</text>
 </g>
 <g class="combo combopos-25">
-<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
-<text x="112" y="214" class="combo tap">&lt;</text>
+<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
+<text x="168" y="200" class="combo tap">&lt;</text>
 </g>
 <g class="combo combopos-26">
 <path d="M196,201 l-37,2" class="combo"/>
@@ -2326,8 +2344,8 @@ rect.held, rect.combo.held {
 </text>
 </g>
 <g class="combo combopos-27">
-<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
-<text x="168" y="200" class="combo tap">&gt;</text>
+<rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
+<text x="224" y="200" class="combo tap">&gt;</text>
 </g>
 <g class="combo combopos-28">
 <path d="M28,140 l0,-65" class="combo"/>
@@ -2362,6 +2380,12 @@ rect.held, rect.combo.held {
 <text x="280" y="91" class="combo tap"><tspan style="font-size: 60%">SCROLLLOCK</tspan></text>
 </g>
 <g class="combo combopos-33">
+<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
+<text x="112" y="214" class="combo tap">
+<tspan x="112" dy="-0.6em" style="font-size: 86%">KP</tspan><tspan x="112" dy="1.2em" style="font-size: 86%">NUMLOCK</tspan>
+</text>
+</g>
+<g class="combo combopos-34">
 <rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="271" y="194" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 </g>
@@ -2835,8 +2859,8 @@ rect.held, rect.combo.held {
 <text x="868" y="213" class="combo shifted">}</text>
 </g>
 <g class="combo combopos-25">
-<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
-<text x="112" y="214" class="combo tap">&lt;</text>
+<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
+<text x="168" y="200" class="combo tap">&lt;</text>
 </g>
 <g class="combo combopos-26">
 <path d="M196,201 l-37,2" class="combo"/>
@@ -2847,8 +2871,8 @@ rect.held, rect.combo.held {
 </text>
 </g>
 <g class="combo combopos-27">
-<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
-<text x="168" y="200" class="combo tap">&gt;</text>
+<rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
+<text x="224" y="200" class="combo tap">&gt;</text>
 </g>
 <g class="combo combopos-28">
 <path d="M28,140 l0,-65" class="combo"/>
@@ -2883,6 +2907,12 @@ rect.held, rect.combo.held {
 <text x="280" y="91" class="combo tap"><tspan style="font-size: 60%">SCROLLLOCK</tspan></text>
 </g>
 <g class="combo combopos-33">
+<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
+<text x="112" y="214" class="combo tap">
+<tspan x="112" dy="-0.6em" style="font-size: 86%">KP</tspan><tspan x="112" dy="1.2em" style="font-size: 86%">NUMLOCK</tspan>
+</text>
+</g>
+<g class="combo combopos-34">
 <rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="271" y="194" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 </g>
@@ -3354,8 +3384,8 @@ rect.held, rect.combo.held {
 <text x="868" y="213" class="combo shifted">}</text>
 </g>
 <g class="combo combopos-25">
-<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
-<text x="112" y="214" class="combo tap">&lt;</text>
+<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
+<text x="168" y="200" class="combo tap">&lt;</text>
 </g>
 <g class="combo combopos-26">
 <path d="M196,201 l-37,2" class="combo"/>
@@ -3366,8 +3396,8 @@ rect.held, rect.combo.held {
 </text>
 </g>
 <g class="combo combopos-27">
-<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
-<text x="168" y="200" class="combo tap">&gt;</text>
+<rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
+<text x="224" y="200" class="combo tap">&gt;</text>
 </g>
 <g class="combo combopos-28">
 <path d="M28,140 l0,-65" class="combo"/>
@@ -3402,6 +3432,12 @@ rect.held, rect.combo.held {
 <text x="280" y="91" class="combo tap"><tspan style="font-size: 60%">SCROLLLOCK</tspan></text>
 </g>
 <g class="combo combopos-33">
+<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
+<text x="112" y="214" class="combo tap">
+<tspan x="112" dy="-0.6em" style="font-size: 86%">KP</tspan><tspan x="112" dy="1.2em" style="font-size: 86%">NUMLOCK</tspan>
+</text>
+</g>
+<g class="combo combopos-34">
 <rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="271" y="194" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 </g>

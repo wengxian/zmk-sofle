@@ -441,11 +441,11 @@ combos:
   k: {t: '[', s: '{'}
 - p: [50, 51]
   k: {t: ']', s: '}'}
-- p: [40, 41]
+- p: [41, 42]
   k: <
 - p: [41, 42, 43]
   k: Ctl+ N
-- p: [41, 42]
+- p: [42, 43]
   k: '>'
 - p: [0, 39]
   k: Gui+Sft+ S
@@ -459,5 +459,7 @@ combos:
   k: BT CLR ALL
 - p: [17, 18]
   k: SCROLLLOCK
+- p: [40, 41]
+  k: KP NUMLOCK
 - p: [43, 44]
   k: $$mdi:apple-keyboard-caps$$
