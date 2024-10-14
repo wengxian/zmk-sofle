@@ -392,7 +392,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [4, 43]
-  k: $$mdi:progress-download$$
+  k: {t: SETTING, h: toggle}
 - p: [8, 47]
   k: $$mdi:progress-download$$
 - p: [1, 40]
