@@ -391,6 +391,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
+- p: [0, 39]
+  k: {t: QWERTY, h: toggle}
 - p: [1, 40]
   k: {t: FKEYS, h: toggle}
 - p: [2, 41]
