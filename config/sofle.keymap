@@ -20,13 +20,6 @@
         require-prior-idle-ms = <125>;
     };
 
-    td_lgui_mo: td_lgui_mo {
-        compatible = "zmk,behavior-tap-dance";
-        #binding-cells = <0>;
-        tapping-term-ms = <200>;
-        bindings = <&kp LGUI>, <&mo 5>;
-    };
-
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
         #sensor-binding-cells = <0>;
@@ -39,11 +32,11 @@
 
         layer_0 {
             bindings = <
-&kp ESC    &kp N1    &kp N2     &kp N3  &kp N4     &kp N5       U_MS_U  &kp N6      &kp N7    &kp N8     &kp N9     &kp N0    &kp GRAVE
-&kp TAB    &kp Q     &kp W      &kp E   &kp R      &kp T        U_MS_D  &kp Y       &kp U     &kp I      &kp O      &kp P     &kp BSLH
-&kp BSPC   &kp A     &kp S      &kp D   &kp F      &kp G        U_MS_L  &kp H       &kp J     &kp K      &kp L      &kp SEMI  &kp APOS
-&kp LSHFT  &kp Z     &kp X      &kp C   &kp V      &kp B        U_MS_R  &kp N       &kp M     &kp COMMA  &kp DOT    &kp FSLH  &kp ENTER
-U_KP_R     &kp LALT  &kp LCTRL  &mo 4   &kp SPACE  &td_lgui_mo  U_KP_L  &ltq 5 DEL  &kp BSPC  &mo 4      &kp RCTRL  &kp RALT
+&kp ESC    &kp N1    &kp N2     &kp N3  &kp N4     &kp N5    U_MS_U  &kp N6   &kp N7    &kp N8     &kp N9     &kp N0    &kp GRAVE
+&kp TAB    &kp Q     &kp W      &kp E   &kp R      &kp T     U_MS_D  &kp Y    &kp U     &kp I      &kp O      &kp P     &kp BSLH
+&kp BSPC   &kp A     &kp S      &kp D   &kp F      &kp G     U_MS_L  &kp H    &kp J     &kp K      &kp L      &kp SEMI  &kp APOS
+&kp LSHFT  &kp Z     &kp X      &kp C   &kp V      &kp B     U_MS_R  &kp N    &kp M     &kp COMMA  &kp DOT    &kp FSLH  &kp ENTER
+U_KP_R     &kp LALT  &kp LCTRL  &mo 4   &kp SPACE  &kp LGUI  U_KP_L  &kp DEL  &kp BSPC  &mo 4      &kp RCTRL  &kp RALT
             >;
 
             display-name = "QWERTY";
@@ -76,7 +69,7 @@ U_KP_R  &trans  &trans  &trans  &trans  &trans  U_KP_L  &trans  &trans  &trans  
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_3 {
+        layer_4 {
             bindings = <
 &trans  &trans     &trans     &trans     &trans     &trans     U_MS_U  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  U_KP_R     U_MS_U     U_KP_M     &trans     &trans     U_MS_D  &trans  &trans  &trans  &trans  &trans  &trans
@@ -104,11 +97,11 @@ U_KP_R  &trans        &trans     &trans         &trans     &trans     U_KP_L  &t
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans             &trans            &trans           &trans  U_MS_U  &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2      &bt BT_SEL 3     &bt BT_SEL 4  &out OUT_USB
-&trans  &trans  &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT       &trans  U_MS_D  &trans        &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT       &trans        &out OUT_BLE
-&trans  &trans  &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOLUME_UP  &trans  U_MS_L  &trans        &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOLUME_UP  &trans        &trans
-&trans  &trans  &trans             &trans            &trans           &trans  U_MS_R  &trans        &trans             &trans            &trans           &trans        &trans
-U_KP_R  &trans  &trans             &trans            &trans           &trans  U_KP_L  &trans        &trans             &trans            &trans           &trans
+&out OUT_USB  &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2      &bt BT_SEL 3       &bt BT_SEL 4  U_MS_U  &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2      &bt BT_SEL 3     &bt BT_SEL 4  &out OUT_USB
+&out OUT_BLE  &trans        &kp C_PREV       &kp C_PLAY_PAUSE  &kp C_NEXT         &trans        U_MS_D  &trans        &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT       &trans        &out OUT_BLE
+&trans        &trans        &kp C_VOLUME_UP  &kp C_MUTE        &kp C_VOLUME_DOWN  &trans        U_MS_L  &trans        &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOLUME_UP  &trans        &trans
+&trans        &trans        &trans           &trans            &trans             &trans        U_MS_R  &trans        &trans             &trans            &trans           &trans        &trans
+U_KP_R        &trans        &trans           &trans            &trans             &trans        U_KP_L  &trans        &trans             &trans            &trans           &trans
             >;
             
             display-name = "SETTING";
