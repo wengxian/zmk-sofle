@@ -671,18 +671,26 @@ rect.held, rect.combo.held {
 </a><text x="196" y="123" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
+<path d="M252,119 l0,-65" class="combo"/>
+<path d="M252,119 l0,65" class="combo"/>
+<rect rx="6" ry="6" x="238" y="106" width="28" height="26" class="combo"/>
+<a href="#SETTING">
+<text x="252" y="119" class="combo tap layer-activator"><tspan style="font-size: 86%">SETTING</tspan></text>
+</a><text x="252" y="130" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-5">
 <path d="M728,112 l0,-65" class="combo"/>
 <path d="M728,112 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="714" y="99" width="28" height="26" class="combo"/>
 <use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="719" y="103" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-6">
 <path d="M616,4 l0,19" class="combo"/>
 <path d="M616,4 l0,180" class="combo"/>
 <rect rx="6" ry="6" x="602" y="-9" width="28" height="26" class="combo"/>
 <use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="607" y="-5" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-7">
 <path d="M896,140 l0,-65" class="combo"/>
 <path d="M896,140 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="882" y="127" width="28" height="26" class="combo"/>
@@ -690,103 +698,103 @@ rect.held, rect.combo.held {
 <tspan x="896" dy="-0.6em">BT</tspan><tspan x="896" dy="1.2em">…</tspan>
 </text>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-8">
 <rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
 <text x="168" y="88" class="combo tap">INS</text>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-9">
 <rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="159" y="134" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
-<g class="combo enter combopos-9">
+<g class="combo enter combopos-10">
 <rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo enter"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="215" y="134" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
 </g>
-<g class="combo combopos-10">
+<g class="combo combopos-11">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
 <text x="224" y="88" class="combo tap">@</text>
 </g>
-<g class="combo combopos-11">
+<g class="combo combopos-12">
 <rect rx="6" ry="6" x="630" y="78" width="28" height="26" class="combo"/>
 <text x="644" y="91" class="combo tap">+</text>
 </g>
-<g class="combo combopos-12">
+<g class="combo combopos-13">
 <rect rx="6" ry="6" x="686" y="74" width="28" height="26" class="combo"/>
 <text x="700" y="98" class="combo hold">-</text>
 <text x="700" y="76" class="combo shifted">_</text>
 </g>
-<g class="combo combopos-13">
+<g class="combo combopos-14">
 <rect rx="6" ry="6" x="742" y="74" width="28" height="26" class="combo"/>
 <text x="756" y="88" class="combo tap">*</text>
 </g>
-<g class="combo combopos-14">
+<g class="combo combopos-15">
 <rect rx="6" ry="6" x="798" y="89" width="28" height="26" class="combo"/>
 <text x="812" y="102" class="combo tap">(</text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-16">
 <rect rx="6" ry="6" x="854" y="99" width="28" height="26" class="combo"/>
 <text x="868" y="112" class="combo tap">)</text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-17">
 <rect rx="6" ry="6" x="98" y="145" width="28" height="26" class="combo"/>
 <text x="112" y="158" class="combo tap">#</text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-18">
 <rect rx="6" ry="6" x="266" y="134" width="28" height="26" class="combo"/>
 <text x="280" y="147" class="combo tap">^</text>
 </g>
-<g class="combo combopos-18">
+<g class="combo combopos-19">
 <rect rx="6" ry="6" x="630" y="134" width="28" height="26" class="combo"/>
 <text x="644" y="158" class="combo hold">=</text>
 <text x="644" y="136" class="combo shifted">+</text>
 </g>
-<g class="combo combopos-19">
+<g class="combo combopos-20">
 <rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo"/>
 <text x="700" y="144" class="combo tap">_</text>
 </g>
-<g class="combo combopos-20">
+<g class="combo combopos-21">
 <rect rx="6" ry="6" x="742" y="130" width="28" height="26" class="combo"/>
 <text x="756" y="144" class="combo tap">%</text>
 </g>
-<g class="combo combopos-21">
+<g class="combo combopos-22">
 <rect rx="6" ry="6" x="798" y="145" width="28" height="26" class="combo"/>
 <text x="812" y="158" class="combo tap">{</text>
 </g>
-<g class="combo combopos-22">
+<g class="combo combopos-23">
 <rect rx="6" ry="6" x="854" y="155" width="28" height="26" class="combo"/>
 <text x="868" y="168" class="combo tap">}</text>
 </g>
-<g class="combo combopos-23">
+<g class="combo combopos-24">
 <rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
 <text x="168" y="200" class="combo tap">&lt;</text>
 </g>
-<g class="combo combopos-24">
+<g class="combo combopos-25">
 <rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
 <text x="224" y="200" class="combo tap">&gt;</text>
 </g>
-<g class="combo combopos-25">
+<g class="combo combopos-26">
 <rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
 <text x="644" y="203" class="combo tap">!</text>
 </g>
-<g class="combo combopos-26">
+<g class="combo combopos-27">
 <rect rx="6" ry="6" x="686" y="186" width="28" height="26" class="combo"/>
 <text x="700" y="200" class="combo tap">?</text>
 </g>
-<g class="combo combopos-27">
+<g class="combo combopos-28">
 <rect rx="6" ry="6" x="742" y="186" width="28" height="26" class="combo"/>
 <text x="756" y="200" class="combo tap">&amp;</text>
 </g>
-<g class="combo combopos-28">
+<g class="combo combopos-29">
 <rect rx="6" ry="6" x="798" y="201" width="28" height="26" class="combo"/>
 <text x="812" y="214" class="combo tap">[</text>
 <text x="812" y="203" class="combo shifted">{</text>
 </g>
-<g class="combo combopos-29">
+<g class="combo combopos-30">
 <rect rx="6" ry="6" x="854" y="211" width="28" height="26" class="combo"/>
 <text x="868" y="224" class="combo tap">]</text>
 <text x="868" y="213" class="combo shifted">}</text>
 </g>
-<g class="combo combopos-30">
+<g class="combo combopos-31">
 <path d="M28,140 l0,-65" class="combo"/>
 <path d="M28,140 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="14" y="127" width="28" height="26" class="combo"/>
@@ -794,29 +802,29 @@ rect.held, rect.combo.held {
 <tspan x="28" dy="-0.6em" style="font-size: 75%">Gui+Sft+</tspan><tspan x="28" dy="1.2em" style="font-size: 75%">S</tspan>
 </text>
 </g>
-<g class="combo combopos-31">
+<g class="combo combopos-32">
 <path d="M308,119 l0,-65" class="combo"/>
 <path d="M308,119 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="294" y="106" width="28" height="26" class="combo"/>
 <use href="#mdi:printer-outline" xlink:href="#mdi:printer-outline" x="299" y="110" height="18" width="18.0" class="combo tap glyph mdi:printer-outline"/>
 </g>
-<g class="combo combopos-32">
+<g class="combo combopos-33">
 <rect rx="6" ry="6" x="98" y="89" width="28" height="26" class="combo"/>
 <text x="112" y="102" class="combo tap">
 <tspan x="112" dy="-0.6em">PAUSE</tspan><tspan x="112" dy="1.2em">BREAK</tspan>
 </text>
 </g>
-<g class="combo combopos-33">
+<g class="combo combopos-34">
 <rect rx="6" ry="6" x="266" y="78" width="28" height="26" class="combo"/>
 <text x="280" y="91" class="combo tap"><tspan style="font-size: 60%">SCROLLLOCK</tspan></text>
 </g>
-<g class="combo combopos-34">
+<g class="combo combopos-35">
 <rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
 <text x="112" y="214" class="combo tap">
 <tspan x="112" dy="-0.6em" style="font-size: 86%">KP</tspan><tspan x="112" dy="1.2em" style="font-size: 86%">NUMLOCK</tspan>
 </text>
 </g>
-<g class="combo combopos-35">
+<g class="combo combopos-36">
 <rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="271" y="194" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 </g>
@@ -1182,18 +1190,26 @@ rect.held, rect.combo.held {
 </a><text x="196" y="123" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
+<path d="M252,119 l0,-65" class="combo"/>
+<path d="M252,119 l0,65" class="combo"/>
+<rect rx="6" ry="6" x="238" y="106" width="28" height="26" class="combo"/>
+<a href="#SETTING">
+<text x="252" y="119" class="combo tap layer-activator"><tspan style="font-size: 86%">SETTING</tspan></text>
+</a><text x="252" y="130" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-5">
 <path d="M728,112 l0,-65" class="combo"/>
 <path d="M728,112 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="714" y="99" width="28" height="26" class="combo"/>
 <use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="719" y="103" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-6">
 <path d="M616,4 l0,19" class="combo"/>
 <path d="M616,4 l0,180" class="combo"/>
 <rect rx="6" ry="6" x="602" y="-9" width="28" height="26" class="combo"/>
 <use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="607" y="-5" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-7">
 <path d="M896,140 l0,-65" class="combo"/>
 <path d="M896,140 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="882" y="127" width="28" height="26" class="combo"/>
@@ -1201,103 +1217,103 @@ rect.held, rect.combo.held {
 <tspan x="896" dy="-0.6em">BT</tspan><tspan x="896" dy="1.2em">…</tspan>
 </text>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-8">
 <rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
 <text x="168" y="88" class="combo tap">INS</text>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-9">
 <rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="159" y="134" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
-<g class="combo enter combopos-9">
+<g class="combo enter combopos-10">
 <rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo enter"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="215" y="134" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
 </g>
-<g class="combo combopos-10">
+<g class="combo combopos-11">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
 <text x="224" y="88" class="combo tap">@</text>
 </g>
-<g class="combo combopos-11">
+<g class="combo combopos-12">
 <rect rx="6" ry="6" x="630" y="78" width="28" height="26" class="combo"/>
 <text x="644" y="91" class="combo tap">+</text>
 </g>
-<g class="combo combopos-12">
+<g class="combo combopos-13">
 <rect rx="6" ry="6" x="686" y="74" width="28" height="26" class="combo"/>
 <text x="700" y="98" class="combo hold">-</text>
 <text x="700" y="76" class="combo shifted">_</text>
 </g>
-<g class="combo combopos-13">
+<g class="combo combopos-14">
 <rect rx="6" ry="6" x="742" y="74" width="28" height="26" class="combo"/>
 <text x="756" y="88" class="combo tap">*</text>
 </g>
-<g class="combo combopos-14">
+<g class="combo combopos-15">
 <rect rx="6" ry="6" x="798" y="89" width="28" height="26" class="combo"/>
 <text x="812" y="102" class="combo tap">(</text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-16">
 <rect rx="6" ry="6" x="854" y="99" width="28" height="26" class="combo"/>
 <text x="868" y="112" class="combo tap">)</text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-17">
 <rect rx="6" ry="6" x="98" y="145" width="28" height="26" class="combo"/>
 <text x="112" y="158" class="combo tap">#</text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-18">
 <rect rx="6" ry="6" x="266" y="134" width="28" height="26" class="combo"/>
 <text x="280" y="147" class="combo tap">^</text>
 </g>
-<g class="combo combopos-18">
+<g class="combo combopos-19">
 <rect rx="6" ry="6" x="630" y="134" width="28" height="26" class="combo"/>
 <text x="644" y="158" class="combo hold">=</text>
 <text x="644" y="136" class="combo shifted">+</text>
 </g>
-<g class="combo combopos-19">
+<g class="combo combopos-20">
 <rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo"/>
 <text x="700" y="144" class="combo tap">_</text>
 </g>
-<g class="combo combopos-20">
+<g class="combo combopos-21">
 <rect rx="6" ry="6" x="742" y="130" width="28" height="26" class="combo"/>
 <text x="756" y="144" class="combo tap">%</text>
 </g>
-<g class="combo combopos-21">
+<g class="combo combopos-22">
 <rect rx="6" ry="6" x="798" y="145" width="28" height="26" class="combo"/>
 <text x="812" y="158" class="combo tap">{</text>
 </g>
-<g class="combo combopos-22">
+<g class="combo combopos-23">
 <rect rx="6" ry="6" x="854" y="155" width="28" height="26" class="combo"/>
 <text x="868" y="168" class="combo tap">}</text>
 </g>
-<g class="combo combopos-23">
+<g class="combo combopos-24">
 <rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
 <text x="168" y="200" class="combo tap">&lt;</text>
 </g>
-<g class="combo combopos-24">
+<g class="combo combopos-25">
 <rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
 <text x="224" y="200" class="combo tap">&gt;</text>
 </g>
-<g class="combo combopos-25">
+<g class="combo combopos-26">
 <rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
 <text x="644" y="203" class="combo tap">!</text>
 </g>
-<g class="combo combopos-26">
+<g class="combo combopos-27">
 <rect rx="6" ry="6" x="686" y="186" width="28" height="26" class="combo"/>
 <text x="700" y="200" class="combo tap">?</text>
 </g>
-<g class="combo combopos-27">
+<g class="combo combopos-28">
 <rect rx="6" ry="6" x="742" y="186" width="28" height="26" class="combo"/>
 <text x="756" y="200" class="combo tap">&amp;</text>
 </g>
-<g class="combo combopos-28">
+<g class="combo combopos-29">
 <rect rx="6" ry="6" x="798" y="201" width="28" height="26" class="combo"/>
 <text x="812" y="214" class="combo tap">[</text>
 <text x="812" y="203" class="combo shifted">{</text>
 </g>
-<g class="combo combopos-29">
+<g class="combo combopos-30">
 <rect rx="6" ry="6" x="854" y="211" width="28" height="26" class="combo"/>
 <text x="868" y="224" class="combo tap">]</text>
 <text x="868" y="213" class="combo shifted">}</text>
 </g>
-<g class="combo combopos-30">
+<g class="combo combopos-31">
 <path d="M28,140 l0,-65" class="combo"/>
 <path d="M28,140 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="14" y="127" width="28" height="26" class="combo"/>
@@ -1305,29 +1321,29 @@ rect.held, rect.combo.held {
 <tspan x="28" dy="-0.6em" style="font-size: 75%">Gui+Sft+</tspan><tspan x="28" dy="1.2em" style="font-size: 75%">S</tspan>
 </text>
 </g>
-<g class="combo combopos-31">
+<g class="combo combopos-32">
 <path d="M308,119 l0,-65" class="combo"/>
 <path d="M308,119 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="294" y="106" width="28" height="26" class="combo"/>
 <use href="#mdi:printer-outline" xlink:href="#mdi:printer-outline" x="299" y="110" height="18" width="18.0" class="combo tap glyph mdi:printer-outline"/>
 </g>
-<g class="combo combopos-32">
+<g class="combo combopos-33">
 <rect rx="6" ry="6" x="98" y="89" width="28" height="26" class="combo"/>
 <text x="112" y="102" class="combo tap">
 <tspan x="112" dy="-0.6em">PAUSE</tspan><tspan x="112" dy="1.2em">BREAK</tspan>
 </text>
 </g>
-<g class="combo combopos-33">
+<g class="combo combopos-34">
 <rect rx="6" ry="6" x="266" y="78" width="28" height="26" class="combo"/>
 <text x="280" y="91" class="combo tap"><tspan style="font-size: 60%">SCROLLLOCK</tspan></text>
 </g>
-<g class="combo combopos-34">
+<g class="combo combopos-35">
 <rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
 <text x="112" y="214" class="combo tap">
 <tspan x="112" dy="-0.6em" style="font-size: 86%">KP</tspan><tspan x="112" dy="1.2em" style="font-size: 86%">NUMLOCK</tspan>
 </text>
 </g>
-<g class="combo combopos-35">
+<g class="combo combopos-36">
 <rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="271" y="194" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 </g>
@@ -1718,18 +1734,26 @@ rect.held, rect.combo.held {
 </a><text x="196" y="123" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
+<path d="M252,119 l0,-65" class="combo"/>
+<path d="M252,119 l0,65" class="combo"/>
+<rect rx="6" ry="6" x="238" y="106" width="28" height="26" class="combo"/>
+<a href="#SETTING">
+<text x="252" y="119" class="combo tap layer-activator"><tspan style="font-size: 86%">SETTING</tspan></text>
+</a><text x="252" y="130" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-5">
 <path d="M728,112 l0,-65" class="combo"/>
 <path d="M728,112 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="714" y="99" width="28" height="26" class="combo"/>
 <use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="719" y="103" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-6">
 <path d="M616,4 l0,19" class="combo"/>
 <path d="M616,4 l0,180" class="combo"/>
 <rect rx="6" ry="6" x="602" y="-9" width="28" height="26" class="combo"/>
 <use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="607" y="-5" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-7">
 <path d="M896,140 l0,-65" class="combo"/>
 <path d="M896,140 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="882" y="127" width="28" height="26" class="combo"/>
@@ -1737,103 +1761,103 @@ rect.held, rect.combo.held {
 <tspan x="896" dy="-0.6em">BT</tspan><tspan x="896" dy="1.2em">…</tspan>
 </text>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-8">
 <rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
 <text x="168" y="88" class="combo tap">INS</text>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-9">
 <rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="159" y="134" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
-<g class="combo enter combopos-9">
+<g class="combo enter combopos-10">
 <rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo enter"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="215" y="134" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
 </g>
-<g class="combo combopos-10">
+<g class="combo combopos-11">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
 <text x="224" y="88" class="combo tap">@</text>
 </g>
-<g class="combo combopos-11">
+<g class="combo combopos-12">
 <rect rx="6" ry="6" x="630" y="78" width="28" height="26" class="combo"/>
 <text x="644" y="91" class="combo tap">+</text>
 </g>
-<g class="combo combopos-12">
+<g class="combo combopos-13">
 <rect rx="6" ry="6" x="686" y="74" width="28" height="26" class="combo"/>
 <text x="700" y="98" class="combo hold">-</text>
 <text x="700" y="76" class="combo shifted">_</text>
 </g>
-<g class="combo combopos-13">
+<g class="combo combopos-14">
 <rect rx="6" ry="6" x="742" y="74" width="28" height="26" class="combo"/>
 <text x="756" y="88" class="combo tap">*</text>
 </g>
-<g class="combo combopos-14">
+<g class="combo combopos-15">
 <rect rx="6" ry="6" x="798" y="89" width="28" height="26" class="combo"/>
 <text x="812" y="102" class="combo tap">(</text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-16">
 <rect rx="6" ry="6" x="854" y="99" width="28" height="26" class="combo"/>
 <text x="868" y="112" class="combo tap">)</text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-17">
 <rect rx="6" ry="6" x="98" y="145" width="28" height="26" class="combo"/>
 <text x="112" y="158" class="combo tap">#</text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-18">
 <rect rx="6" ry="6" x="266" y="134" width="28" height="26" class="combo"/>
 <text x="280" y="147" class="combo tap">^</text>
 </g>
-<g class="combo combopos-18">
+<g class="combo combopos-19">
 <rect rx="6" ry="6" x="630" y="134" width="28" height="26" class="combo"/>
 <text x="644" y="158" class="combo hold">=</text>
 <text x="644" y="136" class="combo shifted">+</text>
 </g>
-<g class="combo combopos-19">
+<g class="combo combopos-20">
 <rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo"/>
 <text x="700" y="144" class="combo tap">_</text>
 </g>
-<g class="combo combopos-20">
+<g class="combo combopos-21">
 <rect rx="6" ry="6" x="742" y="130" width="28" height="26" class="combo"/>
 <text x="756" y="144" class="combo tap">%</text>
 </g>
-<g class="combo combopos-21">
+<g class="combo combopos-22">
 <rect rx="6" ry="6" x="798" y="145" width="28" height="26" class="combo"/>
 <text x="812" y="158" class="combo tap">{</text>
 </g>
-<g class="combo combopos-22">
+<g class="combo combopos-23">
 <rect rx="6" ry="6" x="854" y="155" width="28" height="26" class="combo"/>
 <text x="868" y="168" class="combo tap">}</text>
 </g>
-<g class="combo combopos-23">
+<g class="combo combopos-24">
 <rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
 <text x="168" y="200" class="combo tap">&lt;</text>
 </g>
-<g class="combo combopos-24">
+<g class="combo combopos-25">
 <rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
 <text x="224" y="200" class="combo tap">&gt;</text>
 </g>
-<g class="combo combopos-25">
+<g class="combo combopos-26">
 <rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
 <text x="644" y="203" class="combo tap">!</text>
 </g>
-<g class="combo combopos-26">
+<g class="combo combopos-27">
 <rect rx="6" ry="6" x="686" y="186" width="28" height="26" class="combo"/>
 <text x="700" y="200" class="combo tap">?</text>
 </g>
-<g class="combo combopos-27">
+<g class="combo combopos-28">
 <rect rx="6" ry="6" x="742" y="186" width="28" height="26" class="combo"/>
 <text x="756" y="200" class="combo tap">&amp;</text>
 </g>
-<g class="combo combopos-28">
+<g class="combo combopos-29">
 <rect rx="6" ry="6" x="798" y="201" width="28" height="26" class="combo"/>
 <text x="812" y="214" class="combo tap">[</text>
 <text x="812" y="203" class="combo shifted">{</text>
 </g>
-<g class="combo combopos-29">
+<g class="combo combopos-30">
 <rect rx="6" ry="6" x="854" y="211" width="28" height="26" class="combo"/>
 <text x="868" y="224" class="combo tap">]</text>
 <text x="868" y="213" class="combo shifted">}</text>
 </g>
-<g class="combo combopos-30">
+<g class="combo combopos-31">
 <path d="M28,140 l0,-65" class="combo"/>
 <path d="M28,140 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="14" y="127" width="28" height="26" class="combo"/>
@@ -1841,29 +1865,29 @@ rect.held, rect.combo.held {
 <tspan x="28" dy="-0.6em" style="font-size: 75%">Gui+Sft+</tspan><tspan x="28" dy="1.2em" style="font-size: 75%">S</tspan>
 </text>
 </g>
-<g class="combo combopos-31">
+<g class="combo combopos-32">
 <path d="M308,119 l0,-65" class="combo"/>
 <path d="M308,119 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="294" y="106" width="28" height="26" class="combo"/>
 <use href="#mdi:printer-outline" xlink:href="#mdi:printer-outline" x="299" y="110" height="18" width="18.0" class="combo tap glyph mdi:printer-outline"/>
 </g>
-<g class="combo combopos-32">
+<g class="combo combopos-33">
 <rect rx="6" ry="6" x="98" y="89" width="28" height="26" class="combo"/>
 <text x="112" y="102" class="combo tap">
 <tspan x="112" dy="-0.6em">PAUSE</tspan><tspan x="112" dy="1.2em">BREAK</tspan>
 </text>
 </g>
-<g class="combo combopos-33">
+<g class="combo combopos-34">
 <rect rx="6" ry="6" x="266" y="78" width="28" height="26" class="combo"/>
 <text x="280" y="91" class="combo tap"><tspan style="font-size: 60%">SCROLLLOCK</tspan></text>
 </g>
-<g class="combo combopos-34">
+<g class="combo combopos-35">
 <rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
 <text x="112" y="214" class="combo tap">
 <tspan x="112" dy="-0.6em" style="font-size: 86%">KP</tspan><tspan x="112" dy="1.2em" style="font-size: 86%">NUMLOCK</tspan>
 </text>
 </g>
-<g class="combo combopos-35">
+<g class="combo combopos-36">
 <rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="271" y="194" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 </g>
@@ -2243,18 +2267,26 @@ rect.held, rect.combo.held {
 </a><text x="196" y="123" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
+<path d="M252,119 l0,-65" class="combo"/>
+<path d="M252,119 l0,65" class="combo"/>
+<rect rx="6" ry="6" x="238" y="106" width="28" height="26" class="combo"/>
+<a href="#SETTING">
+<text x="252" y="119" class="combo tap layer-activator"><tspan style="font-size: 86%">SETTING</tspan></text>
+</a><text x="252" y="130" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-5">
 <path d="M728,112 l0,-65" class="combo"/>
 <path d="M728,112 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="714" y="99" width="28" height="26" class="combo"/>
 <use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="719" y="103" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-6">
 <path d="M616,4 l0,19" class="combo"/>
 <path d="M616,4 l0,180" class="combo"/>
 <rect rx="6" ry="6" x="602" y="-9" width="28" height="26" class="combo"/>
 <use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="607" y="-5" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-7">
 <path d="M896,140 l0,-65" class="combo"/>
 <path d="M896,140 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="882" y="127" width="28" height="26" class="combo"/>
@@ -2262,103 +2294,103 @@ rect.held, rect.combo.held {
 <tspan x="896" dy="-0.6em">BT</tspan><tspan x="896" dy="1.2em">…</tspan>
 </text>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-8">
 <rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
 <text x="168" y="88" class="combo tap">INS</text>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-9">
 <rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="159" y="134" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
-<g class="combo enter combopos-9">
+<g class="combo enter combopos-10">
 <rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo enter"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="215" y="134" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
 </g>
-<g class="combo combopos-10">
+<g class="combo combopos-11">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
 <text x="224" y="88" class="combo tap">@</text>
 </g>
-<g class="combo combopos-11">
+<g class="combo combopos-12">
 <rect rx="6" ry="6" x="630" y="78" width="28" height="26" class="combo"/>
 <text x="644" y="91" class="combo tap">+</text>
 </g>
-<g class="combo combopos-12">
+<g class="combo combopos-13">
 <rect rx="6" ry="6" x="686" y="74" width="28" height="26" class="combo"/>
 <text x="700" y="98" class="combo hold">-</text>
 <text x="700" y="76" class="combo shifted">_</text>
 </g>
-<g class="combo combopos-13">
+<g class="combo combopos-14">
 <rect rx="6" ry="6" x="742" y="74" width="28" height="26" class="combo"/>
 <text x="756" y="88" class="combo tap">*</text>
 </g>
-<g class="combo combopos-14">
+<g class="combo combopos-15">
 <rect rx="6" ry="6" x="798" y="89" width="28" height="26" class="combo"/>
 <text x="812" y="102" class="combo tap">(</text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-16">
 <rect rx="6" ry="6" x="854" y="99" width="28" height="26" class="combo"/>
 <text x="868" y="112" class="combo tap">)</text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-17">
 <rect rx="6" ry="6" x="98" y="145" width="28" height="26" class="combo"/>
 <text x="112" y="158" class="combo tap">#</text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-18">
 <rect rx="6" ry="6" x="266" y="134" width="28" height="26" class="combo"/>
 <text x="280" y="147" class="combo tap">^</text>
 </g>
-<g class="combo combopos-18">
+<g class="combo combopos-19">
 <rect rx="6" ry="6" x="630" y="134" width="28" height="26" class="combo"/>
 <text x="644" y="158" class="combo hold">=</text>
 <text x="644" y="136" class="combo shifted">+</text>
 </g>
-<g class="combo combopos-19">
+<g class="combo combopos-20">
 <rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo"/>
 <text x="700" y="144" class="combo tap">_</text>
 </g>
-<g class="combo combopos-20">
+<g class="combo combopos-21">
 <rect rx="6" ry="6" x="742" y="130" width="28" height="26" class="combo"/>
 <text x="756" y="144" class="combo tap">%</text>
 </g>
-<g class="combo combopos-21">
+<g class="combo combopos-22">
 <rect rx="6" ry="6" x="798" y="145" width="28" height="26" class="combo"/>
 <text x="812" y="158" class="combo tap">{</text>
 </g>
-<g class="combo combopos-22">
+<g class="combo combopos-23">
 <rect rx="6" ry="6" x="854" y="155" width="28" height="26" class="combo"/>
 <text x="868" y="168" class="combo tap">}</text>
 </g>
-<g class="combo combopos-23">
+<g class="combo combopos-24">
 <rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
 <text x="168" y="200" class="combo tap">&lt;</text>
 </g>
-<g class="combo combopos-24">
+<g class="combo combopos-25">
 <rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
 <text x="224" y="200" class="combo tap">&gt;</text>
 </g>
-<g class="combo combopos-25">
+<g class="combo combopos-26">
 <rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
 <text x="644" y="203" class="combo tap">!</text>
 </g>
-<g class="combo combopos-26">
+<g class="combo combopos-27">
 <rect rx="6" ry="6" x="686" y="186" width="28" height="26" class="combo"/>
 <text x="700" y="200" class="combo tap">?</text>
 </g>
-<g class="combo combopos-27">
+<g class="combo combopos-28">
 <rect rx="6" ry="6" x="742" y="186" width="28" height="26" class="combo"/>
 <text x="756" y="200" class="combo tap">&amp;</text>
 </g>
-<g class="combo combopos-28">
+<g class="combo combopos-29">
 <rect rx="6" ry="6" x="798" y="201" width="28" height="26" class="combo"/>
 <text x="812" y="214" class="combo tap">[</text>
 <text x="812" y="203" class="combo shifted">{</text>
 </g>
-<g class="combo combopos-29">
+<g class="combo combopos-30">
 <rect rx="6" ry="6" x="854" y="211" width="28" height="26" class="combo"/>
 <text x="868" y="224" class="combo tap">]</text>
 <text x="868" y="213" class="combo shifted">}</text>
 </g>
-<g class="combo combopos-30">
+<g class="combo combopos-31">
 <path d="M28,140 l0,-65" class="combo"/>
 <path d="M28,140 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="14" y="127" width="28" height="26" class="combo"/>
@@ -2366,29 +2398,29 @@ rect.held, rect.combo.held {
 <tspan x="28" dy="-0.6em" style="font-size: 75%">Gui+Sft+</tspan><tspan x="28" dy="1.2em" style="font-size: 75%">S</tspan>
 </text>
 </g>
-<g class="combo combopos-31">
+<g class="combo combopos-32">
 <path d="M308,119 l0,-65" class="combo"/>
 <path d="M308,119 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="294" y="106" width="28" height="26" class="combo"/>
 <use href="#mdi:printer-outline" xlink:href="#mdi:printer-outline" x="299" y="110" height="18" width="18.0" class="combo tap glyph mdi:printer-outline"/>
 </g>
-<g class="combo combopos-32">
+<g class="combo combopos-33">
 <rect rx="6" ry="6" x="98" y="89" width="28" height="26" class="combo"/>
 <text x="112" y="102" class="combo tap">
 <tspan x="112" dy="-0.6em">PAUSE</tspan><tspan x="112" dy="1.2em">BREAK</tspan>
 </text>
 </g>
-<g class="combo combopos-33">
+<g class="combo combopos-34">
 <rect rx="6" ry="6" x="266" y="78" width="28" height="26" class="combo"/>
 <text x="280" y="91" class="combo tap"><tspan style="font-size: 60%">SCROLLLOCK</tspan></text>
 </g>
-<g class="combo combopos-34">
+<g class="combo combopos-35">
 <rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
 <text x="112" y="214" class="combo tap">
 <tspan x="112" dy="-0.6em" style="font-size: 86%">KP</tspan><tspan x="112" dy="1.2em" style="font-size: 86%">NUMLOCK</tspan>
 </text>
 </g>
-<g class="combo combopos-35">
+<g class="combo combopos-36">
 <rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="271" y="194" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 </g>
@@ -2771,18 +2803,26 @@ rect.held, rect.combo.held {
 </a><text x="196" y="123" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
+<path d="M252,119 l0,-65" class="combo"/>
+<path d="M252,119 l0,65" class="combo"/>
+<rect rx="6" ry="6" x="238" y="106" width="28" height="26" class="combo"/>
+<a href="#SETTING">
+<text x="252" y="119" class="combo tap layer-activator"><tspan style="font-size: 86%">SETTING</tspan></text>
+</a><text x="252" y="130" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-5">
 <path d="M728,112 l0,-65" class="combo"/>
 <path d="M728,112 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="714" y="99" width="28" height="26" class="combo"/>
 <use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="719" y="103" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-6">
 <path d="M616,4 l0,19" class="combo"/>
 <path d="M616,4 l0,180" class="combo"/>
 <rect rx="6" ry="6" x="602" y="-9" width="28" height="26" class="combo"/>
 <use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="607" y="-5" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-7">
 <path d="M896,140 l0,-65" class="combo"/>
 <path d="M896,140 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="882" y="127" width="28" height="26" class="combo"/>
@@ -2790,103 +2830,103 @@ rect.held, rect.combo.held {
 <tspan x="896" dy="-0.6em">BT</tspan><tspan x="896" dy="1.2em">…</tspan>
 </text>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-8">
 <rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
 <text x="168" y="88" class="combo tap">INS</text>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-9">
 <rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="159" y="134" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
-<g class="combo enter combopos-9">
+<g class="combo enter combopos-10">
 <rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo enter"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="215" y="134" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
 </g>
-<g class="combo combopos-10">
+<g class="combo combopos-11">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
 <text x="224" y="88" class="combo tap">@</text>
 </g>
-<g class="combo combopos-11">
+<g class="combo combopos-12">
 <rect rx="6" ry="6" x="630" y="78" width="28" height="26" class="combo"/>
 <text x="644" y="91" class="combo tap">+</text>
 </g>
-<g class="combo combopos-12">
+<g class="combo combopos-13">
 <rect rx="6" ry="6" x="686" y="74" width="28" height="26" class="combo"/>
 <text x="700" y="98" class="combo hold">-</text>
 <text x="700" y="76" class="combo shifted">_</text>
 </g>
-<g class="combo combopos-13">
+<g class="combo combopos-14">
 <rect rx="6" ry="6" x="742" y="74" width="28" height="26" class="combo"/>
 <text x="756" y="88" class="combo tap">*</text>
 </g>
-<g class="combo combopos-14">
+<g class="combo combopos-15">
 <rect rx="6" ry="6" x="798" y="89" width="28" height="26" class="combo"/>
 <text x="812" y="102" class="combo tap">(</text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-16">
 <rect rx="6" ry="6" x="854" y="99" width="28" height="26" class="combo"/>
 <text x="868" y="112" class="combo tap">)</text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-17">
 <rect rx="6" ry="6" x="98" y="145" width="28" height="26" class="combo"/>
 <text x="112" y="158" class="combo tap">#</text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-18">
 <rect rx="6" ry="6" x="266" y="134" width="28" height="26" class="combo"/>
 <text x="280" y="147" class="combo tap">^</text>
 </g>
-<g class="combo combopos-18">
+<g class="combo combopos-19">
 <rect rx="6" ry="6" x="630" y="134" width="28" height="26" class="combo"/>
 <text x="644" y="158" class="combo hold">=</text>
 <text x="644" y="136" class="combo shifted">+</text>
 </g>
-<g class="combo combopos-19">
+<g class="combo combopos-20">
 <rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo"/>
 <text x="700" y="144" class="combo tap">_</text>
 </g>
-<g class="combo combopos-20">
+<g class="combo combopos-21">
 <rect rx="6" ry="6" x="742" y="130" width="28" height="26" class="combo"/>
 <text x="756" y="144" class="combo tap">%</text>
 </g>
-<g class="combo combopos-21">
+<g class="combo combopos-22">
 <rect rx="6" ry="6" x="798" y="145" width="28" height="26" class="combo"/>
 <text x="812" y="158" class="combo tap">{</text>
 </g>
-<g class="combo combopos-22">
+<g class="combo combopos-23">
 <rect rx="6" ry="6" x="854" y="155" width="28" height="26" class="combo"/>
 <text x="868" y="168" class="combo tap">}</text>
 </g>
-<g class="combo combopos-23">
+<g class="combo combopos-24">
 <rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
 <text x="168" y="200" class="combo tap">&lt;</text>
 </g>
-<g class="combo combopos-24">
+<g class="combo combopos-25">
 <rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
 <text x="224" y="200" class="combo tap">&gt;</text>
 </g>
-<g class="combo combopos-25">
+<g class="combo combopos-26">
 <rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
 <text x="644" y="203" class="combo tap">!</text>
 </g>
-<g class="combo combopos-26">
+<g class="combo combopos-27">
 <rect rx="6" ry="6" x="686" y="186" width="28" height="26" class="combo"/>
 <text x="700" y="200" class="combo tap">?</text>
 </g>
-<g class="combo combopos-27">
+<g class="combo combopos-28">
 <rect rx="6" ry="6" x="742" y="186" width="28" height="26" class="combo"/>
 <text x="756" y="200" class="combo tap">&amp;</text>
 </g>
-<g class="combo combopos-28">
+<g class="combo combopos-29">
 <rect rx="6" ry="6" x="798" y="201" width="28" height="26" class="combo"/>
 <text x="812" y="214" class="combo tap">[</text>
 <text x="812" y="203" class="combo shifted">{</text>
 </g>
-<g class="combo combopos-29">
+<g class="combo combopos-30">
 <rect rx="6" ry="6" x="854" y="211" width="28" height="26" class="combo"/>
 <text x="868" y="224" class="combo tap">]</text>
 <text x="868" y="213" class="combo shifted">}</text>
 </g>
-<g class="combo combopos-30">
+<g class="combo combopos-31">
 <path d="M28,140 l0,-65" class="combo"/>
 <path d="M28,140 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="14" y="127" width="28" height="26" class="combo"/>
@@ -2894,29 +2934,29 @@ rect.held, rect.combo.held {
 <tspan x="28" dy="-0.6em" style="font-size: 75%">Gui+Sft+</tspan><tspan x="28" dy="1.2em" style="font-size: 75%">S</tspan>
 </text>
 </g>
-<g class="combo combopos-31">
+<g class="combo combopos-32">
 <path d="M308,119 l0,-65" class="combo"/>
 <path d="M308,119 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="294" y="106" width="28" height="26" class="combo"/>
 <use href="#mdi:printer-outline" xlink:href="#mdi:printer-outline" x="299" y="110" height="18" width="18.0" class="combo tap glyph mdi:printer-outline"/>
 </g>
-<g class="combo combopos-32">
+<g class="combo combopos-33">
 <rect rx="6" ry="6" x="98" y="89" width="28" height="26" class="combo"/>
 <text x="112" y="102" class="combo tap">
 <tspan x="112" dy="-0.6em">PAUSE</tspan><tspan x="112" dy="1.2em">BREAK</tspan>
 </text>
 </g>
-<g class="combo combopos-33">
+<g class="combo combopos-34">
 <rect rx="6" ry="6" x="266" y="78" width="28" height="26" class="combo"/>
 <text x="280" y="91" class="combo tap"><tspan style="font-size: 60%">SCROLLLOCK</tspan></text>
 </g>
-<g class="combo combopos-34">
+<g class="combo combopos-35">
 <rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
 <text x="112" y="214" class="combo tap">
 <tspan x="112" dy="-0.6em" style="font-size: 86%">KP</tspan><tspan x="112" dy="1.2em" style="font-size: 86%">NUMLOCK</tspan>
 </text>
 </g>
-<g class="combo combopos-35">
+<g class="combo combopos-36">
 <rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="271" y="194" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 </g>
@@ -3303,18 +3343,26 @@ rect.held, rect.combo.held {
 </a><text x="196" y="123" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
+<path d="M252,119 l0,-65" class="combo"/>
+<path d="M252,119 l0,65" class="combo"/>
+<rect rx="6" ry="6" x="238" y="106" width="28" height="26" class="combo"/>
+<a href="#SETTING">
+<text x="252" y="119" class="combo tap layer-activator"><tspan style="font-size: 86%">SETTING</tspan></text>
+</a><text x="252" y="130" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-5">
 <path d="M728,112 l0,-65" class="combo"/>
 <path d="M728,112 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="714" y="99" width="28" height="26" class="combo"/>
 <use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="719" y="103" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-6">
 <path d="M616,4 l0,19" class="combo"/>
 <path d="M616,4 l0,180" class="combo"/>
 <rect rx="6" ry="6" x="602" y="-9" width="28" height="26" class="combo"/>
 <use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="607" y="-5" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-7">
 <path d="M896,140 l0,-65" class="combo"/>
 <path d="M896,140 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="882" y="127" width="28" height="26" class="combo"/>
@@ -3322,103 +3370,103 @@ rect.held, rect.combo.held {
 <tspan x="896" dy="-0.6em">BT</tspan><tspan x="896" dy="1.2em">…</tspan>
 </text>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-8">
 <rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
 <text x="168" y="88" class="combo tap">INS</text>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-9">
 <rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="159" y="134" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
-<g class="combo enter combopos-9">
+<g class="combo enter combopos-10">
 <rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo enter"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="215" y="134" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
 </g>
-<g class="combo combopos-10">
+<g class="combo combopos-11">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
 <text x="224" y="88" class="combo tap">@</text>
 </g>
-<g class="combo combopos-11">
+<g class="combo combopos-12">
 <rect rx="6" ry="6" x="630" y="78" width="28" height="26" class="combo"/>
 <text x="644" y="91" class="combo tap">+</text>
 </g>
-<g class="combo combopos-12">
+<g class="combo combopos-13">
 <rect rx="6" ry="6" x="686" y="74" width="28" height="26" class="combo"/>
 <text x="700" y="98" class="combo hold">-</text>
 <text x="700" y="76" class="combo shifted">_</text>
 </g>
-<g class="combo combopos-13">
+<g class="combo combopos-14">
 <rect rx="6" ry="6" x="742" y="74" width="28" height="26" class="combo"/>
 <text x="756" y="88" class="combo tap">*</text>
 </g>
-<g class="combo combopos-14">
+<g class="combo combopos-15">
 <rect rx="6" ry="6" x="798" y="89" width="28" height="26" class="combo"/>
 <text x="812" y="102" class="combo tap">(</text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-16">
 <rect rx="6" ry="6" x="854" y="99" width="28" height="26" class="combo"/>
 <text x="868" y="112" class="combo tap">)</text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-17">
 <rect rx="6" ry="6" x="98" y="145" width="28" height="26" class="combo"/>
 <text x="112" y="158" class="combo tap">#</text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-18">
 <rect rx="6" ry="6" x="266" y="134" width="28" height="26" class="combo"/>
 <text x="280" y="147" class="combo tap">^</text>
 </g>
-<g class="combo combopos-18">
+<g class="combo combopos-19">
 <rect rx="6" ry="6" x="630" y="134" width="28" height="26" class="combo"/>
 <text x="644" y="158" class="combo hold">=</text>
 <text x="644" y="136" class="combo shifted">+</text>
 </g>
-<g class="combo combopos-19">
+<g class="combo combopos-20">
 <rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo"/>
 <text x="700" y="144" class="combo tap">_</text>
 </g>
-<g class="combo combopos-20">
+<g class="combo combopos-21">
 <rect rx="6" ry="6" x="742" y="130" width="28" height="26" class="combo"/>
 <text x="756" y="144" class="combo tap">%</text>
 </g>
-<g class="combo combopos-21">
+<g class="combo combopos-22">
 <rect rx="6" ry="6" x="798" y="145" width="28" height="26" class="combo"/>
 <text x="812" y="158" class="combo tap">{</text>
 </g>
-<g class="combo combopos-22">
+<g class="combo combopos-23">
 <rect rx="6" ry="6" x="854" y="155" width="28" height="26" class="combo"/>
 <text x="868" y="168" class="combo tap">}</text>
 </g>
-<g class="combo combopos-23">
+<g class="combo combopos-24">
 <rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
 <text x="168" y="200" class="combo tap">&lt;</text>
 </g>
-<g class="combo combopos-24">
+<g class="combo combopos-25">
 <rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
 <text x="224" y="200" class="combo tap">&gt;</text>
 </g>
-<g class="combo combopos-25">
+<g class="combo combopos-26">
 <rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
 <text x="644" y="203" class="combo tap">!</text>
 </g>
-<g class="combo combopos-26">
+<g class="combo combopos-27">
 <rect rx="6" ry="6" x="686" y="186" width="28" height="26" class="combo"/>
 <text x="700" y="200" class="combo tap">?</text>
 </g>
-<g class="combo combopos-27">
+<g class="combo combopos-28">
 <rect rx="6" ry="6" x="742" y="186" width="28" height="26" class="combo"/>
 <text x="756" y="200" class="combo tap">&amp;</text>
 </g>
-<g class="combo combopos-28">
+<g class="combo combopos-29">
 <rect rx="6" ry="6" x="798" y="201" width="28" height="26" class="combo"/>
 <text x="812" y="214" class="combo tap">[</text>
 <text x="812" y="203" class="combo shifted">{</text>
 </g>
-<g class="combo combopos-29">
+<g class="combo combopos-30">
 <rect rx="6" ry="6" x="854" y="211" width="28" height="26" class="combo"/>
 <text x="868" y="224" class="combo tap">]</text>
 <text x="868" y="213" class="combo shifted">}</text>
 </g>
-<g class="combo combopos-30">
+<g class="combo combopos-31">
 <path d="M28,140 l0,-65" class="combo"/>
 <path d="M28,140 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="14" y="127" width="28" height="26" class="combo"/>
@@ -3426,29 +3474,29 @@ rect.held, rect.combo.held {
 <tspan x="28" dy="-0.6em" style="font-size: 75%">Gui+Sft+</tspan><tspan x="28" dy="1.2em" style="font-size: 75%">S</tspan>
 </text>
 </g>
-<g class="combo combopos-31">
+<g class="combo combopos-32">
 <path d="M308,119 l0,-65" class="combo"/>
 <path d="M308,119 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="294" y="106" width="28" height="26" class="combo"/>
 <use href="#mdi:printer-outline" xlink:href="#mdi:printer-outline" x="299" y="110" height="18" width="18.0" class="combo tap glyph mdi:printer-outline"/>
 </g>
-<g class="combo combopos-32">
+<g class="combo combopos-33">
 <rect rx="6" ry="6" x="98" y="89" width="28" height="26" class="combo"/>
 <text x="112" y="102" class="combo tap">
 <tspan x="112" dy="-0.6em">PAUSE</tspan><tspan x="112" dy="1.2em">BREAK</tspan>
 </text>
 </g>
-<g class="combo combopos-33">
+<g class="combo combopos-34">
 <rect rx="6" ry="6" x="266" y="78" width="28" height="26" class="combo"/>
 <text x="280" y="91" class="combo tap"><tspan style="font-size: 60%">SCROLLLOCK</tspan></text>
 </g>
-<g class="combo combopos-34">
+<g class="combo combopos-35">
 <rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
 <text x="112" y="214" class="combo tap">
 <tspan x="112" dy="-0.6em" style="font-size: 86%">KP</tspan><tspan x="112" dy="1.2em" style="font-size: 86%">NUMLOCK</tspan>
 </text>
 </g>
-<g class="combo combopos-35">
+<g class="combo combopos-36">
 <rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="271" y="194" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 </g>
