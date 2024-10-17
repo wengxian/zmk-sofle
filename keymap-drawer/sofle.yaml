@@ -455,8 +455,6 @@ combos:
   k: {t: '[', s: '{'}
 - p: [50, 51]
   k: {t: ']', s: '}'}
-- p: [0, 39]
-  k: Gui+Sft+ S
 - p: [5, 44]
   k: $$mdi:printer-outline$$
 - p: [14, 15]
