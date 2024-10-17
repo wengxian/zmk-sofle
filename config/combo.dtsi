@@ -28,12 +28,6 @@
             timeout-ms = <COMBO_TIMEOUT_MS>;
         };
 
-        combo_setting {
-            bindings = <&to 5>;
-            key-positions = <4 43>;
-            timeout-ms = <COMBO_TIMEOUT_MS>;
-        };
-
         combo_bootloader {
             bindings = <&bootloader>;
             key-positions = <9 48>;
