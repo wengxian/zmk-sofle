@@ -36,7 +36,7 @@
 &kp TAB    &kp Q     &kp W      &kp E   &kp R      &kp T     U_MS_D  &kp Y    &kp U     &kp I      &kp O      &kp P     &kp BSLH
 &kp BSPC   &kp A     &kp S      &kp D   &kp F      &kp G     U_MS_L  &kp H    &kp J     &kp K      &kp L      &kp SEMI  &kp APOS
 &kp LSHFT  &kp Z     &kp X      &kp C   &kp V      &kp B     U_MS_R  &kp N    &kp M     &kp COMMA  &kp DOT    &kp FSLH  &kp ENTER
-U_KP_R     &kp LALT  &kp LCTRL  &mo 4   &kp SPACE  &kp LGUI  U_KP_L  &kp DEL  &kp BSPC  &mo 4      &kp RCTRL  &kp RALT
+U_KP_R     &kp LALT  &kp LCTRL  &mo 4   &kp SPACE  &kp LGUI  U_KP_L  &kp DEL  &kp BSPC  &mo 5      &kp RCTRL  &kp RALT
             >;
 
             display-name = "QWERTY";
@@ -71,11 +71,11 @@ U_KP_R  &trans    &trans  &trans  &trans  &trans     U_KP_L  &trans     &trans  
 
         layer_3 {
             bindings = <
-&trans  &trans     &trans     &trans     &trans     &trans     U_MS_U  &trans     &trans     &trans     &trans     &trans     &trans
-&trans  U_KP_R     U_MS_U     U_KP_M     &trans     &trans     U_MS_D  U_KP_M     U_KP_R     U_MS_U     U_KP_M     &trans     &trans
-&trans  U_MS_L     U_MS_D     U_MS_R     &trans     &trans     U_MS_L  U_MS_R     U_MS_L     U_MS_D     U_MS_R     &trans     &trans
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(Y)  U_MS_R  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(Y)  &trans
-U_KP_R  &trans     &trans     U_KP_L     &trans     &trans     U_KP_L  &trans     U_KP_L     &trans     &trans     &trans
+&trans  &trans     &trans     &trans     &trans     &trans     U_MS_U  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  U_KP_R     U_MS_U     U_KP_M     &trans     &trans     U_MS_D  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  U_MS_L     U_MS_D     U_MS_R     &trans     &trans     U_MS_L  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(Y)  U_MS_R  &trans  &trans  &trans  &trans  &trans  &trans
+U_KP_R  &trans     &trans     U_KP_L     &trans     &trans     U_KP_L  &trans  &trans  &trans  &trans  &trans
             >;
             
             display-name = "MOUSE";
@@ -84,11 +84,11 @@ U_KP_R  &trans     &trans     U_KP_L     &trans     &trans     U_KP_L  &trans   
 
         layer_4 {
             bindings = <
-&trans  &trans        &trans     &trans         &trans     &trans     U_MS_U  &trans     &trans        &trans     &trans         &trans     &trans
-&trans  &kp LC(LEFT)  &kp UP     &kp LC(RIGHT)  &kp HOME   &kp PG_UP  U_MS_D  &kp HOME   &kp LC(LEFT)  &kp UP     &kp LC(RIGHT)  &kp PG_UP  &trans
-&trans  &kp LEFT      &kp DOWN   &kp RIGHT      &kp END    &kp PG_DN  U_MS_L  &kp END    &kp LEFT      &kp DOWN   &kp RIGHT      &kp PG_DN  &trans
-&trans  &kp LC(Z)     &kp LC(X)  &kp LC(C)      &kp LC(V)  &kp LC(Y)  U_MS_R  &kp LC(Z)  &kp LC(X)     &kp LC(C)  &kp LC(V)      &kp LC(Y)  &trans
-U_KP_R  &trans        &trans     &trans         &trans     &trans     U_KP_L  &trans     &trans        &trans     &trans         &trans
+&trans  &trans        &trans     &trans         &trans     &trans     U_MS_U  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(LEFT)  &kp UP     &kp LC(RIGHT)  &kp HOME   &kp PG_UP  U_MS_D  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT      &kp DOWN   &kp RIGHT      &kp END    &kp PG_DN  U_MS_L  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(Z)     &kp LC(X)  &kp LC(C)      &kp LC(V)  &kp LC(Y)  U_MS_R  &trans  &trans  &trans  &trans  &trans  &trans
+U_KP_R  &trans        &trans     &trans         &trans     &trans     U_KP_L  &trans  &trans  &trans  &trans  &trans
             >;
 
             display-name = "NAVI";
