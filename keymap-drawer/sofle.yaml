@@ -399,8 +399,6 @@ combos:
   k: {t: NUMBER, h: toggle}
 - p: [3, 42]
   k: {t: MOUSE, h: toggle}
-- p: [4, 43]
-  k: {t: SETTING, h: toggle}
 - p: [9, 48]
   k: $$mdi:progress-download$$
 - p: [7, 46]
