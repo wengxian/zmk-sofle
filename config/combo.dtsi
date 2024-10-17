@@ -190,12 +190,6 @@
             timeout-ms = <COMBO_TIMEOUT_MS>;
         };
 
-        combo_snip {
-            bindings = <&kp LG(LS(S))>;
-            key-positions = <0 39>;
-            timeout-ms = <COMBO_TIMEOUT_MS>;
-        };
-
         combo_ss {
             bindings = <&kp PSCRN>;
             key-positions = <5 44>;
