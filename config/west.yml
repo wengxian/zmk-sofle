@@ -9,8 +9,8 @@ manifest:
       remote: zmkfirmware
       revision: feat/pointers-move-scroll
       import: app/west.yml
-    - name: urchin-peripheral-animation
+    - name: hammerbeam-slideshow
       remote: gpeye
-      revision: main 
+      revision: main
   self:
     path: config
