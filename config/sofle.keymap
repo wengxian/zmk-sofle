@@ -11,6 +11,15 @@
 #include "macro.dtsi"
 
 / {
+
+    td_lgui_mo: td_lgui_mo {
+        compatible = "zmk,behavior-tap-dance";
+        #binding-cells = <0>;
+        tapping-term-ms = <300>;
+        label = "TD_LGUI_MO";
+        bindings = <&kp LGUI>, <&sk LGUI>, <&mo 2>;
+    };
+
     ltq: ltq {
         compatible = "zmk,behavior-hold-tap";
         #binding-cells = <2>;
@@ -19,14 +28,6 @@
         tapping-term-ms = <300>;
         quick-tap-ms = <300>;
         require-prior-idle-ms = <125>;
-    };
-
-    td_lgui_mo {
-        compatible = "zmk,behavior-tap-dance";
-        #binding-cells = <0>;
-        tapping-term-ms = <300>;
-        label = "TD_LGUI_MO";
-        bindings = <&kp LGUI>, <&sk LGUI>, <&mo 2>;
     };
 
     scroll_encoder: scroll_encoder {
