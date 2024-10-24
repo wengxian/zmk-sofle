@@ -7,7 +7,6 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 #include "mouse.dtsi"
-#include "combo.dtsi"
 #include "macro.dtsi"
 
 / {
