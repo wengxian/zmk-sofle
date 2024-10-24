@@ -11,7 +11,7 @@
 #include "macro.dtsi"
 
 / {
-    ltq: ltq {
+    ltkp: ltkp {
         compatible = "zmk,behavior-hold-tap";
         #binding-cells = <2>;
         bindings = <&mo>, <&kp>;
@@ -21,7 +21,7 @@
         require-prior-idle-ms = <125>;
     };
 
-    ltw: ltw {
+    ltsk: ltsk {
         compatible = "zmk,behavior-hold-tap";
         #binding-cells = <2>;
         bindings = <&mo>, <&sk>;
@@ -43,11 +43,11 @@
 
         layer_0 {
             bindings = <
-&kp ESC    &kp N1    &kp N2     &kp N3  &kp N4        &kp N5       U_MS_U  &kp N6      &kp N7       &kp N8     &kp N9     &kp N0    &kp GRAVE
-&kp TAB    &kp Q     &kp W      &kp E   &kp R         &kp T        U_MS_D  &kp Y       &kp U        &kp I      &kp O      &kp P     &kp BSLH
-&kp BSPC   &kp A     &kp S      &kp D   &kp F         &kp G        U_MS_L  &kp H       &kp J        &kp K      &kp L      &kp SEMI  &kp APOS
-&kp LSHFT  &kp Z     &kp X      &kp C   &kp V         &kp B        U_MS_R  &kp N       &kp M        &kp COMMA  &kp DOT    &kp FSLH  &kp ENTER
-U_KP_R     &kp LALT  &kp LCTRL  &mo 3   &ltq 4 SPACE  &ltw 5 LGUI  U_KP_L  &ltq 5 DEL  &ltq 3 BSPC  &mo 6      &kp RCTRL  &kp RALT
+&kp ESC    &kp N1    &kp N2     &kp N3  &kp N4         &kp N5        U_MS_U  &kp N6       &kp N7        &kp N8     &kp N9     &kp N0    &kp GRAVE
+&kp TAB    &kp Q     &kp W      &kp E   &kp R          &kp T         U_MS_D  &kp Y        &kp U         &kp I      &kp O      &kp P     &kp BSLH
+&kp BSPC   &kp A     &kp S      &kp D   &kp F          &kp G         U_MS_L  &kp H        &kp J         &kp K      &kp L      &kp SEMI  &kp APOS
+&kp LSHFT  &kp Z     &kp X      &kp C   &kp V          &kp B         U_MS_R  &kp N        &kp M         &kp COMMA  &kp DOT    &kp FSLH  &kp ENTER
+U_KP_R     &kp LALT  &kp LCTRL  &mo 3   &ltkp 4 SPACE  &ltsk 5 LGUI  U_KP_L  &ltkp 5 DEL  &ltkp 3 BSPC  &mo 6      &kp RCTRL  &kp RALT
             >;
 
             display-name = "QWERTY";
