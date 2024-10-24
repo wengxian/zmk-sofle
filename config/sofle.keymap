@@ -25,7 +25,7 @@
         compatible = "zmk,behavior-tap-dance";
         label = "TD LGUI MO";
         bindings = <&kp LGUI>,  // Single tap - LGUI
-                   <&osh LGUI>,  // Double tap - One-shot LGUI
+                   <&sk LGUI>,  // Double tap - One-shot LGUI
                    <&mo 2>;  // Hold - MO (layer switch)
     };
 
