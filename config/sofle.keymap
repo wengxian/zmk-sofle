@@ -56,7 +56,7 @@
 &kp TAB    &kp Q     &kp W      &kp E   &kp R         &kp T        U_MS_D  &kp Y       &kp U        &kp I      &kp O      &kp P     &kp BSLH
 &kp BSPC   &kp A     &kp S      &kp D   &kp F         &kp G        U_MS_L  &kp H       &kp J        &kp K      &kp L      &kp SEMI  &kp APOS
 &kp LSHFT  &kp Z     &kp X      &kp C   &kp V         &kp B        U_MS_R  &kp N       &kp M        &kp COMMA  &kp DOT    &kp FSLH  &kp ENTER
-U_KP_R     &kp LALT  &kp LCTRL  &mo 2   &ltq 3 SPACE  &ltw 4 LGUI  U_KP_L  &ltq 4 DEL  &ltq 2 BSPC  &mo 6      &kp RCTRL  &kp RALT
+U_KP_R     &kp LALT  &kp LCTRL  &mo 3   &ltq 4 SPACE  &ltw 5 LGUI  U_KP_L  &ltq 5 DEL  &ltq 3 BSPC  &mo 6      &kp RCTRL  &kp RALT
             >;
 
             display-name = "QWERTY";
@@ -65,18 +65,31 @@ U_KP_R     &kp LALT  &kp LCTRL  &mo 2   &ltq 3 SPACE  &ltw 4 LGUI  U_KP_L  &ltq 
 
         layer_1 {
             bindings = <
+&trans  &trans     &trans     &trans     &trans     &trans     U_MS_U  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  U_KP_R     U_MS_U     U_KP_M     &trans     &trans     U_MS_D  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  U_MS_L     U_MS_D     U_MS_R     &trans     &trans     U_MS_L  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(Y)  U_MS_R  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     U_KP_L     &trans     &trans     U_KP_L  &trans  &trans  &trans  &trans  &trans
+            >;
+
+            display-name = "MOUSE";
+            sensor-bindings = <&scroll_encoder>;
+        };
+
+        layer_2 {
+            bindings = <
 &kp ESC    &kp N1    &kp N2     &kp N3  &kp N4     &kp N5  U_MS_U  &kp N6  &kp N7  &kp N8     &kp N9     &kp N0    &kp GRAVE
 &kp TAB    &kp Q     &kp W      &kp E   &kp R      &kp T   U_MS_D  &kp Y   &kp U   &kp I      &kp O      &kp P     &kp BSLH
 &kp BSPC   &kp A     &kp S      &kp D   &kp F      &kp G   U_MS_L  &kp H   &kp J   &kp K      &kp L      &kp SEMI  &kp APOS
 &kp LSHFT  &kp Z     &kp X      &kp C   &kp V      &kp B   U_MS_R  &kp N   &kp M   &kp COMMA  &kp DOT    &kp FSLH  &kp ENTER
-&trans     &kp LALT  &kp LCTRL  &trans  &kp SPACE  &mo 3   U_KP_L  &trans  &trans  &trans     &kp RCTRL  &kp RALT
+&trans     &kp LALT  &kp LCTRL  &trans  &kp SPACE  &mo 4   U_KP_L  &trans  &trans  &trans     &kp RCTRL  &kp RALT
             >;
 
             display-name = "GAME";
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_2 {
+        layer_3 {
             bindings = <
 &trans  &trans    &trans  &trans  &trans  &trans     U_MS_U  &trans     &trans  &trans  &trans  &trans  &trans
 &trans  &trans    &kp N7  &kp N8  &kp N9  &kp N0     U_MS_D  &trans     &kp N7  &kp N8  &kp N9  &kp N0  &trans
@@ -89,7 +102,7 @@ U_KP_R     &kp LALT  &kp LCTRL  &mo 2   &ltq 3 SPACE  &ltw 4 LGUI  U_KP_L  &ltq 
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_3 {
+        layer_4 {
             bindings = <
 &trans  &trans        &trans     &trans         &trans     &trans     U_MS_U  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LC(LEFT)  &kp UP     &kp LC(RIGHT)  &kp HOME   &kp PG_UP  U_MS_D  &trans  &trans  &trans  &trans  &trans  &trans
@@ -102,7 +115,7 @@ U_KP_R     &kp LALT  &kp LCTRL  &mo 2   &ltq 3 SPACE  &ltw 4 LGUI  U_KP_L  &ltq 
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_4 {
+        layer_5 {
             bindings = <
 &trans  &trans  &kp F10  &kp F11  &kp F12  &trans  U_MS_U  &trans  &kp F10  &kp F11  &kp F12  &trans  &trans
 &trans  &trans  &kp F7   &kp F8   &kp F9   &trans  U_MS_D  &trans  &kp F7   &kp F8   &kp F9   &trans  &trans
@@ -112,19 +125,6 @@ U_KP_R     &kp LALT  &kp LCTRL  &mo 2   &ltq 3 SPACE  &ltw 4 LGUI  U_KP_L  &ltq 
             >;
 
             display-name = "FKEYS";
-            sensor-bindings = <&scroll_encoder>;
-        };
-
-        layer_5 {
-            bindings = <
-&trans  &trans     &trans     &trans     &trans     &trans     U_MS_U  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  U_KP_R     U_MS_U     U_KP_M     &trans     &trans     U_MS_D  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  U_MS_L     U_MS_D     U_MS_R     &trans     &trans     U_MS_L  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(Y)  U_MS_R  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans     U_KP_L     &trans     &trans     U_KP_L  &trans  &trans  &trans  &trans  &trans
-            >;
-
-            display-name = "MOUSE";
             sensor-bindings = <&scroll_encoder>;
         };
 
