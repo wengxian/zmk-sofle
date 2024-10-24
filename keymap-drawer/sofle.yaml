@@ -457,7 +457,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
 combos:
 - p: [0, 39]
-  k: {t: QWERTY, h: toggle}
+  k: {t: GAME, h: toggle}
 - p: [1, 40]
   k: {t: FKEYS, h: toggle}
 - p: [2, 41]
