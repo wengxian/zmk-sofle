@@ -457,15 +457,15 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [0, 39]
-  k: {t: SETTING, h: toggle}
-- p: [1, 40]
   k: {t: GAME, h: toggle}
-- p: [2, 41]
+- p: [1, 40]
   k: {t: FKEYS, h: toggle}
-- p: [3, 42]
+- p: [2, 41]
   k: {t: NUMBER, h: toggle}
+- p: [3, 42]
+  k: {t: MOUSE, h: toggle}
 - p: [4, 43]
-  k: {t: NAVI, h: toggle}
+  k: {t: SETTING, h: toggle}
 - p: [9, 48]
   k: $$mdi:progress-download$$
 - p: [7, 46]
