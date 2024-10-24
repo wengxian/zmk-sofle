@@ -6,30 +6,30 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_game {
+        combo_mouse {
             bindings = <&tog 1>;
+            key-positions = <3 42>;
+            timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
+            require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
+        };
+
+        combo_game {
+            bindings = <&tog 2>;
             key-positions = <0 39>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
 
         combo_number {
-            bindings = <&tog 2>;
+            bindings = <&tog 3>;
             key-positions = <2 41>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
 
         combo_fkeys {
-            bindings = <&tog 4>;
-            key-positions = <1 40>;
-            timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
-            require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
-        };
-
-        combo_mouse {
             bindings = <&tog 5>;
-            key-positions = <3 42>;
+            key-positions = <1 40>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
