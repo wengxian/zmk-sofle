@@ -49,19 +49,19 @@
         };
 
         combo_insert {
+            slow-release;
             bindings = <&kp INS>;
             key-positions = <15 16>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
-            slow-release;
         };
 
         combo_delete {
+            slow-release;
             bindings = <&kp DEL>;
             key-positions = <28 29>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
-            slow-release;
         };
 
         combo_enter {
@@ -69,7 +69,6 @@
             key-positions = <29 30>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
-            slow-release;
         };
 
         combo_at_sign {
@@ -115,11 +114,11 @@
         };
 
         combo_hash {
+            slow-release;
             bindings = <&kp HASH>;
             key-positions = <27 28>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
-            slow-release;
         };
 
         combo_caret {
@@ -221,11 +220,11 @@
         };
 
         combo_pause_break {
+            slow-release;
             bindings = <&kp PAUSE_BREAK>;
             key-positions = <14 15>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
-            slow-release;
         };
 
         combo_scrolllock {
