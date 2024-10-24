@@ -456,9 +456,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [3, 42]
-  k: {t: GAME, h: toggle}
 - p: [0, 39]
+  k: {t: GAME, h: toggle}
+- p: [3, 42]
   k: {t: MOUSE, h: toggle}
 - p: [2, 41]
   k: {t: NUMBER, h: toggle}
