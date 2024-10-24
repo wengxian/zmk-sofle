@@ -58,7 +58,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - NUMBER
   - {t: '$$mdi:keyboard-space$$', h: NAVI}
-  - '&td_lgui_mo'
+  - {t: LGUI, h: FKEYS}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: FKEYS}
   - {t: '$$mdi:backspace$$', h: NUMBER}
@@ -188,9 +188,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:mouse-left-click-outline$$
   - {type: held}
+  - $$mdi:mouse-left-click-outline$$
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
