@@ -352,7 +352,7 @@ layers:
   - $$mdi:skip-next$$
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT BLE
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB ON
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-low$$
   - $$mdi:volume-off$$
@@ -364,8 +364,8 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:volume-high$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB ON
+  - RGB OFF
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -377,9 +377,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB OFF
   - $$mdi:mouse-right-click-outline$$
-  - EP OFF
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
