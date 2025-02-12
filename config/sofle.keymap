@@ -232,7 +232,7 @@
 &trans  &kp LC(Z)  &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LC(Y)       &mmv MOVE_RIGHT  &trans  &mkp LCLK       &mkp MCLK       &mkp RCLK        &trans  &trans
 &trans  &trans     &trans          &mkp MCLK       &mkp LCLK        &mkp RCLK       &mkp LCLK        &trans  &trans          &trans          &trans           &trans
             >;
-            display-name = "WMOUSE";
+            display-name = "WMSE";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -244,7 +244,7 @@
 &trans  &kp LG(Z)  &kp LG(X)       &kp LG(C)       &kp LG(V)        &kp LG(LS(Z))   &mmv MOVE_RIGHT  &trans  &mkp LCLK       &mkp MCLK       &mkp RCLK        &trans  &trans
 &trans  &trans     &trans          &mkp MCLK       &mkp LCLK        &mkp RCLK       &mkp LCLK        &trans  &trans          &trans          &trans           &trans
             >;
-            display-name = "MMOUSE";
+            display-name = "MMSE";
             sensor-bindings = <&scroll_encoder>;
         };
     };
