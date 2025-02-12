@@ -672,8 +672,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-tab"/>
-<a href="#WMOUSE">
-<text x="0" y="24" class="key hold layer-activator">WMOUSE</text>
+<a href="#WMSE">
+<text x="0" y="24" class="key hold layer-activator">WMSE</text>
 </a></g>
 <g transform="translate(728, 252)" class="key keypos-62">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1093,8 +1093,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-tab"/>
-<a href="#MMOUSE">
-<text x="0" y="24" class="key hold layer-activator">MMOUSE</text>
+<a href="#MMSE">
+<text x="0" y="24" class="key hold layer-activator">MMSE</text>
 </a></g>
 <g transform="translate(728, 252)" class="key keypos-62">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -3995,8 +3995,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 3572)" class="layer-WMOUSE">
-<text x="0" y="28" class="label" id="WMOUSE">WMOUSE:</text>
+<g transform="translate(40, 3572)" class="layer-WMSE">
+<text x="0" y="28" class="label" id="WMSE">WMSE:</text>
 <g transform="translate(0, 65)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -4383,8 +4383,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 3969)" class="layer-MMOUSE">
-<text x="0" y="28" class="label" id="MMOUSE">MMOUSE:</text>
+<g transform="translate(40, 3969)" class="layer-MMSE">
+<text x="0" y="28" class="label" id="MMSE">MMSE:</text>
 <g transform="translate(0, 65)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>

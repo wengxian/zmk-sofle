@@ -62,7 +62,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: SETTING}
   - {t: '$$mdi:backspace$$', h: SYMBOL}
-  - {t: '$$mdi:keyboard-tab$$', h: WMOUSE}
+  - {t: '$$mdi:keyboard-tab$$', h: WMSE}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   MBASE:
@@ -127,7 +127,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: SETTING}
   - {t: '$$mdi:backspace$$', h: SYMBOL}
-  - {t: '$$mdi:keyboard-tab$$', h: MMOUSE}
+  - {t: '$$mdi:keyboard-tab$$', h: MMSE}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   GAME:
@@ -585,7 +585,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  WMOUSE:
+  WMSE:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -650,7 +650,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  MMOUSE:
+  MMSE:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
