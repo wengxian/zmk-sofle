@@ -124,7 +124,6 @@
 &kp LSHFT   &kp Z        &kp X        &kp C         &kp V          &kp B        &mmv MOVE_RIGHT  &kp N        &kp M         &kp COMMA     &kp DOT      &kp FSLH        &kp ENTER
 &kp C_MUTE  &kp LALT     &kp LCTRL    &ltkp 3 TAB   &ltkp 4 SPACE  &ltkp 6 DEL  &mkp LCLK        &ltkp 7 DEL  &ltkp 8 BSPC  &ltkp 9 TAB   &kp RCTRL    &kp RALT
             >;
-
             display-name = "WBASE";
             sensor-bindings = <&scroll_encoder>;
         };
@@ -135,9 +134,8 @@
 &kp TAB     &kp Q        &kp W        &kp E         &kp R          &kp T        &mmv MOVE_DOWN   &kp Y        &kp U         &kp I         &kp O        &kp P           &kp BSLH
 &kp BSPC    &hrm LGUI A  &hrm LALT S  &hrm LCTRL D  &hrm LSHFT F   &kp G        &mmv MOVE_LEFT   &kp H        &hrm RSHFT J  &hrm RCTRL K  &hrm RALT L  &hrm RGUI SEMI  &kp APOS
 &kp LSHFT   &kp Z        &kp X        &kp C         &kp V          &kp B        &mmv MOVE_RIGHT  &kp N        &kp M         &kp COMMA     &kp DOT      &kp FSLH        &kp ENTER
-&kp C_MUTE  &kp LALT     &kp LCTRL    &ltkp 3 TAB   &ltkp 5 SPACE  &ltkp 6 DEL  &mkp LCLK        &ltkp 7 DEL  &ltkp 8 BSPC  &ltkp 9 TAB   &kp RCTRL    &kp RALT
+&kp C_MUTE  &kp LALT     &kp LCTRL    &ltkp 3 TAB   &ltkp 5 SPACE  &ltkp 6 DEL  &mkp LCLK        &ltkp 7 DEL  &ltkp 8 BSPC  &ltkp 10 TAB  &kp RCTRL    &kp RALT
             >;
-
             display-name = "MBASE";
             sensor-bindings = <&scroll_encoder>;
         };
@@ -150,7 +148,6 @@
 &kp LSHFT  &kp Z   &kp X   &kp C   &kp V      &kp B   &mmv MOVE_RIGHT  &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp CAPS
 &trans     &trans  &trans  &trans  &kp SPACE  &mo 3   &mkp LCLK        &trans  &trans  &trans     &trans   &trans
             >;
-
             display-name = "GAME";
             sensor-bindings = <&scroll_encoder>;
         };
@@ -163,7 +160,6 @@
 &trans  &kp SLASH        &kp N1        &kp N2         &kp N3         &kp EQUAL  &mmv MOVE_RIGHT  &trans      &kp KP_N1         &kp KP_N2         &kp KP_N3        &kp DOT          &trans
 &trans  &trans           &trans        &trans         &trans         &trans     &mkp LCLK        &trans      &trans            &trans            &trans           &trans
             >;
-
             display-name = "NUMBER";
             sensor-bindings = <&scroll_encoder>;
         };
@@ -176,7 +172,6 @@
 &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(Y)  &mmv MOVE_RIGHT  &trans  &trans      &trans     &trans    &trans    &trans
 &trans  &trans     &trans     &trans     &trans     &trans     &mkp LCLK        &trans  &trans      &trans     &trans    &trans
             >;
-
             display-name = "WNAVI";
             sensor-bindings = <&scroll_encoder>;
         };
@@ -189,7 +184,6 @@
 &trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(LS(Z))  &mmv MOVE_RIGHT  &trans  &trans      &trans     &trans    &trans    &trans
 &trans  &trans     &trans     &trans     &trans     &trans         &mkp LCLK        &trans  &trans      &trans     &trans    &trans
             >;
-
             display-name = "MNAVI";
             sensor-bindings = <&scroll_encoder>;
         };
@@ -202,7 +196,6 @@
 &trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp PAUSE_BREAK  &mmv MOVE_RIGHT  &trans  &trans      &trans     &trans    &trans    &trans
 &trans  &trans   &trans  &trans  &trans  &trans           &mkp LCLK        &trans  &trans      &trans     &trans    &trans
             >;
-
             display-name = "FKEYS";
             sensor-bindings = <&scroll_encoder>;
         };
@@ -215,7 +208,6 @@
 &kp C_PWR     &bt BT_DISC 0  &bt BT_DISC 1      &bt BT_DISC 2     &bt BT_DISC 3    &bt BT_DISC 4    &mmv MOVE_RIGHT  &bt BT_DISC 0    &bt BT_DISC 1      &bt BT_DISC 2     &bt BT_DISC 3    &bt BT_DISC 4  &kp C_PWR
 &trans        &trans         &trans             &trans            &trans           &trans           &mkp LCLK        &trans           &trans             &trans            &trans           &trans
             >;
-
             display-name = "SETTING";
             sensor-bindings = <&scroll_encoder>;
         };
@@ -228,7 +220,6 @@
 &trans  &trans  &kp CARET  &kp AT     &kp HASH   &trans  &mmv MOVE_RIGHT  &kp EXCL   &kp QMARK  &kp LT    &kp GT    &trans     &trans
 &trans  &trans  &trans     &trans     &trans     &trans  &mkp LCLK        &trans     &trans     &trans    &trans    &trans
             >;
-
             display-name = "SYMBOL";
             sensor-bindings = <&scroll_encoder>;
         };
@@ -241,8 +232,19 @@
 &trans  &kp LC(Z)  &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LC(Y)       &mmv MOVE_RIGHT  &trans  &mkp LCLK       &mkp MCLK       &mkp RCLK        &trans  &trans
 &trans  &trans     &trans          &mkp MCLK       &mkp LCLK        &mkp RCLK       &mkp LCLK        &trans  &trans          &trans          &trans           &trans
             >;
+            display-name = "WMOUSE";
+            sensor-bindings = <&scroll_encoder>;
+        };
 
-            display-name = "MOUSE";
+        layer_10 {
+            bindings = <
+&trans  &trans     &trans          &trans          &trans           &trans          &mmv MOVE_UP     &trans  &trans          &trans          &trans           &trans  &trans
+&trans  &kp INS    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &msc SCRL_UP    &mmv MOVE_DOWN   &trans  &trans          &msc SCRL_UP    &trans           &trans  &trans
+&trans  &kp LG(A)  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  &mmv MOVE_LEFT   &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans
+&trans  &kp LG(Z)  &kp LG(X)       &kp LG(C)       &kp LG(V)        &kp LG(LS(Z))   &mmv MOVE_RIGHT  &trans  &mkp LCLK       &mkp MCLK       &mkp RCLK        &trans  &trans
+&trans  &trans     &trans          &mkp MCLK       &mkp LCLK        &mkp RCLK       &mkp LCLK        &trans  &trans          &trans          &trans           &trans
+            >;
+            display-name = "MMOUSE";
             sensor-bindings = <&scroll_encoder>;
         };
     };
