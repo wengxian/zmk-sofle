@@ -167,7 +167,7 @@
         layer_4 {
             bindings = <
 &trans  &trans     &trans     &trans     &trans     &trans     &mmv MOVE_UP     &trans  &trans         &trans         &trans        &trans           &trans
-&trans  &kp INS    &kp HOME   &kp UP     &kp END    &kp PG_UP  &mmv MOVE_DOWN   &trans  &kp N7         &kp N8         &kp N9        &kp KP_N0        &trans
+&trans  &kp INS    &kp HOME   &kp UP     &kp END    &kp PG_UP  &mmv MOVE_DOWN   &trans  &kp N7         &kp N8         &kp N9        &kp N0           &trans
 &trans  &kp LC(A)  &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN  &mmv MOVE_LEFT   &trans  &hrm RSHFT N4  &hrm RCTRL N5  &hrm RALT N6  &hrm RGUI COMMA  &trans
 &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(Y)  &mmv MOVE_RIGHT  &trans  &kp N1         &kp N2         &kp N3        &kp DOT          &trans
 &trans  &trans     &trans     &trans     &trans     &trans     &mkp LCLK        &trans  &trans         &trans         &trans        &trans
@@ -179,7 +179,7 @@
         layer_5 {
             bindings = <
 &trans  &trans     &trans     &trans     &trans     &trans         &mmv MOVE_UP     &trans  &trans         &trans         &trans        &trans           &trans
-&trans  &kp INS    &kp HOME   &kp UP     &kp END    &kp PG_UP      &mmv MOVE_DOWN   &trans  &kp N7         &kp N8         &kp N9        &kp KP_N0        &trans
+&trans  &kp INS    &kp HOME   &kp UP     &kp END    &kp PG_UP      &mmv MOVE_DOWN   &trans  &kp N7         &kp N8         &kp N9        &kp N0           &trans
 &trans  &kp LG(A)  &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN      &mmv MOVE_LEFT   &trans  &hrm RSHFT N4  &hrm RCTRL N5  &hrm RALT N6  &hrm RGUI COMMA  &trans
 &trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(LS(Z))  &mmv MOVE_RIGHT  &trans  &kp N1         &kp N2         &kp N3        &kp DOT          &trans
 &trans  &trans     &trans     &trans     &trans     &trans         &mkp LCLK        &trans  &trans         &trans         &trans        &trans
