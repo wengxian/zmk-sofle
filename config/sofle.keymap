@@ -166,11 +166,11 @@
 
         layer_4 {
             bindings = <
-&trans  &trans     &trans     &trans     &trans     &trans     &mmv MOVE_UP     &trans  &trans      &trans     &trans    &trans    &trans
-&trans  &kp INS    &kp HOME   &kp UP     &kp END    &kp PG_UP  &mmv MOVE_DOWN   &trans  &trans      &trans     &trans    &trans    &trans
-&trans  &kp LC(A)  &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN  &mmv MOVE_LEFT   &trans  &kp RSHIFT  &kp RCTRL  &kp RALT  &kp RGUI  &trans
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(Y)  &mmv MOVE_RIGHT  &trans  &trans      &trans     &trans    &trans    &trans
-&trans  &trans     &trans     &trans     &trans     &trans     &mkp LCLK        &trans  &trans      &trans     &trans    &trans
+&trans  &trans     &trans     &trans     &trans     &trans     &mmv MOVE_UP     &trans  &trans         &trans         &trans        &trans    &trans
+&trans  &kp INS    &kp HOME   &kp UP     &kp END    &kp PG_UP  &mmv MOVE_DOWN   &trans  &kp N7         &kp N8         &kp N9        &trans    &trans
+&trans  &kp LC(A)  &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN  &mmv MOVE_LEFT   &trans  &hrm RSHFT N4  &hrm RCTRL N5  &hrm RALT N6  &kp RGUI  &trans
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(Y)  &mmv MOVE_RIGHT  &trans  &kp N1         &kp N2         &kp N3        &trans    &trans
+&trans  &trans     &trans     &trans     &trans     &trans     &mkp LCLK        &trans  &trans         &trans         &trans        &trans
             >;
             display-name = "WNAVI";
             sensor-bindings = <&scroll_encoder>;
@@ -178,11 +178,11 @@
 
         layer_5 {
             bindings = <
-&trans  &trans     &trans     &trans     &trans     &trans         &mmv MOVE_UP     &trans  &trans      &trans     &trans    &trans    &trans
-&trans  &kp INS    &kp HOME   &kp UP     &kp END    &kp PG_UP      &mmv MOVE_DOWN   &trans  &trans      &trans     &trans    &trans    &trans
-&trans  &kp LG(A)  &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN      &mmv MOVE_LEFT   &trans  &kp RSHIFT  &kp RCTRL  &kp RALT  &kp RGUI  &trans
-&trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(LS(Z))  &mmv MOVE_RIGHT  &trans  &trans      &trans     &trans    &trans    &trans
-&trans  &trans     &trans     &trans     &trans     &trans         &mkp LCLK        &trans  &trans      &trans     &trans    &trans
+&trans  &trans     &trans     &trans     &trans     &trans         &mmv MOVE_UP     &trans  &trans         &trans         &trans        &trans    &trans
+&trans  &kp INS    &kp HOME   &kp UP     &kp END    &kp PG_UP      &mmv MOVE_DOWN   &trans  &kp N7         &kp N8         &kp N9        &trans    &trans
+&trans  &kp LG(A)  &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN      &mmv MOVE_LEFT   &trans  &hrm RSHFT N4  &hrm RCTRL N5  &hrm RALT N6  &kp RGUI  &trans
+&trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(LS(Z))  &mmv MOVE_RIGHT  &trans  &kp N1         &kp N2         &kp N3        &trans    &trans
+&trans  &trans     &trans     &trans     &trans     &trans         &mkp LCLK        &trans  &trans         &trans         &trans        &trans
             >;
             display-name = "MNAVI";
             sensor-bindings = <&scroll_encoder>;
