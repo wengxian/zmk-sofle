@@ -55,13 +55,6 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_os_switch {
-            bindings = <&tog 1>;
-            key-positions = <0 39>;
-            timeout-ms = <COMBO_QUICK_TIMEOUT_MS>;
-            require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
-        };
-
         combo_game {
             bindings = <&tog 1>;
             key-positions = <2 41>;
