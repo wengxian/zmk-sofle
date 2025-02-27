@@ -521,7 +521,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [0, 38]
+- p: [0, 39]
   k: {t: GAME, h: toggle}
 - p: [3, 42]
   k: {t: MOUSE, h: toggle}
@@ -531,3 +531,7 @@ combos:
   k: {t: A, h: '$$mdi:apple-keyboard-command$$'}
 - p: [29, 30]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
+- p: [40, 41]
+  k: <
+- p: [41, 42]
+  k: '>'
