@@ -531,7 +531,7 @@ combos:
   k: {t: A, h: '$$mdi:apple-keyboard-command$$'}
 - p: [29, 30]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-- p: [40, 41]
-  k: <
 - p: [41, 42]
+  k: <
+- p: [42, 43]
   k: '>'
