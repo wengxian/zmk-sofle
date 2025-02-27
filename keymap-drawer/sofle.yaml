@@ -39,7 +39,7 @@ layers:
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: RGUI, s: ':'}
-  - .
+  - {t: ., h: '$$mdi:apple-keyboard-caps$$'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -62,7 +62,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: SETTING}
   - {t: '$$mdi:backspace$$', h: SYMBOL}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: MOUSE}
+  - {t: '$$mdi:keyboard-tab$$', h: MOUSE}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   GAME:
@@ -151,12 +151,12 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
-  - KP NUM
+  - {t: '=', s: +}
   - KP 7
   - KP 8
   - KP 9
   - KP 0
-  - {t: '$$mdi:transfer$$', type: trans}
+  - KP NUM
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', h: LGUI, s: _}
   - {t: '4', h: '$$mdi:apple-keyboard-option$$', s: $}
@@ -164,11 +164,11 @@ layers:
   - {t: '6', h: '$$mdi:apple-keyboard-shift$$', s: ^}
   - +
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ',', s: <}
   - {t: KP 4, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: KP 5, h: '$$mdi:apple-keyboard-control$$'}
   - {t: KP 6, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ',', h: RGUI, s: <}
+  - {t: '*', h: RGUI}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: /, s: '?'}
@@ -177,11 +177,11 @@ layers:
   - {t: '3', s: '#'}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ., s: '>'}
   - KP 1
   - KP 2
   - KP 3
-  - {t: ., s: '>'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -233,7 +233,7 @@ layers:
   - {t: '4', h: '$$mdi:apple-keyboard-shift$$', s: $}
   - {t: '5', h: '$$mdi:apple-keyboard-control$$', s: '%'}
   - {t: '6', h: '$$mdi:apple-keyboard-option$$', s: ^}
-  - {t: ',', h: RGUI, s: <}
+  - {t: '*', h: RGUI}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -246,7 +246,7 @@ layers:
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
-  - {t: ., s: '>'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
