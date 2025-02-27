@@ -111,14 +111,14 @@
 
         combo_less_than {
             bindings = <&kp LT>;
-            key-positions = <40 41>;
+            key-positions = <41 42>;
             timeout-ms = <COMBO_QUICK_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
 
          combo_greater_than {
             bindings = <&kp GT>;
-            key-positions = <41 42>;
+            key-positions = <42 43>;
             timeout-ms = <COMBO_QUICK_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
