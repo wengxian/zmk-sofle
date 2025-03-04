@@ -231,7 +231,7 @@
 &trans  &trans  &trans  &trans  &trans         &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans         &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans         &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &ltkp 7 SPACE  &trans    &trans  &trans  &trans  &lt 11 TAB  &trans  &trans
+&trans  &trans  &trans  &trans  &ltkp 7 SPACE  &trans    &trans  &trans  &trans  &lt 12 TAB  &trans  &trans
             >;
 
             display-name = "MACMINI";
@@ -244,7 +244,7 @@
 &trans  &trans  &trans  &trans  &trans         &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans         &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans         &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &ltkp 7 SPACE  &trans    &trans  &trans  &trans  &lt 11 TAB  &trans  &trans
+&trans  &trans  &trans  &trans  &ltkp 7 SPACE  &trans    &trans  &trans  &trans  &lt 12 TAB  &trans  &trans
             >;
 
             display-name = "IPHONE";
@@ -257,7 +257,7 @@
 &trans  &trans  &trans  &trans  &trans         &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans         &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans         &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &ltkp 7 SPACE  &trans    &trans  &trans  &trans  &lt 11 TAB  &trans  &trans
+&trans  &trans  &trans  &trans  &ltkp 7 SPACE  &trans    &trans  &trans  &trans  &lt 12 TAB  &trans  &trans
             >;
 
             display-name = "IPAD";
