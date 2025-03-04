@@ -846,15 +846,15 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [2, 41]
+- p: [0, 39]
   k: {t: GAME, h: toggle}
 - p: [3, 42]
   k: {t: WMOUSE, h: toggle}
 - p: [5, 44]
   k: {t: SETTING, h: toggle}
-- p: [16, 17]
+- p: [29, 30]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-- p: [30, 31]
+- p: [41, 42]
   k: <
-- p: [31, 32]
+- p: [42, 43]
   k: '>'
