@@ -8,67 +8,61 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
-#include <zephyr/dt-bindings/input/input-event-codes.h>
 
 #define COMBO_DEFAULT_TIMEOUT_MS 15
 #define COMBO_QUICK_TIMEOUT_MS 10
 #define COMBO_PRIOR_IDLE_MS 125
 
 &mmv {
-  acceleration-exponent = <1>;      // 1
-  time-to-max-speed-ms = <500>;     // 300
-  delay-ms = <0>;                   // 0
+    acceleration-exponent = <1>;      // 1
+    time-to-max-speed-ms = <500>;     // 300
+    delay-ms = <0>;                   // 0
 };
 
 &msc {
-  acceleration-exponent = <1>;      // 0
-  time-to-max-speed-ms = <40>;      // 300
-  delay-ms = <0>;                   // 0
+    acceleration-exponent = <1>;      // 0
+    time-to-max-speed-ms = <40>;      // 300
+    delay-ms = <0>;                   // 0
 };
 
 / {
-    ltkp: ltkp {
-        compatible = "zmk,behavior-hold-tap";
-        #binding-cells = <2>;
-        bindings = <&mo>, <&kp>;
-        flavor = "tap-preferred";
-        tapping-term-ms = <300>;
-        quick-tap-ms = <300>;
-        require-prior-idle-ms = <125>;
-    };
+    behaviors {
+        ltkp: ltkp {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            bindings = <&mo>, <&kp>;
 
-    hrmr: hrmr {
-        compatible = "zmk,behavior-hold-tap";
-        bindings = <&kp>, <&kp>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <300>;
+            quick-tap-ms = <300>;
+            require-prior-idle-ms = <125>;
+        };
 
-        #binding-cells = <2>;
-        tapping-term-ms = <200>;
-        flavor = "tap-preferred";
-    };
+        hrmr: hrmr {
+            compatible = "zmk,behavior-hold-tap";
+            bindings = <&kp>, <&kp>;
 
-    hrml: hrml {
-        compatible = "zmk,behavior-hold-tap";
-        bindings = <&kp>, <&kp>;
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
 
-        #binding-cells = <2>;
-        tapping-term-ms = <200>;
-        flavor = "tap-preferred";
-    };
+        hrml: hrml {
+            compatible = "zmk,behavior-hold-tap";
+            bindings = <&kp>, <&kp>;
 
-    fn: fn {
-        compatible = "zmk,behavior-hold-tap";
-        bindings = <&kp>, <&kp>;
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
 
-        #binding-cells = <2>;
-        tapping-term-ms = <200>;
-        flavor = "tap-preferred";
-    };
+        scroll_encoder: scroll_encoder {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&kp C_VOLUME_UP>, <&kp C_VOLUME_DOWN>;
 
-    scroll_encoder: scroll_encoder {
-        compatible = "zmk,behavior-sensor-rotate";
-        #sensor-binding-cells = <0>;
-        bindings = <&kp C_VOLUME_UP>, <&kp C_VOLUME_DOWN>;
-        tap-ms = <30>;
+            tap-ms = <30>;
+        };
     };
 
     combos {
@@ -76,51 +70,142 @@
 
         combo_game {
             bindings = <&tog 1>;
-            key-positions = <0 39>;
-            timeout-ms = <COMBO_QUICK_TIMEOUT_MS>;
+            key-positions = <2 41>;
+            timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
 
         combo_mouse {
             bindings = <&tog 7>;
             key-positions = <3 42>;
-            timeout-ms = <COMBO_QUICK_TIMEOUT_MS>;
+            timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
 
         combo_setting {
             bindings = <&tog 5>;
             key-positions = <5 44>;
-            timeout-ms = <COMBO_QUICK_TIMEOUT_MS>;
-            require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
-        };
-
-        combo_lgui_a {
-            bindings = <&kp LG(A)>;
-            key-positions = <28 29>;
-            timeout-ms = <COMBO_QUICK_TIMEOUT_MS>;
+            timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
 
         combo_enter {
             bindings = <&kp ENTER>;
-            key-positions = <29 30>;
+            key-positions = <16 17>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
 
         combo_less_than {
             bindings = <&kp LT>;
-            key-positions = <41 42>;
-            timeout-ms = <COMBO_QUICK_TIMEOUT_MS>;
+            key-positions = <30 31>;
+            timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
 
-         combo_greater_than {
+        combo_greater_than {
             bindings = <&kp GT>;
-            key-positions = <42 43>;
-            timeout-ms = <COMBO_QUICK_TIMEOUT_MS>;
+            key-positions = <31 32>;
+            timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
+        };
+    };
+
+    macros {
+        macro_usb_default: macro_usb_default {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &bt BT_SEL 0 &out OUT_USB>;
+        };
+
+        macro_bt_macos: macro_bt_macos {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &tog 2 &bt BT_SEL 2 &out OUT_BLE>;
+        };
+
+        macro_bt_ios: macro_bt_ios {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &tog 3 &bt BT_SEL 3 &out OUT_BLE>;
+        };
+
+        macro_bt_ipados: macro_bt_ipados {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &tog 4 &bt BT_SEL 4 &out OUT_BLE>;
+        };
+
+        macro_win_select_all: macro_win_select_all {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp A>,
+                <&macro_release>,
+                <&kp LCTRL>;
+        };
+
+        macro_win_undo: macro_win_undo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp Z>,
+                <&macro_release>,
+                <&kp LCTRL>;
+        };
+
+        macro_win_cut: macro_win_cut {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp X>,
+                <&macro_release>,
+                <&kp LCTRL>;
+        };
+
+        macro_win_copy: macro_win_copy {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp C>,
+                <&macro_release>,
+                <&kp LCTRL>;
+        };
+
+        macro_win_paste: macro_win_paste {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp V>,
+                <&macro_release>,
+                <&kp LCTRL>;
+        };
+
+        macro_win_redo: macro_win_redo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp Y>,
+                <&macro_release>,
+                <&kp LCTRL>;
         };
     };
 
@@ -129,11 +214,11 @@
 
         base_layer {
             bindings = <
-&kp ESC     &kp N1        &kp N2        &kp N3         &kp N4         &kp N5       &mmv MOVE_UP     &kp N6       &kp N7         &kp N8         &kp N9        &kp N0           &kp GRAVE
-&kp TAB     &kp Q         &kp W         &kp E          &kp R          &kp T        &mmv MOVE_DOWN   &kp Y        &kp U          &kp I          &kp O         &kp P            &kp BSLH
-&kp BSPC    &hrmr LGUI A  &hrmr LALT S  &hrmr LCTRL D  &hrmr LSHFT F  &kp G        &mmv MOVE_LEFT   &kp H        &hrml RSHFT J  &hrml RCTRL K  &hrml RALT L  &hrml RGUI SEMI  &fn CAPS APOS
-&kp LSHFT   &kp Z         &kp X         &kp C          &kp V          &kp B        &mmv MOVE_RIGHT  &kp N        &kp M          &kp COMMA      &kp DOT       &kp FSLH         &kp ENTER
-&kp C_MUTE  &kp LALT      &kp LCTRL     &ltkp 2 TAB    &ltkp 3 SPACE  &ltkp 4 DEL  &mkp LCLK        &ltkp 5 DEL  &ltkp 6 BSPC   &ltkp 7 TAB    &kp RCTRL     &kp RALT
+&kp ESC     &kp N1       &kp N2       &kp N3        &kp N4         &kp N5       &mmv MOVE_UP     &kp N6       &kp N7        &kp N8        &kp N9       &kp N0          &kp GRAVE
+&kp TAB     &kp Q        &kp W        &kp E         &kp R          &kp T        &mmv MOVE_DOWN   &kp Y        &kp U         &kp I         &kp O        &kp P           &kp BSLH
+&kp BSPC    &hrm LGUI A  &hrm LALT S  &hrm LCTRL D  &hrm LSHFT F   &kp G        &mmv MOVE_LEFT   &kp H        &hrm RSHFT J  &hrm RCTRL K  &hrm RALT L  &hrm RGUI SEMI  &kp APOS
+&kp LSHFT   &kp Z        &kp X        &kp C         &kp V          &kp B        &mmv MOVE_RIGHT  &kp N        &kp M         &kp COMMA     &kp DOT      &kp FSLH        &kp ENTER
+&kp C_MUTE  &kp LALT     &kp LCTRL    &ltkp 2 TAB   &ltkp 3 SPACE  &ltkp 4 DEL  &mkp LCLK        &ltkp 5 DEL  &ltkp 6 BSPC  &ltkp 7 CAPS  &kp RCTRL    &kp RALT
             >;
             display-name = "QWERTY";
             sensor-bindings = <&scroll_encoder>;
@@ -144,7 +229,7 @@
 &kp ESC    &kp N1  &kp N2  &kp N3  &kp N4     &kp N5  &trans  &kp N6  &kp N7  &kp N8     &kp N9   &kp N0    &kp GRAVE
 &kp TAB    &kp Q   &kp W   &kp E   &kp R      &kp T   &trans  &kp Y   &kp U   &kp I      &kp O    &kp P     &kp BSLH
 &kp BSPC   &kp A   &kp S   &kp D   &kp F      &kp G   &trans  &kp H   &kp J   &kp K      &kp L    &kp SEMI  &kp APOS
-&kp LSHFT  &kp Z   &kp X   &kp C   &kp V      &kp B   &trans  &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp ENTER
+&kp LSHFT  &kp Z   &kp X   &kp C   &kp V      &kp B   &trans  &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp CAPS
 &trans     &trans  &trans  &mo 2   &kp SPACE  &mo 3   &trans  &trans  &trans  &trans     &trans   &trans
             >;
             display-name = "GAME";
@@ -153,11 +238,11 @@
 
         number_layer {
             bindings = <
-&trans  &trans            &trans         &trans          &trans          &trans     &trans  &trans     &trans             &trans             &trans            &trans            &trans
-&trans  &kp ASTRK         &kp N7         &kp N8          &kp N9          &kp N0     &trans  &kp EQUAL  &kp KP_N7          &kp KP_N8          &kp KP_N9         &kp KP_N0         &kp KP_NUM
-&trans  &hrmr LGUI MINUS  &hrmr LALT N4  &hrmr LCTRL N5  &hrmr LSHFT N6  &kp PLUS   &trans  &kp COMMA  &hrml RSHFT KP_N4  &hrml RCTRL KP_N5  &hrml RALT KP_N6  &hrml RGUI ASTRK  &trans
-&trans  &kp SLASH         &kp N1         &kp N2          &kp N3          &kp EQUAL  &trans  &kp DOT    &kp KP_N1          &kp KP_N2          &kp KP_N3         &trans            &trans
-&trans  &trans            &trans         &trans          &trans          &trans     &trans  &trans     &trans             &trans             &trans            &trans
+&trans  &trans           &trans        &trans         &trans         &trans     &trans  &trans      &trans            &trans            &trans           &trans           &trans
+&trans  &kp ASTRK        &kp N7        &kp N8         &kp N9         &kp N0     &trans  &kp KP_NUM  &kp KP_N7         &kp KP_N8         &kp KP_N9        &kp KP_N0        &trans
+&trans  &hrm LGUI MINUS  &hrm LALT N4  &hrm LCTRL N5  &hrm LSHFT N6  &kp PLUS   &trans  &trans      &hrm RSHFT KP_N4  &hrm RCTRL KP_N5  &hrm RALT KP_N6  &hrm RGUI COMMA  &trans
+&trans  &kp SLASH        &kp N1        &kp N2         &kp N3         &kp EQUAL  &trans  &trans      &kp KP_N1         &kp KP_N2         &kp KP_N3        &kp DOT          &trans
+&trans  &trans           &trans        &trans         &trans         &trans     &trans  &trans      &trans            &trans            &trans           &trans
             >;
             display-name = "NUMBER";
             sensor-bindings = <&scroll_encoder>;
@@ -165,11 +250,11 @@
 
         navi_layer {
             bindings = <
-&trans  &trans   &trans     &trans     &trans     &trans     &trans  &trans     &trans          &trans          &trans         &trans            &trans
-&trans  &kp INS  &kp HOME   &kp UP     &kp END    &kp PG_UP  &trans  &kp EQUAL  &kp N7          &kp N8          &kp N9         &kp N0            &trans
-&trans  &trans   &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN  &trans  &kp COMMA  &hrml RSHFT N4  &hrml RCTRL N5  &hrml RALT N6  &hrml RGUI ASTRK  &trans
-&trans  &trans   &trans     &trans     &trans     &trans     &trans  &kp DOT    &kp N1          &kp N2          &kp N3         &trans            &trans
-&trans  &trans   &trans     &trans     &trans     &trans     &trans  &trans     &trans          &trans          &trans         &trans
+&trans  &trans   &trans     &trans     &trans     &trans     &trans  &trans     &trans         &trans         &trans        &trans           &trans
+&trans  &kp INS  &kp HOME   &kp UP     &kp END    &kp PG_UP  &trans  &kp EQUAL  &kp N7         &kp N8         &kp N9        &kp N0           &trans
+&trans  &trans   &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN  &trans  &kp COMMA  &hrm RSHFT N4  &hrm RCTRL N5  &hrm RALT N6  &hrm RGUI COMMA  &trans
+&trans  &trans   &trans     &trans     &trans     &trans     &trans  &kp DOT    &kp N1         &kp N2         &kp N3        &kp DOT          &trans
+&trans  &trans   &trans     &trans     &trans     &trans     &trans  &trans     &trans         &trans         &trans        &trans
             >;
             display-name = "NAVI";
             sensor-bindings = <&scroll_encoder>;
