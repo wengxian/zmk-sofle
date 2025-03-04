@@ -28,18 +28,18 @@ layers:
   - P
   - {t: \, s: '|'}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: A, h: LGUI}
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - '&hrm LGUI A'
+  - '&hrm LALT S'
+  - '&hrm LCTRL D'
+  - '&hrm LSHFT F'
   - G
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: RGUI, s: ':'}
-  - {t: ., h: '$$mdi:apple-keyboard-caps$$'}
+  - '&hrm RSHFT J'
+  - '&hrm RCTRL K'
+  - '&hrm RALT L'
+  - '&hrm RGUI SEMI'
+  - .
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -62,7 +62,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: SETTING}
   - {t: '$$mdi:backspace$$', h: SYMBOL}
-  - {t: '$$mdi:keyboard-tab$$', h: MOUSE}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: MOUSE}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   GAME:
@@ -117,7 +117,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -151,24 +151,24 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '=', s: +}
+  - KP NUM
   - KP 7
   - KP 8
   - KP 9
   - KP 0
-  - KP NUM
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '-', h: LGUI, s: _}
-  - {t: '4', h: '$$mdi:apple-keyboard-option$$', s: $}
-  - {t: '5', h: '$$mdi:apple-keyboard-control$$', s: '%'}
-  - {t: '6', h: '$$mdi:apple-keyboard-shift$$', s: ^}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&hrm LGUI MINUS'
+  - '&hrm LALT N4'
+  - '&hrm LCTRL N5'
+  - '&hrm LSHFT N6'
   - +
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: ',', s: <}
-  - {t: KP 4, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: KP 5, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: KP 6, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '*', h: RGUI}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&hrm RSHFT KP_N4'
+  - '&hrm RCTRL KP_N5'
+  - '&hrm RALT KP_N6'
+  - '&hrm RGUI COMMA'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: /, s: '?'}
@@ -177,11 +177,11 @@ layers:
   - {t: '3', s: '#'}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: ., s: '>'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - KP 1
   - KP 2
   - KP 3
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ., s: '>'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -230,10 +230,10 @@ layers:
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ',', s: <}
-  - {t: '4', h: '$$mdi:apple-keyboard-shift$$', s: $}
-  - {t: '5', h: '$$mdi:apple-keyboard-control$$', s: '%'}
-  - {t: '6', h: '$$mdi:apple-keyboard-option$$', s: ^}
-  - {t: '*', h: RGUI}
+  - '&hrm RSHFT N4'
+  - '&hrm RCTRL N5'
+  - '&hrm RALT N6'
+  - '&hrm RGUI COMMA'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -246,7 +246,7 @@ layers:
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ., s: '>'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -521,17 +521,15 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [0, 39]
+- p: [2, 41]
   k: {t: GAME, h: toggle}
 - p: [3, 42]
   k: {t: MOUSE, h: toggle}
 - p: [5, 44]
   k: {t: SETTING, h: toggle}
-- p: [28, 29]
-  k: {t: A, h: '$$mdi:apple-keyboard-command$$'}
-- p: [29, 30]
+- p: [16, 17]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-- p: [41, 42]
+- p: [30, 31]
   k: <
-- p: [42, 43]
+- p: [31, 32]
   k: '>'
