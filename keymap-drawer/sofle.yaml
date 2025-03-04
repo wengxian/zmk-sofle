@@ -62,7 +62,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: SETTING}
   - {t: '$$mdi:backspace$$', h: SYMBOL}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: WMOUSE}
+  - {t: '$$mdi:keyboard-tab$$', h: WMOUSE}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   MACMINI:
@@ -554,7 +554,7 @@ layers:
   - F6
   - SLCK
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-caps$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
