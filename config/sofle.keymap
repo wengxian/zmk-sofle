@@ -70,7 +70,7 @@
 
         combo_game {
             bindings = <&tog 4>;
-            key-positions = <2 41>;
+            key-positions = <0 39>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
@@ -91,21 +91,21 @@
 
         combo_enter {
             bindings = <&kp ENTER>;
-            key-positions = <16 17>;
+            key-positions = <29 30>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
 
         combo_less_than {
             bindings = <&kp LT>;
-            key-positions = <30 31>;
+            key-positions = <41 42>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
 
         combo_greater_than {
             bindings = <&kp GT>;
-            key-positions = <31 32>;
+            key-positions = <42 43>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
