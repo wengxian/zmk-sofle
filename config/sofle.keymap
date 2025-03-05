@@ -70,14 +70,14 @@
 
         combo_game {
             bindings = <&tog 4>;
-            key-positions = <0 39>;
+            key-positions = <3 42>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
 
         combo_mouse {
             bindings = <&tog 11>;
-            key-positions = <3 42>;
+            key-positions = <0 39>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
