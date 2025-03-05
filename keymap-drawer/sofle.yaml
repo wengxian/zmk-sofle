@@ -56,13 +56,13 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:keyboard-tab$$', h: NUMBER}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: NUMBER}
   - {t: '$$mdi:keyboard-space$$', h: WNAVI}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: FUNCTION}
+  - {t: '$$mdi:keyboard-tab$$', h: FUNCTION}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:backspace-reverse-outline$$', h: SETTING}
+  - {t: '$$mdi:keyboard-tab$$', h: SETTING}
   - {t: '$$mdi:backspace$$', h: SYMBOL}
-  - {t: '$$mdi:keyboard-tab$$', h: WMOUSE}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: WMOUSE}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   MACMINI:
@@ -127,7 +127,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-tab$$', h: MMOUSE}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: MMOUSE}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   IPHONE:
@@ -192,7 +192,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-tab$$', h: MMOUSE}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: MMOUSE}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   IPAD:
@@ -257,7 +257,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-tab$$', h: MMOUSE}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: MMOUSE}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   GAME:
