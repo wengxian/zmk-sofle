@@ -68,16 +68,16 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_game {
-            bindings = <&tog 4>;
-            key-positions = <3 42>;
+        combo_mouse {
+            bindings = <&tog 11>;
+            key-positions = <0 39>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
 
-        combo_mouse {
-            bindings = <&tog 11>;
-            key-positions = <0 39>;
+        combo_game {
+            bindings = <&tog 4>;
+            key-positions = <3 42>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
@@ -238,7 +238,7 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        ios_base_layer {
+        iphone_base_layer {
             bindings = <
 &trans  &trans  &trans  &trans  &trans         &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans         &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans
