@@ -846,10 +846,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [3, 42]
-  k: {t: GAME, h: toggle}
 - p: [0, 39]
   k: {t: WMOUSE, h: toggle}
+- p: [3, 42]
+  k: {t: GAME, h: toggle}
 - p: [5, 44]
   k: {t: SETTING, h: toggle}
 - p: [29, 30]
