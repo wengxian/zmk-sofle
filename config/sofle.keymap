@@ -64,10 +64,18 @@
             hold-trigger-key-positions = <0 1 2 4 5 13 14 15 16 17 18 26 27 28 29 30 31 39 40 41 42 43 44 53 54 55 56 57>;
         };
 
-        scroll_encoder: scroll_encoder {
+        scroll_encoder_vol: scroll_encoder_vol {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&kp C_VOLUME_UP>, <&kp C_VOLUME_DOWN>;
+
+            tap-ms = <30>;
+        };
+
+        scroll_encoder_pp: scroll_encoder_pp {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&kp C_PREV>, <&kp C_NEXT>;
 
             tap-ms = <30>;
         };
@@ -77,21 +85,21 @@
         compatible = "zmk,combos";
 
         combo_mouse {
-            bindings = <&tog 11>;
+            bindings = <&tog 7>;
             key-positions = <0 39>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
 
         combo_game {
-            bindings = <&tog 4>;
+            bindings = <&tog 1>;
             key-positions = <3 42>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
 
         combo_setting {
-            bindings = <&tog 9>;
+            bindings = <&tog 5>;
             key-positions = <5 44>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
@@ -117,34 +125,20 @@
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
+
+        combo_bt_clear {
+            bindings = <&bt BT_CLR>;
+            key-positions = <7 46>;
+        };
+
+        combo_bt_clear_all {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <12 51>;
+        };
     };
 
     macros {
-        macro_usb_default: macro_usb_default {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&to 0 &bt BT_SEL 0 &out OUT_USB>;
-        };
-
-        macro_bt_macos: macro_bt_macos {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&to 0 &tog 1 &bt BT_SEL 2 &out OUT_BLE>;
-        };
-
-        macro_bt_ios: macro_bt_ios {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&to 0 &tog 2 &bt BT_SEL 3 &out OUT_BLE>;
-        };
-
-        macro_bt_ipados: macro_bt_ipados {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&to 0 &tog 3 &bt BT_SEL 4 &out OUT_BLE>;
-        };
-
-        macro_win_select_all: macro_win_select_all {
+        macro_select_all: macro_select_all {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -156,7 +150,7 @@
                 <&kp LCTRL>;
         };
 
-        macro_win_undo: macro_win_undo {
+        macro_undo: macro_undo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -168,7 +162,7 @@
                 <&kp LCTRL>;
         };
 
-        macro_win_cut: macro_win_cut {
+        macro_cut: macro_cut {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -180,7 +174,7 @@
                 <&kp LCTRL>;
         };
 
-        macro_win_copy: macro_win_copy {
+        macro_copy: macro_copy {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -192,7 +186,7 @@
                 <&kp LCTRL>;
         };
 
-        macro_win_paste: macro_win_paste {
+        macro_paste: macro_paste {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -204,7 +198,7 @@
                 <&kp LCTRL>;
         };
 
-        macro_win_redo: macro_win_redo {
+        macro_redo: macro_redo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -226,50 +220,11 @@
 &kp TAB     &kp Q         &kp W         &kp E          &kp R          &kp T          &mmv MOVE_DOWN   &kp Y        &kp U          &kp I          &kp O         &kp P            &kp BSLH
 &kp BSPC    &hrml LGUI A  &hrml LALT S  &hrml LCTRL D  &hrml LSHFT F  &kp G          &mmv MOVE_LEFT   &kp H        &hrmr LSHFT J  &hrmr LCTRL K  &hrmr LALT L  &hrmr LGUI SEMI  &kp APOS
 &kp LSHFT   &kp Z         &kp X         &kp C          &kp V          &kp B          &mmv MOVE_RIGHT  &kp N        &kp M          &kp COMMA      &kp DOT       &kp FSLH         &kp ENTER
-&kp C_MUTE  &kp LEFT_ALT  &kp LCTRL     &ltkp 5 DEL    &ltkp 6 SPACE  &ltkp 8 TAB    &mkp LCLK        &ltkp 9 TAB  &ltkp 10 BSPC  &ltkp 11 DEL   &kp RCTRL     &kp RALT
+&kp C_MUTE  &kp LEFT_ALT  &kp LCTRL     &ltkp 2 TAB    &ltkp 3 SPACE  &ltkp 4 DEL    &mkp LCLK        &ltkp 5 DEL  &ltkp 6 BSPC   &ltkp 7 TAB    &kp RCTRL     &kp RALT
             >;
 
             display-name = "QWERTY";
-            sensor-bindings = <&scroll_encoder>;
-        };
-
-        mac_base_layer {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans         &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans         &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans         &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans         &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &ltkp 7 SPACE  &trans    &trans  &trans  &trans  &lt 12 DEL  &trans  &trans
-            >;
-
-            display-name = "MACMINI";
-            sensor-bindings = <&scroll_encoder>;
-        };
-
-        iphone_base_layer {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans         &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans         &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans         &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans         &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &ltkp 7 SPACE  &trans    &trans  &trans  &trans  &lt 12 DEL  &trans  &trans
-            >;
-
-            display-name = "IPHONE";
-            sensor-bindings = <&scroll_encoder>;
-        };
-
-        ipad_base_layer {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans         &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans         &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans         &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans         &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &ltkp 7 SPACE  &trans    &trans  &trans  &trans  &lt 12 DEL  &trans  &trans
-            >;
-
-            display-name = "IPAD";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&scroll_encoder_vol>;
         };
 
         game_layer {
@@ -278,76 +233,63 @@
 &kp TAB    &kp Q   &kp W   &kp E   &kp R      &kp T     &trans  &kp Y   &kp U   &kp I      &kp O    &kp P     &kp BSLH
 &kp BSPC   &kp A   &kp S   &kp D   &kp F      &kp G     &trans  &kp H   &kp J   &kp K      &kp L    &kp SEMI  &kp APOS
 &kp LSHFT  &kp Z   &kp X   &kp C   &kp V      &kp B     &trans  &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp ENTER
-&trans     &trans  &trans  &mo 5   &kp SPACE  &mo 6     &trans  &trans  &trans  &trans     &trans   &trans
+&trans     &trans  &trans  &mo 2   &kp SPACE  &mo 3     &trans  &trans  &trans  &trans     &trans   &trans
             >;
 
             display-name = "GAME";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&scroll_encoder_vol>;
         };
 
         number_layer {
             bindings = <
-&trans  &trans            &trans         &trans          &trans          &trans       &trans  &trans      &trans             &trans             &trans            &trans            &trans
-&trans  &kp ASTRK         &kp N7         &kp N8          &kp N9          &kp N0       &trans  &kp KP_NUM  &kp KP_N7          &kp KP_N8          &kp KP_N9         &kp KP_N0         &trans
-&trans  &hrml LGUI MINUS  &hrml LALT N4  &hrml LCTRL N5  &hrml LSHFT N6  &kp PLUS     &trans  &trans      &hrmr LSHFT KP_N4  &hrmr LCTRL KP_N5  &hrmr LALT KP_N6  &hrmr LGUI COMMA  &trans
-&trans  &kp SLASH         &kp N1         &kp N2          &kp N3          &kp EQUAL    &trans  &trans      &kp KP_N1          &kp KP_N2          &kp KP_N3         &kp DOT           &trans
-&trans  &trans            &trans         &trans          &trans          &trans       &trans  &trans      &trans             &trans             &trans            &trans
+&trans  &trans            &trans         &trans          &trans          &trans       &trans  &trans     &trans             &trans             &trans            &trans            &trans
+&trans  &kp ASTRK         &kp N7         &kp N8          &kp N9          &kp N0       &trans  &kp EQUAL  &kp KP_N7          &kp KP_N8          &kp KP_N9         &kp KP_N0         &kp KP_NUMLOCK
+&trans  &hrml LGUI MINUS  &hrml LALT N4  &hrml LCTRL N5  &hrml LSHFT N6  &kp PLUS     &trans  &kp COMMA  &hrmr LSHFT KP_N4  &hrmr LCTRL KP_N5  &hrmr LALT KP_N6  &hrmr LGUI ASTRK  &trans
+&trans  &kp SLASH         &kp N1         &kp N2          &kp N3          &kp EQUAL    &trans  &kp DOT    &kp KP_N1          &kp KP_N2          &kp KP_N3         &trans            &trans
+&trans  &trans            &trans         &trans          &trans          &trans       &trans  &trans     &trans             &trans             &trans            &trans
             >;
 
             display-name = "NUMBER";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&scroll_encoder_vol>;
         };
 
-        win_navi_layer {
+        navi_layer {
             bindings = <
-&trans  &trans                 &trans          &trans           &trans            &trans             &trans  &trans     &trans          &trans          &trans         &trans            &trans
-&trans  &kp INS                &kp HOME        &kp UP           &kp END           &kp PG_UP          &trans  &kp EQUAL  &kp N7          &kp N8          &kp N9         &kp N0            &trans
-&trans  &macro_win_select_all  &kp LEFT        &kp DOWN         &kp RIGHT         &kp PG_DN          &trans  &kp COMMA  &hrmr LSHFT N4  &hrmr LCTRL N5  &hrmr LALT N6  &hrmr LGUI COMMA  &trans
-&trans  &macro_win_undo        &macro_win_cut  &macro_win_copy  &macro_win_paste  &macro_win_redo    &trans  &kp DOT    &kp N1          &kp N2          &kp N3         &kp DOT           &trans
-&trans  &trans                 &trans          &trans           &trans            &trans             &trans  &trans     &trans          &trans          &trans         &trans
+&trans  &trans             &trans      &trans       &trans        &trans         &trans  &trans     &trans          &trans          &trans         &trans            &trans
+&trans  &kp INS            &kp HOME    &kp UP       &kp END       &kp PG_UP      &trans  &kp EQUAL  &kp N7          &kp N8          &kp N9         &kp N0            &trans
+&trans  &macro_select_all  &kp LEFT    &kp DOWN     &kp RIGHT     &kp PG_DN      &trans  &kp COMMA  &hrmr LSHFT N4  &hrmr LCTRL N5  &hrmr LALT N6  &hrmr LGUI ASTRK  &trans
+&trans  &macro_undo        &macro_cut  &macro_copy  &macro_paste  &macro_redo    &trans  &kp DOT    &kp N1          &kp N2          &kp N3         &trans            &trans
+&trans  &trans             &trans      &trans       &trans        &trans         &trans  &trans     &trans          &trans          &trans         &trans
             >;
 
-            display-name = "WNAVI";
-            sensor-bindings = <&scroll_encoder>;
-        };
-
-        mac_navi_layer {
-            bindings = <
-&trans  &trans     &trans     &trans     &trans     &trans           &trans  &trans     &trans          &trans          &trans         &trans            &trans
-&trans  &kp INS    &kp HOME   &kp UP     &kp END    &kp PG_UP        &trans  &kp EQUAL  &kp N7          &kp N8          &kp N9         &kp N0            &trans
-&trans  &kp LG(A)  &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN        &trans  &kp COMMA  &hrmr LSHFT N4  &hrmr LCTRL N5  &hrmr LALT N6  &hrmr LGUI COMMA  &trans
-&trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LS(LG(Z))    &trans  &kp DOT    &kp N1          &kp N2          &kp N3         &kp DOT           &trans
-&trans  &trans     &trans     &trans     &trans     &trans           &trans  &trans     &trans          &trans          &trans         &trans
-            >;
-
-            display-name = "MNAVI";
-            sensor-bindings = <&scroll_encoder>;
+            display-name = "NAVI";
+            sensor-bindings = <&scroll_encoder_vol>;
         };
 
         fkeys_layer {
             bindings = <
 &trans  &trans   &trans  &trans  &trans  &trans             &trans  &trans    &trans     &trans     &trans    &trans    &trans
 &trans  &kp F12  &kp F7  &kp F8  &kp F9  &kp PSCRN          &trans  &trans    &trans     &trans     &trans    &trans    &trans
-&trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp SLCK           &trans  &kp CAPS  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
+&trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp SLCK           &trans  &kp CAPS  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &kp GLOBE
 &trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp PAUSE_BREAK    &trans  &trans    &trans     &trans     &trans    &trans    &trans
 &trans  &trans   &trans  &trans  &trans  &trans             &trans  &trans    &trans     &trans     &trans    &trans
             >;
 
             display-name = "FUNCTION";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&scroll_encoder_vol>;
         };
 
         settings_layer {
             bindings = <
-&trans        &trans              &trans             &trans            &trans           &trans          &trans  &trans         &trans              &trans           &trans         &trans            &trans
-&out OUT_TOG  &bt BT_SEL 0        &bt BT_SEL 1       &bt BT_SEL 2      &bt BT_SEL 3     &bt BT_SEL 4    &trans  &bt BT_SEL 0   &bt BT_SEL 1        &bt BT_SEL 2     &bt BT_SEL 3   &bt BT_SEL 4      &out OUT_TOG
-&bootloader   &macro_usb_default  &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOLUME_UP  &sys_reset      &trans  &sys_reset     &macro_usb_default  &macro_bt_macos  &macro_bt_ios  &macro_bt_ipados  &bootloader
-&caps_word    &rgb_ug RGB_TOG     &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT       &bt BT_CLR      &trans  &bt BT_DISC 0  &bt BT_DISC 1       &bt BT_DISC 2    &bt BT_DISC 3  &bt BT_DISC 4     &key_repeat
-&trans        &trans              &trans             &trans            &trans           &trans          &trans  &trans         &trans              &trans           &trans         &trans
+&trans            &trans           &trans             &trans            &trans           &trans          &kp UP            &trans        &trans             &trans            &trans           &trans           &trans
+&out OUT_TOG      &bt BT_SEL 0     &bt BT_SEL 1       &bt BT_SEL 2      &bt BT_SEL 3     &bt BT_SEL 4    &kp DOWN          &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2      &bt BT_SEL 3     &bt BT_SEL 4     &out OUT_TOG
+&bootloader       &sys_reset       &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOLUME_UP  &key_repeat     &kp LEFT          &key_repeat   &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOLUME_UP  &sys_reset       &bootloader
+&trans            &rgb_ug RGB_TOG  &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT       &caps_word      &kp RIGHT         &caps_word    &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT       &rgb_ug RGB_TOG  &trans
+&kp C_PLAY_PAUSE  &trans           &trans             &trans            &trans           &trans          &kp LEFT_CONTROL  &trans        &trans             &trans            &trans           &trans
             >;
 
             display-name = "SETTING";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&scroll_encoder_pp>;
         };
 
         sym_layer {
@@ -360,33 +302,20 @@
             >;
 
             display-name = "SYMBOL";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&scroll_encoder_vol>;
         };
 
-        win_mouse_layer {
+        mouse_layer {
             bindings = <
-&trans  &trans                 &trans          &trans           &trans            &trans             &trans  &trans  &trans          &trans          &trans           &trans  &trans
-&trans  &trans                 &msc SCRL_LEFT  &mmv MOVE_UP     &msc SCRL_RIGHT   &msc SCRL_UP       &trans  &trans  &trans          &msc SCRL_UP    &trans           &trans  &trans
-&trans  &macro_win_select_all  &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_RIGHT   &msc SCRL_DOWN     &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans
-&trans  &macro_win_undo        &macro_win_cut  &macro_win_copy  &macro_win_paste  &macro_win_redo    &trans  &trans  &mkp LCLK       &mkp MCLK       &mkp RCLK        &trans  &trans
-&trans  &trans                 &trans          &mkp MCLK        &mkp LCLK         &mkp RCLK          &trans  &trans  &trans          &trans          &trans           &trans
+&trans  &trans             &trans          &trans          &trans           &trans            &trans  &trans  &trans          &trans          &trans           &trans  &trans
+&trans  &trans             &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &msc SCRL_UP      &trans  &trans  &mkp MB4        &msc SCRL_UP    &mkp MB5         &trans  &trans
+&trans  &macro_select_all  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN    &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans
+&trans  &macro_undo        &macro_cut      &macro_copy     &macro_paste     &macro_redo       &trans  &trans  &mkp LCLK       &mkp MCLK       &mkp RCLK        &trans  &trans
+&trans  &trans             &trans          &mkp LCLK       &mkp MCLK        &mkp RCLK         &trans  &trans  &trans          &trans          &trans           &trans
             >;
 
-            display-name = "WMOUSE";
-            sensor-bindings = <&scroll_encoder>;
-        };
-
-        mac_mouse_layer {
-            bindings = <
-&trans  &trans     &trans          &trans          &trans           &trans            &trans  &trans  &trans          &trans          &trans           &trans  &trans
-&trans  &trans     &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &msc SCRL_UP      &trans  &trans  &trans          &msc SCRL_UP    &trans           &trans  &trans
-&trans  &kp LG(A)  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN    &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans
-&trans  &kp LG(Z)  &kp LG(X)       &kp LG(C)       &kp LG(V)        &kp LS(LG(Z))     &trans  &trans  &mkp LCLK       &mkp MCLK       &mkp RCLK        &trans  &trans
-&trans  &trans     &trans          &mkp MCLK       &mkp LCLK        &mkp RCLK         &trans  &trans  &trans          &trans          &trans           &trans
-            >;
-
-            display-name = "MMOUSE";
-            sensor-bindings = <&scroll_encoder>;
+            display-name = "MOUSE";
+            sensor-bindings = <&scroll_encoder_vol>;
         };
     };
 };
