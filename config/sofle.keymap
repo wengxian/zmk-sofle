@@ -243,9 +243,9 @@
         digit_layer {
             bindings = <
 &trans  &trans            &trans         &trans          &trans          &trans       &trans  &trans       &trans      &trans       &trans        &trans             &trans
-&trans  &kp ASTRK         &kp N7         &kp N8          &kp N9          &kp N0       &trans  &kp PG_UP    &kp HOME    &kp UP       &kp END       &kp INSERT         &trans
+&trans  &kp EQUAL         &kp N7         &kp N8          &kp N9          &kp N0       &trans  &kp PG_UP    &kp HOME    &kp UP       &kp END       &kp INSERT         &trans
 &trans  &hrml LGUI MINUS  &hrml LALT N4  &hrml LCTRL N5  &hrml LSHFT N6  &kp PLUS     &trans  &kp PG_DN    &kp LEFT    &kp DOWN     &kp RIGHT     &macro_select_all  &trans
-&trans  &kp SLASH         &kp N1         &kp N2          &kp N3          &kp EQUAL    &trans  &macro_undo  &macro_cut  &macro_copy  &macro_paste  &macro_redo        &trans
+&trans  &kp SLASH         &kp N1         &kp N2          &kp N3          &kp MINUS    &trans  &macro_undo  &macro_cut  &macro_copy  &macro_paste  &macro_redo        &trans
 &trans  &trans            &trans         &trans          &trans          &trans       &trans  &trans       &trans      &trans       &trans        &trans
             >;
 
@@ -257,8 +257,8 @@
             bindings = <
 &trans  &trans             &trans      &trans       &trans        &trans         &trans  &trans     &trans          &trans          &trans         &trans            &trans
 &trans  &kp INS            &kp HOME    &kp UP       &kp END       &kp PG_UP      &trans  &kp EQUAL  &kp N7          &kp N8          &kp N9         &kp N0            &trans
-&trans  &macro_select_all  &kp LEFT    &kp DOWN     &kp RIGHT     &kp PG_DN      &trans  &kp COMMA  &hrmr LSHFT N4  &hrmr LCTRL N5  &hrmr LALT N6  &hrmr LGUI ASTRK  &trans
-&trans  &macro_undo        &macro_cut  &macro_copy  &macro_paste  &macro_redo    &trans  &kp DOT    &kp N1          &kp N2          &kp N3         &trans            &trans
+&trans  &macro_select_all  &kp LEFT    &kp DOWN     &kp RIGHT     &kp PG_DN      &trans  &kp PLUS   &hrmr LSHFT N4  &hrmr LCTRL N5  &hrmr LALT N6  &hrmr LGUI ASTRK  &trans
+&trans  &macro_undo        &macro_cut  &macro_copy  &macro_paste  &macro_redo    &trans  &kp MINUS  &kp N1          &kp N2          &kp N3         &trans            &trans
 &trans  &trans             &trans      &trans       &trans        &trans         &trans  &trans     &trans          &trans          &trans         &trans
             >;
 
