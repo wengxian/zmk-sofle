@@ -151,12 +151,12 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '=', s: +}
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP 0
-  - KP NUMLOCK
+  - PG UP
+  - HOME
+  - $$mdi:arrow-up-bold$$
+  - END
+  - Ins
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', h: LGUI, s: _}
   - {t: '4', h: '$$mdi:apple-keyboard-option$$', s: $}
@@ -164,11 +164,11 @@ layers:
   - {t: '6', h: '$$mdi:apple-keyboard-shift$$', s: ^}
   - +
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: ',', s: <}
-  - {t: KP 4, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: KP 5, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: KP 6, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '*', h: LGUI}
+  - PG DN
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - '&macro_select_all'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: /, s: '?'}
@@ -177,11 +177,11 @@ layers:
   - {t: '3', s: '#'}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: ., s: '>'}
-  - KP 1
-  - KP 2
-  - KP 3
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&macro_undo'
+  - '&macro_cut'
+  - '&macro_copy'
+  - '&macro_paste'
+  - '&macro_redo'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
