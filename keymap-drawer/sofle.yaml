@@ -281,7 +281,7 @@ layers:
   - F9
   - $$mdi:printer-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - SCROLLLOCK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -292,7 +292,7 @@ layers:
   - F4
   - F5
   - F6
-  - SLCK
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:apple-keyboard-shift$$
@@ -305,9 +305,9 @@ layers:
   - F1
   - F2
   - F3
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - PAUSE BREAK
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -527,8 +527,6 @@ combos:
   k: {t: GAME, h: toggle}
 - p: [5, 44]
   k: {t: TWEAK, h: toggle}
-- p: [29, 30]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [41, 42]
   k: <
 - p: [42, 43]
