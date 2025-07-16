@@ -210,11 +210,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - INS
+  - PgUp
   - HOME
   - $$mdi:arrow-up-bold$$
   - END
-  - PG UP
+  - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
   - {t: '7', s: '&'}
@@ -227,7 +227,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - PG DN
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - +
   - {t: '4', h: '$$mdi:apple-keyboard-shift$$', s: $}
@@ -292,7 +292,7 @@ layers:
   - F4
   - F5
   - F6
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:apple-keyboard-shift$$
@@ -305,7 +305,7 @@ layers:
   - F1
   - F2
   - F3
-  - $$mdi:backspace-reverse-outline$$
+  - INS
   - {t: '$$mdi:transfer$$', type: trans}
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
