@@ -105,13 +105,6 @@
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
 
-        combo_enter {
-            bindings = <&kp ENTER>;
-            key-positions = <29 30>;
-            timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
-            require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
-        };
-
         combo_less_than {
             bindings = <&kp LT>;
             key-positions = <41 42>;
@@ -268,11 +261,11 @@
 
         fkey_layer {
             bindings = <
-&trans  &trans   &trans  &trans  &trans  &trans             &trans  &trans    &trans     &trans     &trans    &trans    &trans
-&trans  &kp F12  &kp F7  &kp F8  &kp F9  &kp PSCRN          &trans  &trans    &trans     &trans     &trans    &trans    &trans
-&trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp SLCK           &trans  &kp CAPS  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &kp GLOBE
-&trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp PAUSE_BREAK    &trans  &trans    &trans     &trans     &trans    &trans    &trans
-&trans  &trans   &trans  &trans  &trans  &trans             &trans  &trans    &trans     &trans     &trans    &trans
+&trans  &trans   &trans  &trans  &trans  &trans       &trans  &trans           &trans     &trans     &trans    &trans    &trans
+&trans  &kp F12  &kp F7  &kp F8  &kp F9  &kp PSCRN    &trans  &kp SCROLLLOCK   &trans     &trans     &trans    &trans    &trans
+&trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp ENTER    &trans  &kp CAPS         &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &kp GLOBE
+&trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp DEL      &trans  &kp PAUSE_BREAK  &trans     &trans     &trans    &trans    &trans
+&trans  &trans   &trans  &trans  &trans  &trans       &trans  &trans           &trans     &trans     &trans    &trans
             >;
 
             display-name = "FKEY";
