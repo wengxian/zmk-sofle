@@ -248,11 +248,11 @@
 
         navi_layer {
             bindings = <
-&trans  &trans             &trans      &trans       &trans        &trans         &trans  &trans     &trans          &trans          &trans         &trans            &trans
-&trans  &kp INS            &kp HOME    &kp UP       &kp END       &kp PG_UP      &trans  &kp EQUAL  &kp N7          &kp N8          &kp N9         &kp N0            &trans
-&trans  &macro_select_all  &kp LEFT    &kp DOWN     &kp RIGHT     &kp PG_DN      &trans  &kp PLUS   &hrmr LSHFT N4  &hrmr LCTRL N5  &hrmr LALT N6  &hrmr LGUI ASTRK  &trans
-&trans  &macro_undo        &macro_cut  &macro_copy  &macro_paste  &macro_redo    &trans  &kp MINUS  &kp N1          &kp N2          &kp N3         &trans            &trans
-&trans  &trans             &trans      &trans       &trans        &trans         &trans  &trans     &trans          &trans          &trans         &trans
+&trans  &trans             &trans      &trans       &trans        &trans           &trans  &trans     &trans          &trans          &trans         &trans            &trans
+&trans  &kp PAGE_UP        &kp HOME    &kp UP       &kp END       &kp PAGE_DOWN    &trans  &kp EQUAL  &kp N7          &kp N8          &kp N9         &kp N0            &trans
+&trans  &macro_select_all  &kp LEFT    &kp DOWN     &kp RIGHT     &kp ENTER        &trans  &kp PLUS   &hrmr LSHFT N4  &hrmr LCTRL N5  &hrmr LALT N6  &hrmr LGUI ASTRK  &trans
+&trans  &macro_undo        &macro_cut  &macro_copy  &macro_paste  &macro_redo      &trans  &kp MINUS  &kp N1          &kp N2          &kp N3         &trans            &trans
+&trans  &trans             &trans      &trans       &trans        &trans           &trans  &trans     &trans          &trans          &trans         &trans
             >;
 
             display-name = "NAVI";
@@ -261,11 +261,11 @@
 
         fkey_layer {
             bindings = <
-&trans  &trans   &trans  &trans  &trans  &trans       &trans  &trans           &trans     &trans     &trans    &trans    &trans
-&trans  &kp F12  &kp F7  &kp F8  &kp F9  &kp PSCRN    &trans  &kp SCROLLLOCK   &trans     &trans     &trans    &trans    &trans
-&trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp ENTER    &trans  &kp CAPS         &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &kp GLOBE
-&trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp DEL      &trans  &kp PAUSE_BREAK  &trans     &trans     &trans    &trans    &trans
-&trans  &trans   &trans  &trans  &trans  &trans       &trans  &trans           &trans     &trans     &trans    &trans
+&trans  &trans   &trans  &trans  &trans  &trans              &trans  &trans           &trans     &trans     &trans    &trans    &trans
+&trans  &kp F12  &kp F7  &kp F8  &kp F9  &kp PSCRN           &trans  &kp SCROLLLOCK   &trans     &trans     &trans    &trans    &trans
+&trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp LEFT_CONTROL    &trans  &kp CAPS         &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &kp GLOBE
+&trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp INS             &trans  &kp PAUSE_BREAK  &trans     &trans     &trans    &trans    &trans
+&trans  &trans   &trans  &trans  &trans  &trans              &trans  &trans           &trans     &trans     &trans    &trans
             >;
 
             display-name = "FKEY";
