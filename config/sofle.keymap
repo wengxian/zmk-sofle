@@ -86,21 +86,21 @@
 
         combo_mouse {
             bindings = <&tog 7>;
-            key-positions = <0 39>;
+            key-positions = <39 13>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
 
         combo_game {
             bindings = <&tog 1>;
-            key-positions = <3 42>;
+            key-positions = <42 16>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
 
         combo_setting {
             bindings = <&tog 5>;
-            key-positions = <5 44>;
+            key-positions = <44 18>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
@@ -121,12 +121,12 @@
 
         combo_bt_clear {
             bindings = <&bt BT_CLR>;
-            key-positions = <7 46>;
+            key-positions = <46 20>;
         };
 
         combo_bt_clear_all {
             bindings = <&bt BT_CLR_ALL>;
-            key-positions = <12 51>;
+            key-positions = <51 25>;
         };
     };
 
