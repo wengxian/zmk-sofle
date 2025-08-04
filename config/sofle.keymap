@@ -352,8 +352,8 @@
             bindings = <
 &trans            &trans           &trans             &trans            &trans           &trans          &kp UP     &trans        &trans             &trans            &trans           &trans           &trans
 &out OUT_TOG      &bt BT_SEL 4     &bt BT_SEL 3       &bt BT_SEL 2      &bt BT_SEL 1     &bt BT_SEL 0    &kp DOWN   &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2      &bt BT_SEL 3     &bt BT_SEL 4     &out OUT_TOG
-&bootloader       &trans           &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOLUME_UP  &trans          &kp LEFT   &&trans       &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOLUME_UP  &trans           &bootloader
-&sys_reset        &rgb_ug RGB_TOG  &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT       &&trans         &kp RIGHT  &&trans       &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT       &rgb_ug RGB_TOG  &sys_reset
+&bootloader       &trans           &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOLUME_UP  &trans          &kp LEFT   &trans        &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOLUME_UP  &trans           &bootloader
+&sys_reset        &rgb_ug RGB_TOG  &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT       &trans          &kp RIGHT  &trans        &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT       &rgb_ug RGB_TOG  &sys_reset
 &kp C_PLAY_PAUSE  &trans           &trans             &trans            &trans           &trans          &trans     &trans        &trans             &trans            &trans           &trans
             >;
 
