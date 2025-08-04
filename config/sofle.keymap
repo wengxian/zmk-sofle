@@ -278,6 +278,76 @@
                 <&macro_release>,
                 <&kp LSHFT>;
         };
+
+        macro_win_snap: macro_win_snap {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_WIN>,
+                <&macro_tap>,
+                <&kp Z>,
+                <&macro_release>,
+                <&kp LEFT_WIN>;
+
+            label = "MACRO_WIN_SNAP";
+        };
+
+        macro_win_left: macro_win_left {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_WIN>,
+                <&macro_tap>,
+                <&kp LEFT>,
+                <&macro_release>,
+                <&kp LEFT_WIN>;
+
+            label = "MACRO_WIN_LEFT";
+        };
+
+        macro_win_up: macro_win_right {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_WIN>,
+                <&macro_tap>,
+                <&kp UP>,
+                <&macro_release>,
+                <&kp LEFT_WIN>;
+
+            label = "MACRO_WIN_RIGHT";
+        };
+
+        macro_win_down: macro_win_up {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_WIN>,
+                <&macro_tap>,
+                <&kp DOWN>,
+                <&macro_release>,
+                <&kp LEFT_WIN>;
+
+            label = "MACRO_WIN_UP";
+        };
+
+        macro_win_right: macro_win_down {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_WIN>,
+                <&macro_tap>,
+                <&kp RIGHT>,
+                <&macro_release>,
+                <&kp LEFT_WIN>;
+
+            label = "MACRO_WIN_DOWN";
+        };
     };
 
     keymap {
@@ -389,11 +459,11 @@
 
         win_snap_layer {
             bindings = <
-&trans  &trans             &trans              &trans         &trans              &trans               &trans  &trans  &trans    &trans    &trans     &trans  &trans
-&trans  &kp LG(LC(LEFT))   &kp LG(LC(LA(N0)))  &kp LG(UP)     &kp LA(LC(LG(N1)))  &kp LG(LS(LEFT))     &trans  &trans  &trans    &kp UP    &trans     &trans  &trans
-&trans  &kp LG(LC(D))      &kp LG(LEFT)        &kp LG(DOWN)   &kp LG(RIGHT)       &kp LG(LC(F4))       &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &kp LG(LC(RIGHT))  &kp LA(LC(LG(N2)))  &kp LG(HOME)   &kp LA(LC(LG(N4)))  &kp LS(LG(RIGHT))    &trans  &trans  &trans    &trans    &trans     &trans  &trans
-&trans  &trans             &trans              &kp LG(PG_DN)  &kp LG(LS(DOWN))    &kp LG(PG_UP)        &trans  &trans  &trans    &trans    &trans     &trans
+&trans  &trans  &trans           &trans           &trans            &trans    &trans  &trans  &trans    &trans    &trans     &trans  &trans
+&trans  &trans  &trans           &macro_win_up    &trans            &trans    &trans  &trans  &trans    &kp UP    &trans     &trans  &trans
+&trans  &trans  &macro_win_left  &macro_win_down  &macro_win_right  &trans    &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans           &trans           &trans            &trans    &trans  &trans  &trans    &trans    &trans     &trans  &trans
+&trans  &trans  &trans           &trans           &trans            &trans    &trans  &trans  &trans    &trans    &trans     &trans
             >;
 
             display-name = "WSNAP";
