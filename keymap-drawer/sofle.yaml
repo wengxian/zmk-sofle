@@ -472,7 +472,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Alt+Ctl+Gui+$$mdi:arrow-left-bold$$
   - Alt+Gui+U
-  - Alt+Ctl+$$mdi:arrow-up-bold$$
+  - Alt+Gui+$$mdi:arrow-up-bold$$
   - Alt+Gui+I
   - Gui+Alt+D
   - {t: '$$mdi:transfer$$', type: trans}
@@ -484,9 +484,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Gui+F
-  - Alt+Ctl+$$mdi:arrow-left-bold$$
-  - Alt+Ctl+$$mdi:arrow-down-bold$$
-  - Alt+Ctl+$$mdi:arrow-right-bold$$
+  - Alt+Gui+$$mdi:arrow-left-bold$$
+  - Alt+Gui+$$mdi:arrow-down-bold$$
+  - Alt+Gui+$$mdi:arrow-right-bold$$
   - {t: Ctl+`, s: Ctl+~}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
