@@ -113,6 +113,13 @@
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
 
+        combo_win_snap {
+            bindings = <&macro_win_snap>;
+            key-positions = <40 41>;
+            timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
+            require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
+        };
+
         combo_less_than {
             bindings = <&kp LT>;
             key-positions = <41 42>;
@@ -130,16 +137,13 @@
         combo_bt_clear {
             bindings = <&bt BT_CLR>;
             key-positions = <20 46>;
+            timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
+            require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
 
         combo_bt_clear_all {
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <25 51>;
-        };
-
-        combo_win_snap {
-            bindings = <&macro_win_snap>;
-            key-positions = <40 41>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
@@ -317,7 +321,7 @@
                 <&macro_release>,
                 <&kp LEFT_WIN>;
 
-            label = "MACRO_SNAP_RIGHT";
+            label = "MACRO_SNAP_UP";
         };
 
         macro_snap_down: macro_snap_down {
@@ -331,7 +335,7 @@
                 <&macro_release>,
                 <&kp LEFT_WIN>;
 
-            label = "MACRO_SNAP_UP";
+            label = "MACRO_SNAP_DOWN";
         };
 
         macro_snap_right: macro_snap_right {
@@ -345,7 +349,7 @@
                 <&macro_release>,
                 <&kp LEFT_WIN>;
 
-            label = "MACRO_SNAP_DOWN";
+            label = "MACRO_SNAP_LEFT";
         };
     };
 
