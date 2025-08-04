@@ -748,6 +748,10 @@ rect.held, rect.combo.held {
 <tspan x="896" dy="-0.6em">BT</tspan><tspan x="896" dy="1.2em">…</tspan>
 </text>
 </g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
+<text x="112" y="214" class="combo tap"><tspan style="font-size: 60%">&amp;macro_wi…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-GAME">
@@ -1136,6 +1140,10 @@ rect.held, rect.combo.held {
 <text x="896" y="168" class="combo tap">
 <tspan x="896" dy="-0.6em">BT</tspan><tspan x="896" dy="1.2em">…</tspan>
 </text>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
+<text x="112" y="214" class="combo tap"><tspan style="font-size: 60%">&amp;macro_wi…</tspan></text>
 </g>
 </g>
 </g>
@@ -1529,6 +1537,10 @@ rect.held, rect.combo.held {
 <tspan x="896" dy="-0.6em">BT</tspan><tspan x="896" dy="1.2em">…</tspan>
 </text>
 </g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
+<text x="112" y="214" class="combo tap"><tspan style="font-size: 60%">&amp;macro_wi…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1165)" class="layer-NAVI">
@@ -1914,6 +1926,10 @@ rect.held, rect.combo.held {
 <tspan x="896" dy="-0.6em">BT</tspan><tspan x="896" dy="1.2em">…</tspan>
 </text>
 </g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
+<text x="112" y="214" class="combo tap"><tspan style="font-size: 60%">&amp;macro_wi…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1553)" class="layer-FKEY">
@@ -2285,6 +2301,10 @@ rect.held, rect.combo.held {
 <text x="896" y="168" class="combo tap">
 <tspan x="896" dy="-0.6em">BT</tspan><tspan x="896" dy="1.2em">…</tspan>
 </text>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
+<text x="112" y="214" class="combo tap"><tspan style="font-size: 60%">&amp;macro_wi…</tspan></text>
 </g>
 </g>
 </g>
@@ -2680,6 +2700,10 @@ rect.held, rect.combo.held {
 <tspan x="896" dy="-0.6em">BT</tspan><tspan x="896" dy="1.2em">…</tspan>
 </text>
 </g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
+<text x="112" y="214" class="combo tap"><tspan style="font-size: 60%">&amp;macro_wi…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 2329)" class="layer-SYMB">
@@ -3062,6 +3086,10 @@ rect.held, rect.combo.held {
 <text x="896" y="168" class="combo tap">
 <tspan x="896" dy="-0.6em">BT</tspan><tspan x="896" dy="1.2em">…</tspan>
 </text>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
+<text x="112" y="214" class="combo tap"><tspan style="font-size: 60%">&amp;macro_wi…</tspan></text>
 </g>
 </g>
 </g>
@@ -3457,6 +3485,10 @@ rect.held, rect.combo.held {
 <text x="896" y="168" class="combo tap">
 <tspan x="896" dy="-0.6em">BT</tspan><tspan x="896" dy="1.2em">…</tspan>
 </text>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
+<text x="112" y="214" class="combo tap"><tspan style="font-size: 60%">&amp;macro_wi…</tspan></text>
 </g>
 </g>
 </g>

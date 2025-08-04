@@ -540,3 +540,5 @@ combos:
   o: 0.03
 - p: [25, 51]
   k: BT CLR ALL
+- p: [40, 41]
+  k: '&macro_win_snap'
