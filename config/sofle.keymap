@@ -446,11 +446,11 @@
 
         mac_snap_layer {
             bindings = <
-&trans  &trans                 &trans            &trans            &trans             &trans               &trans  &trans  &trans    &trans    &trans     &trans  &trans
-&trans  &kp LA(LC(LG(LEFT)))   &kp LA(LG(U))     &kp LA(LG(UP))    &kp LA(LG(I))      &kp LG(LA(D))        &trans  &trans  &trans    &kp UP    &trans     &trans  &trans
-&trans  &kp LC(LG(F))          &kp LA(LG(LEFT))  &kp LA(LG(DOWN))  &kp LA(LG(RIGHT))  &kp LC(GRAVE)        &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &kp LA(LG(LC(RIGHT)))  &kp LA(LG(J))     &kp LG(LA(H))     &kp LA(LG(K))      &kp LA(LG(E))        &trans  &trans  &trans    &trans    &trans     &trans  &trans
-&trans  &trans                 &trans            &kp LC(H)         &kp LA(LG(BSPC))   &kp LA(LG(ENTER))    &trans  &trans  &trans    &trans    &trans     &trans
+&trans        &trans                 &trans           &trans           &trans            &trans               &kp UP     &trans  &trans          &trans     &trans        &trans        &trans
+&trans        &kp LA(LC(LG(LEFT)))   &kp LA(LG(U))    &macro_win_up    &kp LA(LG(I))     &kp LG(LA(D))        &kp DOWN   &trans  &trans          &trans     &trans        &trans        &trans
+&kp LEFT_ALT  &kp LC(LG(F))          &macro_win_left  &macro_win_down  &macro_win_right  &kp LC(GRAVE)        &kp LEFT   &trans  &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &kp GLOBE
+&trans        &kp LA(LG(LC(RIGHT)))  &kp LA(LG(J))    &kp LG(LA(H))    &kp LA(LG(K))     &kp LA(LG(E))        &kp RIGHT  &trans  &trans          &trans     &trans        &trans        &trans
+&trans        &trans                 &trans           &kp LC(H)        &kp LA(LG(BSPC))  &kp LA(LG(ENTER))    &trans     &trans  &trans          &trans     &trans        &trans
             >;
 
             display-name = "MSNAP";
