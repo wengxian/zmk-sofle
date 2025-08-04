@@ -367,7 +367,7 @@
 &trans  &msc SCRL_UP  &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &msc SCRL_DOWN    &trans  &macro_plus               &kp MINUS             &kp LBRC  &kp RBRC  &trans         &trans
 &trans  &caps_word    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &key_repeat       &trans  &kp EQUAL                 &macro_underscore     &kp LBKT  &kp RBKT  &macro_pipe    &trans
 &trans  &mkp MB4      &macro_cut      &macro_copy     &macro_paste     &mkp MB5          &trans  &macro_exclaimation_mark  &macro_question_mark  &kp LT    &kp GT    &kp BACKSLASH  &trans
-&trans  &trans        &trans          &trans          &trans           &trans            &trans  &trans                    &trans                &trans    &trans    &trans
+&trans  &trans        &trans          &mkp MCLK       &mkp LCLK        &mkp RCLK         &trans  &trans                    &trans                &trans    &trans    &trans
             >;
 
             display-name = "SYMB";
