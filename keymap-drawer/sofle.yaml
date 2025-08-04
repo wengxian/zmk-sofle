@@ -530,6 +530,8 @@ combos:
   k: {t: GAME, h: toggle}
 - p: [18, 44]
   k: {t: TWEAK, h: toggle}
+- p: [40, 41]
+  k: '&macro_win_snap'
 - p: [41, 42]
   k: <
 - p: [42, 43]
@@ -540,5 +542,3 @@ combos:
   o: 0.03
 - p: [25, 51]
   k: BT CLR ALL
-- p: [40, 41]
-  k: '&macro_win_snap'
