@@ -136,6 +136,13 @@
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <25 51>;
         };
+
+        combo_win_snap {
+            bindings = <&macro_win_snap>;
+            key-positions = <40 41>;
+            timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
+            require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
+        };
     };
 
     macros {
