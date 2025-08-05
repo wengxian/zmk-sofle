@@ -295,62 +295,6 @@
 
             label = "MACRO_WIN_SNAP";
         };
-
-        macro_snap_left: macro_snap_left {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_WIN>,
-                <&macro_tap>,
-                <&kp LEFT>,
-                <&macro_release>,
-                <&kp LEFT_WIN>;
-
-            label = "MACRO_SNAP_LEFT";
-        };
-
-        macro_snap_up: macro_snap_up {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_WIN>,
-                <&macro_tap>,
-                <&kp UP>,
-                <&macro_release>,
-                <&kp LEFT_WIN>;
-
-            label = "MACRO_SNAP_UP";
-        };
-
-        macro_snap_down: macro_snap_down {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_WIN>,
-                <&macro_tap>,
-                <&kp DOWN>,
-                <&macro_release>,
-                <&kp LEFT_WIN>;
-
-            label = "MACRO_SNAP_DOWN";
-        };
-
-        macro_snap_right: macro_snap_right {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_WIN>,
-                <&macro_tap>,
-                <&kp RIGHT>,
-                <&macro_release>,
-                <&kp LEFT_WIN>;
-
-            label = "MACRO_SNAP_LEFT";
-        };
     };
 
     keymap {
@@ -424,9 +368,9 @@
         tweak_layer {
             bindings = <
 &trans            &trans           &trans             &trans            &trans           &trans          &kp UP     &trans        &trans             &trans            &trans           &trans           &trans
-&out OUT_TOG      &bt BT_SEL 4     &bt BT_SEL 3       &bt BT_SEL 2      &bt BT_SEL 1     &bt BT_SEL 0    &kp DOWN   &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2      &bt BT_SEL 3     &bt BT_SEL 4     &out OUT_TOG
-&bootloader       &trans           &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOLUME_UP  &trans          &kp LEFT   &trans        &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOLUME_UP  &trans           &bootloader
-&sys_reset        &rgb_ug RGB_TOG  &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT       &trans          &kp RIGHT  &trans        &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT       &rgb_ug RGB_TOG  &sys_reset
+&trans            &bt BT_SEL 4     &bt BT_SEL 3       &bt BT_SEL 2      &bt BT_SEL 1     &bt BT_SEL 0    &kp DOWN   &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2      &bt BT_SEL 3     &bt BT_SEL 4     &trans
+&trans            &sys_reset       &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOLUME_UP  &out OUT_TOG    &kp LEFT   &out OUT_TOG  &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOLUME_UP  &sys_reset       &trans
+&trans            &rgb_ug RGB_TOG  &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT       &trans          &kp RIGHT  &trans        &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT       &rgb_ug RGB_TOG  &trans
 &kp C_PLAY_PAUSE  &trans           &trans             &trans            &trans           &trans          &trans     &trans        &trans             &trans            &trans           &trans
             >;
 
@@ -449,11 +393,11 @@
 
         snap_layer {
             bindings = <
-&trans        &trans                 &trans            &trans            &trans             &trans               &kp UP     &trans  &trans          &trans     &trans        &trans        &trans
-&trans        &kp LA(LC(LG(LEFT)))   &kp LA(LG(U))     &macro_snap_up    &kp LA(LG(I))      &kp LG(LA(D))        &kp DOWN   &trans  &trans          &trans     &trans        &trans        &trans
-&kp LEFT_ALT  &kp LC(LG(F))          &macro_snap_left  &macro_snap_down  &macro_snap_right  &kp LC(GRAVE)        &kp LEFT   &trans  &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &kp GLOBE
-&trans        &kp LA(LG(LC(RIGHT)))  &kp LA(LG(J))     &kp LG(LA(H))     &kp LA(LG(K))      &kp LA(LG(E))        &kp RIGHT  &trans  &trans          &trans     &trans        &trans        &trans
-&trans        &trans                 &trans            &kp LC(H)         &kp LA(LG(BSPC))   &kp LA(LG(ENTER))    &trans     &trans  &trans          &trans     &trans        &trans
+&trans  &trans                 &trans            &trans            &trans             &trans               &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LA(LC(LG(LEFT)))   &kp LA(LG(U))     &kp LA(LG(UP))    &kp LA(LG(I))      &kp LG(LA(D))        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(LG(F))          &kp LA(LG(LEFT))  &kp LA(LG(DOWN))  &kp LA(LG(RIGHT))  &kp LC(GRAVE)        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LA(LG(LC(RIGHT)))  &kp LA(LG(J))     &kp LG(LA(H))     &kp LA(LG(K))      &kp LA(LG(E))        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                 &trans            &kp LC(H)         &kp LA(LG(BSPC))   &kp LA(LG(ENTER))    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             display-name = "SNAP";
