@@ -295,6 +295,90 @@
 
             label = "MACRO_WIN_SNAP";
         };
+
+        macro_snap_left: macro_snap_left {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_WIN>,
+                <&macro_tap>,
+                <&kp LEFT>,
+                <&macro_release>,
+                <&kp LEFT_WIN>;
+
+            label = "MACRO_SNAP_LEFT";
+        };
+
+        macro_snap_up: macro_snap_up {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_WIN>,
+                <&macro_tap>,
+                <&kp UP>,
+                <&macro_release>,
+                <&kp LEFT_WIN>;
+
+            label = "MACRO_SNAP_UP";
+        };
+
+        macro_snap_down: macro_snap_down {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_WIN>,
+                <&macro_tap>,
+                <&kp DOWN>,
+                <&macro_release>,
+                <&kp LEFT_WIN>;
+
+            label = "MACRO_SNAP_DOWN";
+        };
+
+        macro_snap_right: macro_snap_right {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_WIN>,
+                <&macro_tap>,
+                <&kp RIGHT>,
+                <&macro_release>,
+                <&kp LEFT_WIN>;
+
+            label = "MACRO_SNAP_RIGHT";
+        };
+
+        macro_prev_word: macro_prev_word {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LSHFT>,
+                <&macro_tap>,
+                <&kp LEFT>,
+                <&macro_release>,
+                <&kp LSHFT>;
+
+            label = "MACRO_PREV_WORD";
+        };
+
+        macro_next_word: macro_next_word {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LSHFT>,
+                <&macro_tap>,
+                <&kp RIGHT>,
+                <&macro_release>,
+                <&kp LSHFT>;
+
+            label = "MACRO_NEXT_WORD";
+        };
     };
 
     keymap {
@@ -354,11 +438,11 @@
 
         fkey_layer {
             bindings = <
-&trans  &trans   &trans  &trans  &trans  &trans              &trans  &trans           &trans     &trans     &trans    &trans    &trans
-&trans  &kp F12  &kp F7  &kp F8  &kp F9  &kp PSCRN           &trans  &kp SCROLLLOCK   &trans     &trans     &trans    &trans    &trans
-&trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp LEFT_CONTROL    &trans  &kp CAPS         &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &kp GLOBE
-&trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp INS             &trans  &kp PAUSE_BREAK  &trans     &trans     &trans    &trans    &trans
-&trans  &trans   &trans  &trans  &trans  &trans              &trans  &trans           &trans     &trans     &trans    &trans
+&trans  &trans   &trans  &trans  &trans  &trans              &trans  &trans           &trans         &trans     &trans    &trans    &trans
+&trans  &kp F12  &kp F7  &kp F8  &kp F9  &kp PSCRN           &trans  &kp SCROLLLOCK   &kp PAGE_UP    &trans     &trans    &trans    &trans
+&trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp LEFT_CONTROL    &trans  &kp CAPS         &kp LSHFT      &kp LCTRL  &kp LALT  &kp LGUI  &kp GLOBE
+&trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp INS             &trans  &kp PAUSE_BREAK  &kp PAGE_DOWN  &trans     &trans    &trans    &trans
+&trans  &trans   &trans  &trans  &trans  &trans              &trans  &trans           &trans         &trans     &trans    &trans
             >;
 
             display-name = "FKEY";
@@ -393,11 +477,11 @@
 
         snap_layer {
             bindings = <
-&trans  &trans                 &trans            &trans            &trans             &trans               &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LA(LC(LG(LEFT)))   &kp LA(LG(U))     &kp LA(LG(UP))    &kp LA(LG(I))      &kp LG(LA(D))        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(LG(F))          &kp LA(LG(LEFT))  &kp LA(LG(DOWN))  &kp LA(LG(RIGHT))  &kp LC(GRAVE)        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LA(LG(LC(RIGHT)))  &kp LA(LG(J))     &kp LG(LA(H))     &kp LA(LG(K))      &kp LA(LG(E))        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                 &trans            &kp LC(H)         &kp LA(LG(BSPC))   &kp LA(LG(ENTER))    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                 &trans            &trans            &trans             &trans               &trans  &trans  &trans            &trans            &trans             &trans  &trans
+&trans  &kp LA(LC(LG(LEFT)))   &kp LA(LG(U))     &kp LA(LG(UP))    &kp LA(LG(I))      &kp LG(LA(D))        &trans  &trans  &trans            &macro_snap_up    &trans             &trans  &trans
+&trans  &kp LC(LG(F))          &kp LA(LG(LEFT))  &kp LA(LG(DOWN))  &kp LA(LG(RIGHT))  &kp LC(GRAVE)        &trans  &trans  &macro_snap_left  &macro_snap_down  &macro_snap_right  &trans  &trans
+&trans  &kp LA(LG(LC(RIGHT)))  &kp LA(LG(J))     &kp LG(LA(H))     &kp LA(LG(K))      &kp LA(LG(E))        &trans  &trans  &trans            &trans            &trans             &trans  &trans
+&trans  &trans                 &trans            &kp LC(H)         &kp LA(LG(BSPC))   &kp LA(LG(ENTER))    &trans  &trans  &trans            &trans            &trans             &trans
             >;
 
             display-name = "SNAP";
