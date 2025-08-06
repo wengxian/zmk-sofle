@@ -162,7 +162,7 @@ layers:
   - {t: '4', h: '$$mdi:apple-keyboard-option$$', s: $}
   - {t: '5', h: '$$mdi:apple-keyboard-control$$', s: '%'}
   - {t: '6', h: '$$mdi:apple-keyboard-shift$$', s: ^}
-  - +
+  - '&macro_plus'
   - {t: '$$mdi:transfer$$', type: trans}
   - HOME
   - $$mdi:arrow-left-bold$$
@@ -413,8 +413,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&macro_plus'
   - {t: '-', s: _}
-  - '{'
-  - '}'
+  - '&macro_left_brace'
+  - '&macro_right_brace'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -439,8 +439,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&macro_exclaimation_mark'
   - '&macro_question_mark'
-  - <
-  - '>'
+  - '&macro_less_than'
+  - '&macro_greater_than'
   - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
