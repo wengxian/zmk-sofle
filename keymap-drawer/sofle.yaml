@@ -530,19 +530,19 @@ combos:
   k: {t: GAME, h: toggle}
 - p: [18, 44]
   k: {t: TWEAK, h: toggle}
+- p: [29, 30]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [40, 41]
   k: '&macro_win_win_pos'
 - p: [41, 42]
   k: <
 - p: [42, 43]
   k: '>'
+- p: [43, 44]
+  k: '&key_repeat'
 - p: [20, 46]
   k: $$mdi:bluetooth-off$$
   a: top
   o: 0.03
 - p: [25, 51]
   k: BT CLR ALL
-- p: [29, 30]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
-- p: [43, 44]
-  k: '&key_repeat'
