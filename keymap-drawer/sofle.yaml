@@ -151,11 +151,11 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
-  - PG UP
-  - HOME
+  - PgUp
+  - '&macro_prev_word'
   - $$mdi:arrow-up-bold$$
-  - END
-  - PG DN
+  - '&macro_next_word'
+  - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', h: LGUI, s: _}
@@ -164,11 +164,11 @@ layers:
   - {t: '6', h: '$$mdi:apple-keyboard-shift$$', s: ^}
   - +
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-control$$
+  - HOME
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - '&macro_select_all'
+  - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: /, s: '?'}
@@ -210,11 +210,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - HOME
+  - PgUp
   - '&macro_prev_word'
   - $$mdi:arrow-up-bold$$
   - '&macro_next_word'
-  - END
+  - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
   - {t: '7', s: '&'}
@@ -223,11 +223,11 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&macro_select_all'
+  - HOME
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - END
   - {t: '$$mdi:transfer$$', type: trans}
   - +
   - {t: '4', h: '$$mdi:apple-keyboard-shift$$', s: $}
@@ -282,7 +282,7 @@ layers:
   - $$mdi:printer-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - SCROLLLOCK
-  - PgUp
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -308,7 +308,7 @@ layers:
   - INS
   - {t: '$$mdi:transfer$$', type: trans}
   - PAUSE BREAK
-  - PgDn
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -542,3 +542,7 @@ combos:
   o: 0.03
 - p: [25, 51]
   k: BT CLR ALL
+- p: [29, 30]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
+- p: [43, 44]
+  k: '&key_repeat'
