@@ -308,11 +308,11 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LSHFT>,
+                <&kp LEFT_CONTROL>,
                 <&macro_tap>,
                 <&kp LEFT>,
                 <&macro_release>,
-                <&kp LSHFT>;
+                <&kp LEFT_CONTROL>;
 
             label = "MACRO_PREV_WORD";
         };
@@ -322,11 +322,11 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LSHFT>,
+                <&kp LEFT_CONTROL>,
                 <&macro_tap>,
                 <&kp RIGHT>,
                 <&macro_release>,
-                <&kp LSHFT>;
+                <&kp LEFT_CONTROL>;
 
             label = "MACRO_NEXT_WORD";
         };
