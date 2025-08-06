@@ -539,9 +539,9 @@ combos:
 - p: [40, 41]
   k: '&macro_win_win_pos'
 - p: [41, 42]
-  k: <
+  k: '&macro_less_than'
 - p: [42, 43]
-  k: '>'
+  k: '&macro_greater_than'
 - p: [20, 46]
   k: $$mdi:bluetooth-off$$
   a: top
