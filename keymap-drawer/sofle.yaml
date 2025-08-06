@@ -210,11 +210,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - PgUp
   - HOME
+  - '&macro_prev_word'
   - $$mdi:arrow-up-bold$$
+  - '&macro_next_word'
   - END
-  - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
   - {t: '7', s: '&'}
@@ -478,7 +478,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&macro_snap_up'
+  - '&macro_win_snap_up'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -490,9 +490,9 @@ layers:
   - {t: Ctl+`, s: Ctl+~}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&macro_snap_left'
-  - '&macro_snap_down'
-  - '&macro_snap_right'
+  - '&macro_win_snap_left'
+  - '&macro_win_snap_down'
+  - '&macro_win_snap_right'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
