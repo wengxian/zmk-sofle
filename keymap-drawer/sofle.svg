@@ -725,8 +725,8 @@ rect.held, rect.combo.held {
 <text x="112" y="158" class="combo tap"><tspan style="font-size: 60%">&amp;macro_se…</tspan></text>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
-<text x="224" y="144" class="combo tap"><tspan style="font-size: 60%">&amp;key_repe…</tspan></text>
+<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap"><tspan style="font-size: 60%">&amp;key_repe…</tspan></text>
 </g>
 <g class="combo enter combopos-6">
 <rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo enter"/>
@@ -1130,8 +1130,8 @@ rect.held, rect.combo.held {
 <text x="112" y="158" class="combo tap"><tspan style="font-size: 60%">&amp;macro_se…</tspan></text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
-<text x="224" y="144" class="combo tap"><tspan style="font-size: 60%">&amp;key_repe…</tspan></text>
+<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap"><tspan style="font-size: 60%">&amp;key_repe…</tspan></text>
 </g>
 <g class="combo enter combopos-5">
 <rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo enter"/>
@@ -1534,8 +1534,8 @@ rect.held, rect.combo.held {
 <text x="112" y="158" class="combo tap"><tspan style="font-size: 60%">&amp;macro_se…</tspan></text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
-<text x="224" y="144" class="combo tap"><tspan style="font-size: 60%">&amp;key_repe…</tspan></text>
+<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap"><tspan style="font-size: 60%">&amp;key_repe…</tspan></text>
 </g>
 <g class="combo enter combopos-5">
 <rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo enter"/>
@@ -1935,8 +1935,8 @@ rect.held, rect.combo.held {
 <text x="112" y="158" class="combo tap"><tspan style="font-size: 60%">&amp;macro_se…</tspan></text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
-<text x="224" y="144" class="combo tap"><tspan style="font-size: 60%">&amp;key_repe…</tspan></text>
+<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap"><tspan style="font-size: 60%">&amp;key_repe…</tspan></text>
 </g>
 <g class="combo enter combopos-5">
 <rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo enter"/>
@@ -2323,8 +2323,8 @@ rect.held, rect.combo.held {
 <text x="112" y="158" class="combo tap"><tspan style="font-size: 60%">&amp;macro_se…</tspan></text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
-<text x="224" y="144" class="combo tap"><tspan style="font-size: 60%">&amp;key_repe…</tspan></text>
+<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap"><tspan style="font-size: 60%">&amp;key_repe…</tspan></text>
 </g>
 <g class="combo enter combopos-5">
 <rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo enter"/>
@@ -2733,8 +2733,8 @@ rect.held, rect.combo.held {
 <text x="112" y="158" class="combo tap"><tspan style="font-size: 60%">&amp;macro_se…</tspan></text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
-<text x="224" y="144" class="combo tap"><tspan style="font-size: 60%">&amp;key_repe…</tspan></text>
+<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap"><tspan style="font-size: 60%">&amp;key_repe…</tspan></text>
 </g>
 <g class="combo enter combopos-5">
 <rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo enter"/>
@@ -3132,8 +3132,8 @@ rect.held, rect.combo.held {
 <text x="112" y="158" class="combo tap"><tspan style="font-size: 60%">&amp;macro_se…</tspan></text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
-<text x="224" y="144" class="combo tap"><tspan style="font-size: 60%">&amp;key_repe…</tspan></text>
+<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap"><tspan style="font-size: 60%">&amp;key_repe…</tspan></text>
 </g>
 <g class="combo enter combopos-5">
 <rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo enter"/>
@@ -3543,8 +3543,8 @@ rect.held, rect.combo.held {
 <text x="112" y="158" class="combo tap"><tspan style="font-size: 60%">&amp;macro_se…</tspan></text>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
-<text x="224" y="144" class="combo tap"><tspan style="font-size: 60%">&amp;key_repe…</tspan></text>
+<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap"><tspan style="font-size: 60%">&amp;key_repe…</tspan></text>
 </g>
 <g class="combo enter combopos-6">
 <rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo enter"/>

@@ -532,7 +532,7 @@ combos:
   k: {t: TWEAK, h: toggle}
 - p: [27, 28]
   k: '&macro_select_all'
-- p: [29, 30]
+- p: [28, 29]
   k: '&key_repeat'
 - p: [29, 30]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
