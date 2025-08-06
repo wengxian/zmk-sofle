@@ -531,7 +531,7 @@ combos:
 - p: [18, 44]
   k: {t: TWEAK, h: toggle}
 - p: [40, 41]
-  k: '&macro_win_snap'
+  k: '&macro_win_win_pos'
 - p: [41, 42]
   k: <
 - p: [42, 43]
