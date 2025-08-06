@@ -142,14 +142,14 @@
         };
 
         combo_less_than {
-            bindings = <&kp LT>;
+            bindings = <&macro_less_than>;
             key-positions = <41 42>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
 
         combo_greater_than {
-            bindings = <&kp GT>;
+            bindings = <&macro_greater_than>;
             key-positions = <42 43>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
@@ -255,6 +255,34 @@
                 <&kp LSHFT>;
         };
 
+        macro_left_brace: macro_left_brace {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LSHFT>,
+                <&macro_tap>,
+                <&kp LEFT_BRACKET>,
+                <&macro_release>,
+                <&kp LSHFT>;
+
+            label = "MACRO_LEFT_BRACE";
+        };
+
+        macro_right_brace: macro_right_brace {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LSHFT>,
+                <&macro_tap>,
+                <&kp RIGHT_BRACKET>,
+                <&macro_release>,
+                <&kp LSHFT>;
+
+            label = "MACRO_RIGHT_BRACE";
+        };
+
         macro_underscore: macro_underscore {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -301,6 +329,34 @@
                 <&kp FSLH>,
                 <&macro_release>,
                 <&kp LSHFT>;
+        };
+
+        macro_less_than: macro_less_than {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LSHFT>,
+                <&macro_tap>,
+                <&kp COMMA>,
+                <&macro_release>,
+                <&kp LSHFT>;
+
+            label = "MACRO_LESS_THAN";
+        };
+
+        macro_greater_than: macro_greater_than {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LSHFT>,
+                <&macro_tap>,
+                <&kp DOT>,
+                <&macro_release>,
+                <&kp LSHFT>;
+
+            label = "MACRO_GREATER_THAN";
         };
 
         macro_prev_word: macro_prev_word {
