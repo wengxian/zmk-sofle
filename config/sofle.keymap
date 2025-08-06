@@ -539,7 +539,7 @@
             sensor-bindings = <&scroll_encoder_pp>;
         };
 
-        sym_layer {
+        symb_layer {
             bindings = <
 &trans  &trans        &trans          &trans          &trans           &trans            &trans  &trans                    &trans                &trans             &trans               &trans         &trans
 &trans  &msc SCRL_UP  &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &msc SCRL_DOWN    &trans  &macro_plus               &kp MINUS             &macro_left_brace  &macro_right_brace   &trans         &trans
