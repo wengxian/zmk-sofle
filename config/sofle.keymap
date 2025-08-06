@@ -122,7 +122,7 @@
 
         combo_key_repeat {
             bindings = <&key_repeat>;
-            key-positions = <29 30>;
+            key-positions = <28 29>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
