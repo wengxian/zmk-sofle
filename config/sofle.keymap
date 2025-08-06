@@ -416,7 +416,7 @@
             bindings = <
 &trans  &trans            &trans         &trans          &trans          &trans       &trans  &trans       &trans            &trans       &trans            &trans         &trans
 &trans  &kp EQUAL         &kp N7         &kp N8          &kp N9          &kp N0       &trans  &kp PAGE_UP  &macro_prev_word  &kp UP       &macro_next_word  &kp PAGE_DOWN  &trans
-&trans  &hrml LGUI MINUS  &hrml LALT N4  &hrml LCTRL N5  &hrml LSHFT N6  &kp PLUS     &trans  &kp HOME     &kp LEFT          &kp DOWN     &kp RIGHT         &kp END        &trans
+&trans  &hrml LGUI ASTRK  &hrml LALT N4  &hrml LCTRL N5  &hrml LSHFT N6  &kp PLUS     &trans  &kp HOME     &kp LEFT          &kp DOWN     &kp RIGHT         &kp END        &trans
 &trans  &kp SLASH         &kp N1         &kp N2          &kp N3          &kp MINUS    &trans  &macro_undo  &macro_cut        &macro_copy  &macro_paste      &macro_redo    &trans
 &trans  &trans            &trans         &trans          &trans          &trans       &trans  &trans       &trans            &trans       &trans            &trans
             >;
