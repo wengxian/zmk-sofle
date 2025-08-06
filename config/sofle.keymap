@@ -113,6 +113,13 @@
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
 
+        combo_enter {
+            bindings = <&kp ENTER>;
+            key-positions = <29 30>;
+            timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
+            require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
+        };
+
         combo_win_win_pos {
             bindings = <&macro_win_win_pos>;
             key-positions = <40 41>;
@@ -134,6 +141,13 @@
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
 
+        combo_key_repeat {
+            bindings = <&key_repeat>;
+            key-positions = <43 44>;
+            timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
+            require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
+        };
+
         combo_bt_clear {
             bindings = <&bt BT_CLR>;
             key-positions = <20 46>;
@@ -144,20 +158,6 @@
         combo_bt_clear_all {
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <25 51>;
-            timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
-            require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
-        };
-
-        combo_enter {
-            bindings = <&kp ENTER>;
-            key-positions = <29 30>;
-            timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
-            require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
-        };
-
-        combo_key_repeat {
-            bindings = <&key_repeat>;
-            key-positions = <43 44>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
