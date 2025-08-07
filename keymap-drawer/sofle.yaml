@@ -62,7 +62,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: TWEAK}
   - {t: '$$mdi:backspace$$', h: SYMB}
-  - {t: '$$mdi:keyboard-tab$$', h: SNAP}
+  - {t: '$$mdi:keyboard-tab$$', h: MOUSE}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   GAME:
@@ -152,9 +152,9 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - PgUp
-  - '&macro_prev_word'
+  - '&macro_ctrl_left'
   - $$mdi:arrow-up-bold$$
-  - '&macro_next_word'
+  - '&macro_ctrl_right'
   - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -211,9 +211,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - PgUp
-  - '&macro_prev_word'
+  - '&macro_ctrl_left'
   - $$mdi:arrow-up-bold$$
-  - '&macro_next_word'
+  - '&macro_ctrl_right'
   - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
@@ -455,6 +455,71 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  MOUSE:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-left$$
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - $$mdi:pan-right$$
+  - $$mdi:pan-up$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp MB4'
+  - $$mdi:pan-up$$
+  - '&mkp MB5'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&macro_select_all'
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - $$mdi:pan-down$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-left$$
+  - $$mdi:pan-down$$
+  - $$mdi:pan-right$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&macro_undo'
+  - '&macro_cut'
+  - '&macro_copy'
+  - '&macro_paste'
+  - '&macro_redo'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-right-click-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-right-click-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   SNAP:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -478,7 +543,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&macro_win_snap_up'
+  - '&macro_win_up'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -490,9 +555,9 @@ layers:
   - {t: Ctl+`, s: Ctl+~}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&macro_win_snap_left'
-  - '&macro_win_snap_down'
-  - '&macro_win_snap_right'
+  - '&macro_win_left'
+  - '&macro_win_down'
+  - '&macro_win_right'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -517,15 +582,15 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [13, 39]
-  k: {t: SYMB, h: toggle}
+  k: {t: MOUSE, h: toggle}
 - p: [14, 40]
-  k: {t: SNAP, h: toggle}
-  l: [BASE, SNAP]
+  k: {t: SYMB, h: toggle}
+  l: [BASE, MOUSE]
 - p: [16, 42]
   k: {t: GAME, h: toggle}
 - p: [18, 44]
@@ -537,7 +602,7 @@ combos:
 - p: [29, 30]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [40, 41]
-  k: '&macro_win_win_pos'
+  k: '&macro_win_z'
 - p: [41, 42]
   k: '&macro_less_than'
 - p: [42, 43]
