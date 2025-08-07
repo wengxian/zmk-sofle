@@ -92,11 +92,10 @@
         };
 
         combo_snap {
-            bindings = <&tog 6>;
+            bindings = <&tog 8>;
             key-positions = <14 40>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
-            layers = <0 7>;
         };
 
         combo_game {
