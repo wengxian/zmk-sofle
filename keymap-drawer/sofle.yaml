@@ -589,8 +589,7 @@ combos:
 - p: [13, 39]
   k: {t: MOUSE, h: toggle}
 - p: [14, 40]
-  k: {t: SYMB, h: toggle}
-  l: [BASE, MOUSE]
+  k: {t: SNAP, h: toggle}
 - p: [16, 42]
   k: {t: GAME, h: toggle}
 - p: [18, 44]
