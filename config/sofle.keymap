@@ -85,14 +85,14 @@
         compatible = "zmk,combos";
 
         combo_mouse {
-            bindings = <&tog 6>;
+            bindings = <&tog 7>;
             key-positions = <13 39>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
 
         combo_snap {
-            bindings = <&tog 7>;
+            bindings = <&tog 6>;
             key-positions = <14 40>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
@@ -106,7 +106,7 @@
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
 
-        combo_setting {
+        combo_settings {
             bindings = <&tog 5>;
             key-positions = <18 44>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
@@ -134,8 +134,8 @@
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
 
-        combo_win_win_pos {
-            bindings = <&macro_win_win_pos>;
+        combo_win_z {
+            bindings = <&macro_win_z>;
             key-positions = <40 41>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
@@ -359,35 +359,7 @@
             label = "MACRO_GREATER_THAN";
         };
 
-        macro_prev_word: macro_prev_word {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_CONTROL>,
-                <&macro_tap>,
-                <&kp LEFT>,
-                <&macro_release>,
-                <&kp LEFT_CONTROL>;
-
-            label = "MACRO_PREV_WORD";
-        };
-
-        macro_next_word: macro_next_word {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_CONTROL>,
-                <&macro_tap>,
-                <&kp RIGHT>,
-                <&macro_release>,
-                <&kp LEFT_CONTROL>;
-
-            label = "MACRO_NEXT_WORD";
-        };
-
-        macro_win_win_pos: macro_win_win_pos {
+        macro_win_z: macro_win_z {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -398,10 +370,66 @@
                 <&macro_release>,
                 <&kp LEFT_WIN>;
 
-            label = "MACRO_WIN_WIN_POS";
+            label = "MACRO_WIN_Z";
         };
 
-        macro_win_snap_left: macro_win_snap_left {
+        macro_ctrl_left: macro_ctrl_left {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_CONTROL>,
+                <&macro_tap>,
+                <&kp LEFT>,
+                <&macro_release>,
+                <&kp LEFT_CONTROL>;
+
+            label = "MACRO_CTRL_LEFT";
+        };
+
+        macro_ctrl_up: macro_ctrl_up {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_CONTROL>,
+                <&macro_tap>,
+                <&kp UP_ARROW>,
+                <&macro_release>,
+                <&kp LEFT_CONTROL>;
+
+            label = "MACRO_CTRL_UP";
+        };
+
+        macro_ctrl_down: macro_ctrl_down {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_CONTROL>,
+                <&macro_tap>,
+                <&kp DOWN>,
+                <&macro_release>,
+                <&kp LEFT_CONTROL>;
+
+            label = "MACRO_CTRL_DOWN";
+        };
+
+        macro_ctrl_right: macro_ctrl_right {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_CONTROL>,
+                <&macro_tap>,
+                <&kp RIGHT>,
+                <&macro_release>,
+                <&kp LEFT_CONTROL>;
+
+            label = "MACRO_CTRL_RIGHT";
+        };
+
+        macro_win_left: macro_win_left {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -412,10 +440,10 @@
                 <&macro_release>,
                 <&kp LEFT_WIN>;
 
-            label = "MACRO_WIN_SNAP_LEFT";
+            label = "MACRO_WIN_LEFT";
         };
 
-        macro_win_snap_up: macro_win_snap_up {
+        macro_win_up: macro_win_up {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -426,10 +454,10 @@
                 <&macro_release>,
                 <&kp LEFT_WIN>;
 
-            label = "MACRO_WIN_SNAP_UP";
+            label = "MACRO_WIN_UP";
         };
 
-        macro_win_snap_down: macro_win_snap_down {
+        macro_win_down: macro_win_down {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -440,10 +468,10 @@
                 <&macro_release>,
                 <&kp LEFT_WIN>;
 
-            label = "MACRO_WIN_SNAP_DOWN";
+            label = "MACRO_WIN_DOWN";
         };
 
-        macro_win_snap_right: macro_win_snap_right {
+        macro_win_right: macro_win_right {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -454,7 +482,7 @@
                 <&macro_release>,
                 <&kp LEFT_WIN>;
 
-            label = "MACRO_WIN_SNAP_RIGHT";
+            label = "MACRO_WIN_RIGHT";
         };
     };
 
@@ -490,7 +518,7 @@
         digit_layer {
             bindings = <
 &trans  &trans            &trans         &trans          &trans          &trans         &trans  &trans       &trans            &trans       &trans            &trans         &trans
-&trans  &kp EQUAL         &kp N7         &kp N8          &kp N9          &kp N0         &trans  &kp PAGE_UP  &macro_prev_word  &kp UP       &macro_next_word  &kp PAGE_DOWN  &trans
+&trans  &kp EQUAL         &kp N7         &kp N8          &kp N9          &kp N0         &trans  &kp PAGE_UP  &macro_ctrl_left  &kp UP       &macro_ctrl_right  &kp PAGE_DOWN  &trans
 &trans  &hrml LGUI MINUS  &hrml LALT N4  &hrml LCTRL N5  &hrml LSHFT N6  &macro_plus    &trans  &kp HOME     &kp LEFT          &kp DOWN     &kp RIGHT         &kp END        &trans
 &trans  &kp SLASH         &kp N1         &kp N2          &kp N3          &kp MINUS      &trans  &macro_undo  &macro_cut        &macro_copy  &macro_paste      &macro_redo    &trans
 &trans  &trans            &trans         &trans          &trans          &trans         &trans  &trans       &trans            &trans       &trans            &trans
@@ -503,7 +531,7 @@
         navi_layer {
             bindings = <
 &trans  &trans       &trans            &trans       &trans            &trans           &trans  &trans     &trans          &trans          &trans         &trans            &trans
-&trans  &kp PAGE_UP  &macro_prev_word  &kp UP       &macro_next_word  &kp PAGE_DOWN    &trans  &kp EQUAL  &kp N7          &kp N8          &kp N9         &kp N0            &trans
+&trans  &kp PAGE_UP  &macro_ctrl_left  &kp UP       &macro_ctrl_right  &kp PAGE_DOWN    &trans  &kp EQUAL  &kp N7          &kp N8          &kp N9         &kp N0            &trans
 &trans  &kp HOME     &kp LEFT          &kp DOWN     &kp RIGHT         &kp END          &trans  &kp PLUS   &hrmr LSHFT N4  &hrmr LCTRL N5  &hrmr LALT N6  &hrmr LGUI ASTRK  &trans
 &trans  &macro_undo  &macro_cut        &macro_copy  &macro_paste      &macro_redo      &trans  &kp MINUS  &kp N1          &kp N2          &kp N3         &trans            &trans
 &trans  &trans       &trans            &trans       &trans            &trans           &trans  &trans     &trans          &trans          &trans         &trans
@@ -552,11 +580,24 @@
             sensor-bindings = <&scroll_encoder_vol>;
         };
 
+        mouse_layer {
+            bindings = <
+&trans  &trans             &trans          &trans          &trans           &trans            &trans  &trans  &trans          &trans          &trans           &trans  &trans
+&trans  &trans             &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &msc SCRL_UP      &trans  &trans  &mkp MB4        &msc SCRL_UP    &mkp MB5         &trans  &trans
+&trans  &macro_select_all  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN    &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans
+&trans  &macro_undo        &macro_cut      &macro_copy     &macro_paste     &macro_redo       &trans  &trans  &mkp LCLK       &mkp MCLK       &mkp RCLK        &trans  &trans
+&trans  &trans             &trans          &mkp LCLK       &mkp MCLK        &mkp RCLK         &trans  &trans  &trans          &trans          &trans           &trans
+            >;
+
+            display-name = "MOUSE";
+            sensor-bindings = <&scroll_encoder_vol>;
+        };
+
         snap_layer {
             bindings = <
 &trans  &trans                 &trans            &trans            &trans             &trans               &trans  &trans  &trans                &trans                &trans                 &trans  &trans
-&trans  &kp LA(LC(LG(LEFT)))   &kp LA(LG(U))     &kp LA(LG(UP))    &kp LA(LG(I))      &kp LG(LA(D))        &trans  &trans  &trans                &macro_win_snap_up    &trans                 &trans  &trans
-&trans  &kp LC(LG(F))          &kp LA(LG(LEFT))  &kp LA(LG(DOWN))  &kp LA(LG(RIGHT))  &kp LC(GRAVE)        &trans  &trans  &macro_win_snap_left  &macro_win_snap_down  &macro_win_snap_right  &trans  &trans
+&trans  &kp LA(LC(LG(LEFT)))   &kp LA(LG(U))     &kp LA(LG(UP))    &kp LA(LG(I))      &kp LG(LA(D))        &trans  &trans  &trans                &macro_win_up    &trans                 &trans  &trans
+&trans  &kp LC(LG(F))          &kp LA(LG(LEFT))  &kp LA(LG(DOWN))  &kp LA(LG(RIGHT))  &kp LC(GRAVE)        &trans  &trans  &macro_win_left  &macro_win_down  &macro_win_right  &trans  &trans
 &trans  &kp LA(LG(LC(RIGHT)))  &kp LA(LG(J))     &kp LG(LA(H))     &kp LA(LG(K))      &kp LA(LG(E))        &trans  &trans  &trans                &trans                &trans                 &trans  &trans
 &trans  &trans                 &trans            &kp LC(H)         &kp LA(LG(BSPC))   &kp LA(LG(ENTER))    &trans  &trans  &trans                &trans                &trans                 &trans
             >;
