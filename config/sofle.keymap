@@ -512,7 +512,7 @@
             bindings = <
 &trans  &trans            &trans         &trans          &trans          &trans         &trans  &trans       &trans      &trans       &trans        &trans             &trans
 &trans  &kp EQUAL         &kp N7         &kp N8          &kp N9          &kp N0         &trans  &kp PAGE_UP  &kp HOME    &kp UP       &kp END       &kp PAGE_DOWN      &trans
-&trans  &hrml LGUI MINUS  &hrml LALT N4  &hrml LCTRL N5  &hrml LSHFT N6  &macro_plus    &trans  &key_repeat  &kp LEFT    &kp DOWN     &kp RIGHT     &macro_select_all  &trans
+&trans  &hrml LGUI ASTRK  &hrml LALT N4  &hrml LCTRL N5  &hrml LSHFT N6  &macro_plus    &trans  &key_repeat  &kp LEFT    &kp DOWN     &kp RIGHT     &macro_select_all  &trans
 &trans  &kp SLASH         &kp N1         &kp N2          &kp N3          &kp MINUS      &trans  &macro_undo  &macro_cut  &macro_copy  &macro_paste  &macro_redo        &trans
 &trans  &trans            &trans         &trans          &trans          &trans         &trans  &trans       &trans      &trans       &trans        &trans
             >;
@@ -525,8 +525,8 @@
             bindings = <
 &trans  &trans             &trans      &trans       &trans        &trans           &trans  &trans       &trans          &trans          &trans         &trans            &trans
 &trans  &kp PAGE_UP        &kp HOME    &kp UP       &kp END       &kp PAGE_DOWN    &trans  &kp EQUAL    &kp N7          &kp N8          &kp N9         &kp N0            &trans
-&trans  &macro_select_all  &kp LEFT    &kp DOWN     &kp RIGHT     &key_repeat      &trans  &macro_plus  &hrmr LSHFT N4  &hrmr LCTRL N5  &hrmr LALT N6  &hrmr LGUI ASTRK  &trans
-&trans  &macro_undo        &macro_cut  &macro_copy  &macro_paste  &macro_redo      &trans  &kp MINUS    &kp N1          &kp N2          &kp N3         &trans            &trans
+&trans  &macro_select_all  &kp LEFT    &kp DOWN     &kp RIGHT     &kp ENTER        &trans  &macro_plus  &hrmr LSHFT N4  &hrmr LCTRL N5  &hrmr LALT N6  &hrmr LGUI ASTRK  &trans
+&trans  &macro_undo        &macro_cut  &macro_copy  &macro_paste  &macro_redo      &trans  &kp MINUS    &kp N1          &kp N2          &kp N3         &kp SLASH         &trans
 &trans  &trans             &trans      &trans       &trans        &trans           &trans  &trans       &trans          &trans          &trans         &trans
             >;
 
@@ -536,11 +536,11 @@
 
         fkey_layer {
             bindings = <
-&trans  &trans   &trans  &trans  &trans  &trans              &trans  &trans           &trans     &trans     &trans    &trans    &trans
-&trans  &kp F12  &kp F7  &kp F8  &kp F9  &kp PSCRN           &trans  &kp SCROLLLOCK   &trans     &trans     &trans    &trans    &trans
-&trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp LEFT_CONTROL    &trans  &kp CAPS         &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &kp GLOBE
-&trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp INS             &trans  &kp PAUSE_BREAK  &trans     &trans     &trans    &trans    &trans
-&trans  &trans   &trans  &trans  &trans  &trans              &trans  &trans           &trans     &trans     &trans    &trans
+&trans  &trans   &trans  &trans  &trans  &trans           &trans  &trans     &trans     &trans     &trans    &trans    &trans
+&trans  &kp F12  &kp F7  &kp F8  &kp F9  &kp PSCRN        &trans  &trans     &trans     &trans     &trans    &kp SLCK  &trans
+&trans  &kp F11  &kp F4  &kp F5  &kp F6  &key_repeat      &trans  &kp GLOBE  &kp LSHFT  &kp LCTRL  &kp LALT  &kp CLCK  &trans
+&trans  &kp F10  &kp F1  &kp F2  &kp F3  &macro_ctrl_n    &trans  &trans     &trans     &trans     &trans    &kp INS   &trans
+&trans  &trans   &trans  &trans  &trans  &trans           &trans  &trans     &trans     &trans     &trans    &trans
             >;
 
             display-name = "FKEY";
@@ -579,7 +579,7 @@
 &trans  &msc SCRL_UP       &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &msc SCRL_DOWN    &trans  &trans  &mkp MB4        &msc SCRL_UP    &mkp MB5         &trans  &trans
 &trans  &macro_select_all  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &key_repeat       &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans
 &trans  &macro_undo        &macro_cut      &macro_copy     &macro_paste     &macro_redo       &trans  &trans  &mkp LCLK       &mkp MCLK       &mkp RCLK        &trans  &trans
-&trans  &trans             &trans          &mkp LCLK       &mkp MCLK        &mkp RCLK         &trans  &trans  &trans          &trans          &trans           &trans
+&trans  &trans             &trans          &mkp RCLK       &mkp MCLK        &mkp LCLK         &trans  &trans  &trans          &trans          &trans           &trans
             >;
 
             display-name = "MOUSE";
