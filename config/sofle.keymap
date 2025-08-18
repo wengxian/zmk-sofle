@@ -537,9 +537,9 @@
         fkey_layer {
             bindings = <
 &trans  &trans   &trans  &trans  &trans  &trans           &trans  &trans     &trans     &trans     &trans    &trans    &trans
-&trans  &kp F12  &kp F7  &kp F8  &kp F9  &kp PSCRN        &trans  &trans     &trans     &trans     &trans    &kp SLCK  &trans
-&trans  &kp F11  &kp F4  &kp F5  &kp F6  &key_repeat      &trans  &kp GLOBE  &kp LSHFT  &kp LCTRL  &kp LALT  &kp CLCK  &trans
-&trans  &kp F10  &kp F1  &kp F2  &kp F3  &macro_ctrl_n    &trans  &trans     &trans     &trans     &trans    &kp INS   &trans
+&trans  &kp F12  &kp F7  &kp F8  &kp F9  &kp PSCRN        &trans  &trans     &macro_zoom_out     &macro_zoom_reset  &macro_zoom_in    &kp SLCK  &trans
+&trans  &kp F11  &kp F4  &kp F5  &kp F6  &key_repeat      &trans  &kp GLOBE  &macro_prev_tab     &meh               &macro_next_tab  &kp CLCK  &trans
+&trans  &kp F10  &kp F1  &kp F2  &kp F3  &macro_ctrl_n    &trans  &trans     &macro_hyper_pg_dn  &hyper             &macro_hyper_pg_up    &kp INS   &trans
 &trans  &trans   &trans  &trans  &trans  &trans           &trans  &trans     &trans     &trans     &trans    &trans
             >;
 
@@ -563,9 +563,9 @@
         symb_layer {
             bindings = <
 &trans  &trans             &trans            &trans            &trans             &trans             &trans  &trans                    &trans                &trans             &trans               &trans         &trans
-&trans  &macro_win_up      &macro_win_left   &macro_ctrl_up    &macro_win_right   &macro_win_down    &trans  &macro_plus               &kp MINUS             &macro_left_brace  &macro_right_brace   &trans         &trans
-&trans  &macro_select_all  &macro_ctrl_left  &macro_ctrl_down  &macro_ctrl_right  &key_repeat        &trans  &kp EQUAL                 &macro_underscore     &kp LBKT           &kp RBKT             &macro_pipe    &trans
-&trans  &macro_undo        &macro_cut        &macro_copy       &macro_paste       &macro_redo        &trans  &macro_exclaimation_mark  &macro_question_mark  &macro_less_than   &macro_greater_than  &kp BACKSLASH  &trans
+&trans  &kp PG_UP          &kp HOME    &kp UP       &kp END       &kp PG_DN    &trans  &macro_plus               &kp MINUS             &macro_left_brace  &macro_right_brace   &trans         &trans
+&trans  &macro_select_all  &kp LEFT    &kp DOWN     &kp RIGHT     &key_repeat        &trans  &kp EQUAL                 &macro_underscore     &kp LBKT           &kp RBKT             &macro_pipe    &trans
+&trans  &macro_undo        &macro_cut  &macro_copy  &macro_paste  &macro_redo        &trans  &macro_exclaimation_mark  &macro_question_mark  &macro_less_than   &macro_greater_than  &kp BACKSLASH  &trans
 &trans  &trans             &trans            &trans            &trans             &trans             &trans  &trans                    &trans                &trans             &trans               &trans
             >;
 
