@@ -27,6 +27,35 @@
 
 / {
     behaviors {
+        td_shift_caps: td_shift_caps {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LSHFT>, <&kp CAPS>;
+        };
+
+        meh: meh_key {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &kp LALT &kp LSHFT>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp LCTRL &kp LALT &kp LSHFT>;
+        };
+
+        hyper: hyper_key {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &kp LALT &kp LSHFT &kp LGUI>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp LCTRL &kp LALT &kp LSHFT &kp LGUI>;
+        };
+
         ltkp: ltkp {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -91,13 +120,6 @@
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
 
-        combo_snap {
-            bindings = <&tog 8>;
-            key-positions = <14 40>;
-            timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
-            require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
-        };
-
         combo_game {
             bindings = <&tog 1>;
             key-positions = <16 42>;
@@ -112,30 +134,9 @@
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
 
-        combo_select_all {
-            bindings = <&macro_select_all>;
-            key-positions = <27 28>;
-            timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
-            require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
-        };
-
-        combo_key_repeat {
-            bindings = <&key_repeat>;
-            key-positions = <28 29>;
-            timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
-            require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
-        };
-
-        combo_enter {
-            bindings = <&kp ENTER>;
-            key-positions = <29 30>;
-            timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
-            require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
-        };
-
-        combo_win_z {
-            bindings = <&macro_win_z>;
-            key-positions = <40 41>;
+        combo_hyper_pg_up {
+            bindings = <&macro_hyper_pg_up>;
+            key-positions = <30 31>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
@@ -150,6 +151,13 @@
         combo_greater_than {
             bindings = <&macro_greater_than>;
             key-positions = <42 43>;
+            timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
+            require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
+        };
+
+        combo_hyper_pg_dn {
+            bindings = <&macro_hyper_pg_dn>;
+            key-positions = <43 44>;
             timeout-ms = <COMBO_DEFAULT_TIMEOUT_MS>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE_MS>;
         };
@@ -264,8 +272,6 @@
                 <&kp LEFT_BRACKET>,
                 <&macro_release>,
                 <&kp LSHFT>;
-
-            label = "MACRO_LEFT_BRACE";
         };
 
         macro_right_brace: macro_right_brace {
@@ -278,8 +284,6 @@
                 <&kp RIGHT_BRACKET>,
                 <&macro_release>,
                 <&kp LSHFT>;
-
-            label = "MACRO_RIGHT_BRACE";
         };
 
         macro_underscore: macro_underscore {
@@ -290,6 +294,18 @@
                 <&kp LSHFT>,
                 <&macro_tap>,
                 <&kp MINUS>,
+                <&macro_release>,
+                <&kp LSHFT>;
+        };
+
+        macro_percent: macro_percent {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LSHFT>,
+                <&macro_tap>,
+                <&kp N5>,
                 <&macro_release>,
                 <&kp LSHFT>;
         };
@@ -318,6 +334,18 @@
                 <&kp LSHFT>;
         };
 
+        macro_hash: macro_hash {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LSHFT>,
+                <&macro_tap>,
+                <&kp N3>,
+                <&macro_release>,
+                <&kp LSHFT>;
+        };
+
         macro_question_mark: macro_question_mark {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -340,8 +368,6 @@
                 <&kp COMMA>,
                 <&macro_release>,
                 <&kp LSHFT>;
-
-            label = "MACRO_LESS_THAN";
         };
 
         macro_greater_than: macro_greater_than {
@@ -354,134 +380,102 @@
                 <&kp DOT>,
                 <&macro_release>,
                 <&kp LSHFT>;
-
-            label = "MACRO_GREATER_THAN";
         };
 
-        macro_win_z: macro_win_z {
+        macro_hyper_pg_up: macro_hyper_pg_up {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_WIN>,
+                <&kp LEFT_WIN &kp LALT &kp LCTRL &kp LSHFT>,
                 <&macro_tap>,
-                <&kp Z>,
+                <&kp PG_UP>,
                 <&macro_release>,
-                <&kp LEFT_WIN>;
-
-            label = "MACRO_WIN_Z";
+                <&kp LEFT_WIN &kp LALT &kp LCTRL &kp LSHFT>;
         };
 
-        macro_ctrl_left: macro_ctrl_left {
+        macro_hyper_pg_dn: macro_hyper_pg_dn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_CONTROL>,
+                <&kp LEFT_WIN &kp LALT &kp LCTRL &kp LSHFT>,
                 <&macro_tap>,
-                <&kp LEFT>,
+                <&kp PG_DN>,
                 <&macro_release>,
-                <&kp LEFT_CONTROL>;
-
-            label = "MACRO_CTRL_LEFT";
+                <&kp LEFT_WIN &kp LALT &kp LCTRL &kp LSHFT>;
         };
 
-        macro_ctrl_up: macro_ctrl_up {
+        macro_ctrl_n: macro_ctrl_n {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_CONTROL>,
+                <&kp LCTRL>,
                 <&macro_tap>,
-                <&kp UP_ARROW>,
+                <&kp N>,
                 <&macro_release>,
-                <&kp LEFT_CONTROL>;
-
-            label = "MACRO_CTRL_UP";
+                <&kp LCTRL>;
         };
 
-        macro_ctrl_down: macro_ctrl_down {
+        macro_prev_tab: macro_prev_tab {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_CONTROL>,
+                <&kp LCTRL>,
                 <&macro_tap>,
-                <&kp DOWN>,
+                <&kp PG_UP>,
                 <&macro_release>,
-                <&kp LEFT_CONTROL>;
-
-            label = "MACRO_CTRL_DOWN";
+                <&kp LCTRL>;
         };
 
-        macro_ctrl_right: macro_ctrl_right {
+        macro_next_tab: macro_next_tab {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_CONTROL>,
+                <&kp LCTRL>,
                 <&macro_tap>,
-                <&kp RIGHT>,
+                <&kp PG_DN>,
                 <&macro_release>,
-                <&kp LEFT_CONTROL>;
-
-            label = "MACRO_CTRL_RIGHT";
+                <&kp LCTRL>;
         };
 
-        macro_win_left: macro_win_left {
+        macro_zoom_out: macro_zoom_out {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_WIN>,
+                <&kp LCTRL>,
                 <&macro_tap>,
-                <&kp LEFT>,
+                <&kp MINUS>,
                 <&macro_release>,
-                <&kp LEFT_WIN>;
-
-            label = "MACRO_WIN_LEFT";
+                <&kp LCTRL>;
         };
 
-        macro_win_up: macro_win_up {
+        macro_zoom_reset: macro_zoom_reset {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_WIN>,
+                <&kp LCTRL>,
                 <&macro_tap>,
-                <&kp UP>,
+                <&kp KP_N0>,
                 <&macro_release>,
-                <&kp LEFT_WIN>;
-
-            label = "MACRO_WIN_UP";
+                <&kp LCTRL>;
         };
 
-        macro_win_down: macro_win_down {
+        macro_zoom_in: macro_zoom_in {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_WIN>,
+                <&kp LCTRL &kp LSHFT>,
                 <&macro_tap>,
-                <&kp DOWN>,
+                <&kp EQUAL>,
                 <&macro_release>,
-                <&kp LEFT_WIN>;
-
-            label = "MACRO_WIN_DOWN";
-        };
-
-        macro_win_right: macro_win_right {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_WIN>,
-                <&macro_tap>,
-                <&kp RIGHT>,
-                <&macro_release>,
-                <&kp LEFT_WIN>;
-
-            label = "MACRO_WIN_RIGHT";
+                <&kp LCTRL &kp LSHFT>;
         };
     };
 
@@ -589,19 +583,6 @@
             >;
 
             display-name = "MOUSE";
-            sensor-bindings = <&scroll_encoder_vol>;
-        };
-
-        snap_layer {
-            bindings = <
-&trans  &trans                 &trans            &trans            &trans             &trans               &trans  &trans  &trans           &trans           &trans            &trans  &trans
-&trans  &kp LA(LC(LG(LEFT)))   &kp LA(LG(U))     &kp LA(LG(UP))    &kp LA(LG(I))      &kp LG(LA(D))        &trans  &trans  &trans           &macro_win_up    &trans            &trans  &trans
-&trans  &kp LC(LG(F))          &kp LA(LG(LEFT))  &kp LA(LG(DOWN))  &kp LA(LG(RIGHT))  &kp LC(GRAVE)        &trans  &trans  &macro_win_left  &macro_win_down  &macro_win_right  &trans  &trans
-&trans  &kp LA(LG(LC(RIGHT)))  &kp LA(LG(J))     &kp LG(LA(H))     &kp LA(LG(K))      &kp LA(LG(E))        &trans  &trans  &trans           &trans           &trans            &trans  &trans
-&trans  &trans                 &trans            &kp LC(H)         &kp LA(LG(BSPC))   &kp LA(LG(ENTER))    &trans  &trans  &trans           &trans           &trans            &trans
-            >;
-
-            display-name = "SNAP";
             sensor-bindings = <&scroll_encoder_vol>;
         };
     };
