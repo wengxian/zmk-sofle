@@ -536,11 +536,11 @@
 
         fkey_layer {
             bindings = <
-&trans  &trans   &trans  &trans  &trans  &trans           &trans  &trans     &trans     &trans     &trans    &trans    &trans
-&trans  &kp F12  &kp F7  &kp F8  &kp F9  &kp PSCRN        &trans  &trans     &macro_zoom_out     &macro_zoom_reset  &macro_zoom_in    &kp SLCK  &trans
-&trans  &kp F11  &kp F4  &kp F5  &kp F6  &key_repeat      &trans  &kp GLOBE  &macro_prev_tab     &meh               &macro_next_tab  &kp CLCK  &trans
-&trans  &kp F10  &kp F1  &kp F2  &kp F3  &macro_ctrl_n    &trans  &trans     &macro_hyper_pg_dn  &hyper             &macro_hyper_pg_up    &kp INS   &trans
-&trans  &trans   &trans  &trans  &trans  &trans           &trans  &trans     &trans     &trans     &trans    &trans
+&trans  &trans   &trans  &trans  &trans  &trans           &trans  &trans     &trans              &trans             &trans              &trans    &trans
+&trans  &kp F12  &kp F7  &kp F8  &kp F9  &kp PSCRN        &trans  &trans     &macro_zoom_out     &macro_zoom_reset  &macro_zoom_in      &kp SLCK  &trans
+&trans  &kp F11  &kp F4  &kp F5  &kp F6  &key_repeat      &trans  &kp GLOBE  &macro_prev_tab     &meh               &macro_next_tab     &kp CLCK  &trans
+&trans  &kp F10  &kp F1  &kp F2  &kp F3  &macro_ctrl_n    &trans  &trans     &macro_hyper_pg_dn  &hyper             &macro_hyper_pg_up  &kp INS   &trans
+&trans  &trans   &trans  &trans  &trans  &trans           &trans  &trans     &trans              &trans             &trans              &trans
             >;
 
             display-name = "FKEY";
@@ -562,11 +562,11 @@
 
         symb_layer {
             bindings = <
-&trans  &trans             &trans            &trans            &trans             &trans             &trans  &trans                    &trans                &trans             &trans               &trans         &trans
-&trans  &kp PG_UP          &kp HOME    &kp UP       &kp END       &kp PG_DN    &trans  &macro_plus               &kp MINUS             &macro_left_brace  &macro_right_brace   &trans         &trans
-&trans  &macro_select_all  &kp LEFT    &kp DOWN     &kp RIGHT     &key_repeat        &trans  &kp EQUAL                 &macro_underscore     &kp LBKT           &kp RBKT             &macro_pipe    &trans
-&trans  &macro_undo        &macro_cut  &macro_copy  &macro_paste  &macro_redo        &trans  &macro_exclaimation_mark  &macro_question_mark  &macro_less_than   &macro_greater_than  &kp BACKSLASH  &trans
-&trans  &trans             &trans            &trans            &trans             &trans             &trans  &trans                    &trans                &trans             &trans               &trans
+&trans  &trans             &trans      &trans       &trans        &trans         &trans  &trans                    &trans                &trans             &trans               &trans         &trans
+&trans  &kp PG_UP          &kp HOME    &kp UP       &kp END       &kp PG_DN      &trans  &macro_plus               &kp MINUS             &macro_left_brace  &macro_right_brace   &trans         &trans
+&trans  &macro_select_all  &kp LEFT    &kp DOWN     &kp RIGHT     &key_repeat    &trans  &kp EQUAL                 &macro_underscore     &kp LBKT           &kp RBKT             &macro_pipe    &trans
+&trans  &macro_undo        &macro_cut  &macro_copy  &macro_paste  &macro_redo    &trans  &macro_exclaimation_mark  &macro_question_mark  &macro_less_than   &macro_greater_than  &kp BACKSLASH  &trans
+&trans  &trans             &trans      &trans       &trans        &trans         &trans  &trans                    &trans                &trans             &trans               &trans
             >;
 
             display-name = "SYMB";
@@ -575,11 +575,11 @@
 
         mouse_layer {
             bindings = <
-&trans  &trans             &trans          &trans          &trans           &trans            &trans  &trans  &trans          &trans          &trans           &trans  &trans
-&trans  &msc SCRL_UP       &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &msc SCRL_DOWN    &trans  &trans  &mkp MB4        &msc SCRL_UP    &mkp MB5         &trans  &trans
-&trans  &macro_select_all  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &key_repeat       &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans
-&trans  &macro_undo        &macro_cut      &macro_copy     &macro_paste     &macro_redo       &trans  &trans  &mkp LCLK       &mkp MCLK       &mkp RCLK        &trans  &trans
-&trans  &trans             &trans          &mkp RCLK       &mkp MCLK        &mkp LCLK         &trans  &trans  &trans          &trans          &trans           &trans
+&trans  &trans             &trans          &trans          &trans           &trans            &trans  &trans           &trans          &trans          &trans           &trans  &trans
+&trans  &msc SCRL_UP       &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &msc SCRL_DOWN    &trans  &macro_prev_tab  &mkp MB4        &msc SCRL_UP    &mkp MB5         &trans  &trans
+&trans  &macro_select_all  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &key_repeat       &trans  &macro_ctrl_n    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans
+&trans  &macro_undo        &macro_cut      &macro_copy     &macro_paste     &macro_redo       &trans  &macro_next_tab  &mkp LCLK       &mkp MCLK       &mkp RCLK        &trans  &trans
+&trans  &trans             &trans          &mkp RCLK       &mkp MCLK        &mkp LCLK         &trans  &trans           &trans          &trans          &trans           &trans
             >;
 
             display-name = "MOUSE";
