@@ -49,9 +49,9 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - N
   - M
+  - {t: /, s: '?'}
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-option$$
@@ -413,9 +413,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&macro_plus'
   - {t: '-', s: _}
+  - '&macro_pipe'
   - '&macro_left_brace'
   - '&macro_right_brace'
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&macro_select_all'
@@ -426,9 +426,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
   - '&macro_underscore'
+  - {t: \, s: '|'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - '&macro_pipe'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&macro_undo'
@@ -438,10 +438,10 @@ layers:
   - '&macro_redo'
   - {t: '$$mdi:transfer$$', type: trans}
   - '&macro_exclaimation_mark'
+  - '&macro_hash'
   - '&macro_question_mark'
   - '&macro_less_than'
   - '&macro_greater_than'
-  - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -476,11 +476,11 @@ layers:
   - $$mdi:pan-right$$
   - $$mdi:pan-down$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&macro_prev_tab'
+  - '&macro_zoom_in'
   - '&mkp MB4'
   - $$mdi:pan-up$$
   - '&mkp MB5'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&macro_prev_tab'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&macro_select_all'
@@ -489,11 +489,11 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - '&key_repeat'
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&macro_ctrl_n'
+  - '&macro_zoom_reset'
   - $$mdi:pan-left$$
   - $$mdi:pan-down$$
   - $$mdi:pan-right$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&macro_ctrl_n'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&macro_undo'
@@ -502,11 +502,11 @@ layers:
   - '&macro_paste'
   - '&macro_redo'
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&macro_next_tab'
+  - '&macro_zoom_out'
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&macro_next_tab'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
