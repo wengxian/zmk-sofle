@@ -282,9 +282,9 @@ layers:
   - $$mdi:printer-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&macro_zoom_out'
+  - '&macro_zoom_reset'
+  - '&macro_zoom_in'
   - SLCK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -295,9 +295,9 @@ layers:
   - '&key_repeat'
   - {t: '$$mdi:transfer$$', type: trans}
   - GLOBE
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
+  - '&macro_prev_tab'
+  - '&meh'
+  - '&macro_next_tab'
   - CLCK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -308,9 +308,9 @@ layers:
   - '&macro_ctrl_n'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&macro_hyper_pg_dn'
+  - '&hyper'
+  - '&macro_hyper_pg_up'
   - INS
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -405,11 +405,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&macro_win_up'
-  - '&macro_win_left'
-  - '&macro_ctrl_up'
-  - '&macro_win_right'
-  - '&macro_win_down'
+  - PG UP
+  - HOME
+  - $$mdi:arrow-up-bold$$
+  - END
+  - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - '&macro_plus'
   - {t: '-', s: _}
@@ -419,9 +419,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&macro_select_all'
-  - '&macro_ctrl_left'
-  - '&macro_ctrl_down'
-  - '&macro_ctrl_right'
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - '&key_repeat'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
