@@ -520,92 +520,21 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  SNAP:
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - Alt+Ctl+Gui+$$mdi:arrow-left-bold$$
-  - Alt+Gui+U
-  - Alt+Gui+$$mdi:arrow-up-bold$$
-  - Alt+Gui+I
-  - Gui+Alt+D
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&macro_win_up'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+Gui+F
-  - Alt+Gui+$$mdi:arrow-left-bold$$
-  - Alt+Gui+$$mdi:arrow-down-bold$$
-  - Alt+Gui+$$mdi:arrow-right-bold$$
-  - {t: Ctl+`, s: Ctl+~}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&macro_win_left'
-  - '&macro_win_down'
-  - '&macro_win_right'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - Alt+Gui+Ctl+$$mdi:arrow-right-bold$$
-  - Alt+Gui+J
-  - Gui+Alt+H
-  - Alt+Gui+K
-  - Alt+Gui+E
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+H
-  - {t: 'Alt+Gui+$$mdi:backspace$$', type: backspace}
-  - {t: 'Alt+Gui+$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [13, 39]
   k: {t: MOUSE, h: toggle}
-- p: [14, 40]
-  k: {t: SNAP, h: toggle}
 - p: [16, 42]
   k: {t: GAME, h: toggle}
 - p: [18, 44]
   k: {t: TWEAK, h: toggle}
-- p: [27, 28]
-  k: '&macro_select_all'
-- p: [28, 29]
-  k: '&key_repeat'
-- p: [29, 30]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
-- p: [40, 41]
-  k: '&macro_win_z'
+- p: [30, 31]
+  k: '&macro_hyper_pg_up'
 - p: [41, 42]
   k: '&macro_less_than'
 - p: [42, 43]
   k: '&macro_greater_than'
+- p: [43, 44]
+  k: '&macro_hyper_pg_dn'
 - p: [20, 46]
   k: $$mdi:bluetooth-off$$
   a: top
