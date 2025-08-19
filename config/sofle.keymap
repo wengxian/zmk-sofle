@@ -461,7 +461,7 @@
                 <&macro_press>,
                 <&kp LCTRL>,
                 <&macro_tap>,
-                <&kp KP_N0>,
+                <&kp N0>,
                 <&macro_release>,
                 <&kp LCTRL>;
         };
