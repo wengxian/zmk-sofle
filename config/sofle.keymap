@@ -536,11 +536,11 @@
 
         fkey_layer {
             bindings = <
-&trans  &trans   &trans  &trans  &trans  &trans           &trans  &trans     &trans              &trans             &trans              &trans    &trans
-&trans  &kp F12  &kp F7  &kp F8  &kp F9  &kp PSCRN        &trans  &trans     &macro_zoom_out     &macro_zoom_reset  &macro_zoom_in      &kp SLCK  &trans
-&trans  &kp F11  &kp F4  &kp F5  &kp F6  &key_repeat      &trans  &kp GLOBE  &macro_prev_tab     &meh               &macro_next_tab     &kp CLCK  &trans
-&trans  &kp F10  &kp F1  &kp F2  &kp F3  &macro_ctrl_n    &trans  &trans     &macro_hyper_pg_dn  &hyper             &macro_hyper_pg_up  &kp INS   &trans
-&trans  &trans   &trans  &trans  &trans  &trans           &trans  &trans     &trans              &trans             &trans              &trans
+&trans  &trans   &trans  &trans  &trans  &trans           &trans  &trans      &trans              &trans             &trans              &trans    &trans
+&trans  &kp F12  &kp F7  &kp F8  &kp F9  &kp PSCRN        &trans  &caps_word  &macro_zoom_out     &macro_zoom_reset  &macro_zoom_in      &kp SLCK  &trans
+&trans  &kp F11  &kp F4  &kp F5  &kp F6  &key_repeat      &trans  &kp GLOBE   &macro_prev_tab     &meh               &macro_next_tab     &kp CLCK  &trans
+&trans  &kp F10  &kp F1  &kp F2  &kp F3  &macro_ctrl_n    &trans  &trans      &macro_hyper_pg_dn  &hyper             &macro_hyper_pg_up  &kp INS   &trans
+&trans  &trans   &trans  &trans  &trans  &trans           &trans  &trans      &trans              &trans             &trans              &trans
             >;
 
             display-name = "FKEY";
