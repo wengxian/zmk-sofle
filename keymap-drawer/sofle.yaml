@@ -281,7 +281,7 @@ layers:
   - F9
   - $$mdi:printer-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:alpha-w-box$$
   - '&macro_zoom_out'
   - '&macro_zoom_reset'
   - '&macro_zoom_in'
