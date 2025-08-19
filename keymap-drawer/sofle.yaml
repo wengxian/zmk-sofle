@@ -60,7 +60,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: NAVI}
   - {t: '$$mdi:backspace-reverse-outline$$', h: FKEY}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:backspace-reverse-outline$$', h: TWEAK}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: MEDIA}
   - {t: '$$mdi:backspace$$', h: SYMB}
   - {t: '$$mdi:keyboard-tab$$', h: MOUSE}
   - $$mdi:apple-keyboard-control$$
@@ -325,7 +325,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  TWEAK:
+  MEDIA:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -353,26 +353,26 @@ layers:
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - '&OUT_TOG'
   - $$mdi:volume-low$$
   - $$mdi:volume-off$$
   - $$mdi:volume-high$$
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - RGB EFF
   - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - RGB EFF
   - $$mdi:volume-low$$
   - $$mdi:volume-off$$
   - $$mdi:volume-high$$
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - '&OUT_TOG'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB TOG
   - $$mdi:skip-previous$$
   - PLAY PAUSE
   - $$mdi:skip-next$$
-  - $$mdi:alpha-w-box$$
+  - RGB EFR
   - $$mdi:arrow-right-bold$$
-  - $$mdi:alpha-w-box$$
+  - RGB EFR
   - $$mdi:skip-previous$$
   - PLAY PAUSE
   - $$mdi:skip-next$$
@@ -462,7 +462,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -475,12 +475,12 @@ layers:
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - $$mdi:pan-right$$
   - $$mdi:pan-down$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&macro_zoom_in'
+  - $$mdi:arrow-down-bold$$
+  - '&macro_prev_tab'
   - '&mkp MB4'
   - $$mdi:pan-up$$
   - '&mkp MB5'
-  - '&macro_prev_tab'
+  - '&macro_zoom_in'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&macro_select_all'
@@ -488,12 +488,12 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - '&key_repeat'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&macro_zoom_reset'
+  - $$mdi:arrow-left-bold$$
+  - '&macro_ctrl_n'
   - $$mdi:pan-left$$
   - $$mdi:pan-down$$
   - $$mdi:pan-right$$
-  - '&macro_ctrl_n'
+  - '&macro_zoom_reset'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&macro_undo'
@@ -501,12 +501,12 @@ layers:
   - '&macro_copy'
   - '&macro_paste'
   - '&macro_redo'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&macro_zoom_out'
+  - $$mdi:arrow-right-bold$$
+  - '&macro_next_tab'
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
-  - '&macro_next_tab'
+  - '&macro_zoom_out'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -526,7 +526,7 @@ combos:
 - p: [16, 42]
   k: {t: GAME, h: toggle}
 - p: [18, 44]
-  k: {t: TWEAK, h: toggle}
+  k: {t: MEDIA, h: toggle}
 - p: [30, 31]
   k: '&macro_hyper_pg_up'
 - p: [41, 42]
