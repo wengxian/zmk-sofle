@@ -294,11 +294,11 @@ layers:
   - F6
   - '&key_repeat'
   - {t: '$$mdi:transfer$$', type: trans}
-  - GLOBE
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&macro_prev_tab'
   - '&meh'
   - '&macro_next_tab'
-  - CLCK
+  - GLOBE
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F10
@@ -307,11 +307,11 @@ layers:
   - F3
   - '&macro_ctrl_n'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - INS
   - '&macro_hyper_pg_dn'
   - '&hyper'
   - '&macro_hyper_pg_up'
-  - INS
+  - CLCK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
