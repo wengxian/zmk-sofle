@@ -294,11 +294,11 @@ layers:
   - F6
   - '&key_repeat'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: GLOBE, h: '$$mdi:gesture-tap-hold$$'}
   - '&macro_prev_tab'
   - '&meh'
   - '&macro_next_tab'
-  - GLOBE
+  - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F10
